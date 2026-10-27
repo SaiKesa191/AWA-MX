@@ -106,3 +106,5 @@ testresources/Jasmine/\*.js
 
 # IQ Cop reports
 reports/
+
+certificates/
