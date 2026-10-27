@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_g4064f2759104b33a3f25d735e24f7bb": {
+        "id": "AS_FlexContainer_g4064f2759104b33a3f25d735e24f7bb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_c417475838464fc1b66d4b660192a0a7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxCatageryListDropdown.setVisibility(true);"
+        }]
+    }
+}

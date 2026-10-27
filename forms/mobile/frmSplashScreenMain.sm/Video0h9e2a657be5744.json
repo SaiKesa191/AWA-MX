@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizVideo",
+    "DNDConfig": null,
+    "_controls_": true,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_poster_": "defvideoposter.png",
+    "_skin_": "s008da10f81446859064ec1ee46f3820",
+    "_text_": "Video",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_tracks_": [
+        {
+            "default": false,
+            "displayName": null,
+            "src": null
+        }
+    ],
+    "_volume_": 1,
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "render": true
+        }
+    },
+    "id": "Video0h9e2a657be5744",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "a9afd91b4833418eb7d4ff0c2cb2c2f6",
+    "name": "kony.ui.Video",
+    "parent": "flximageCarousel",
+    "pf": "frmSplashScreenMain",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spa": {
+        "psp": {
+            "render": true
+        }
+    },
+    "wType": "Video",
+    "watchos": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    }
+}

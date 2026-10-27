@@ -1,0 +1,100 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "38%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1c64235b321473e839fea596d49119c",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "radiobtnBidAmount",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "e093c159e40f459fbbea927609ef94a1",
+    "masterdata": [
+        [
+            "5000",
+            "AED 5,000 for a buying limit of AED 100,000"
+        ],
+        [
+            "7500",
+            "AED 7,500 for a buying limit of AED 150,000"
+        ],
+        [
+            "10000",
+            "AED 10,000 for a buying limit of AED 200,000"
+        ],
+        [
+            "50000",
+            "AED 50,000 for unlimited buying"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "flxBidAmount",
+    "pf": "frmPaymentMethod",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "7500",
+    "selectedkeyvalue": [
+        "7500",
+        "AED 7,500 for a buying limit of AED 150,000"
+    ],
+    "size": 18,
+    "tickedimage": "radio_button_2.png",
+    "untickedimage": "radio_button__2__2.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5
+}

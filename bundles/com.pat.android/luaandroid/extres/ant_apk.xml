@@ -1,0 +1,174 @@
+<project default="all">
+	
+	<property name="DoubleQuotes" value="&quot;"/>
+	
+	<target name="all">
+		<fail message="plugin.loc argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${plugin.loc}" arg2=""/>
+					<equals arg1="${plugin.loc}" arg2="$${plugin.loc}"/>
+				</or>
+			</condition>
+		</fail>
+		<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+			<classpath>
+				<pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar"/>
+			</classpath>
+		</taskdef>
+		
+		<fail message="bundletool.loc argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${bundletool.loc}" arg2=""/>
+					<equals arg1="${bundletool.loc}" arg2="$${bundletool.loc}"/>
+				</or>
+			</condition>
+		</fail>
+		<fail message="dist.dir argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${dist.dir}" arg2=""/>
+					<equals arg1="${dist.dir}" arg2="$${dist.dir}"/>
+				</or>
+			</condition>
+		</fail>
+		<fail message="installer.javahome argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${installer.javahome}" arg2=""/>
+					<equals arg1="${installer.javahome}" arg2="$${installer.javahome}"/>
+				</or>
+			</condition>
+		</fail>
+		<fail message="appid argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${appid}" arg2=""/>
+					<equals arg1="${appid}" arg2="$${appid}"/>
+				</or>
+			</condition>
+		</fail>
+		<fail message="aab_mode argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${aab_mode}" arg2=""/>
+					<equals arg1="${aab_mode}" arg2="$${aab_mode}"/>
+				</or>
+			</condition>
+		</fail>
+		<fail message="build.option argument not passed">
+			<condition>
+				<or>
+					<equals arg1="${build.option}" arg2=""/>
+					<equals arg1="${build.option}" arg2="$${build.option}"/>
+				</or>
+			</condition>
+		</fail>
+		<fail message="device_serial_id argument not passed">
+			<condition>
+				<and>
+					<equals arg1="${aab_mode}" arg2="connected_device"/>
+					<or>
+						<equals arg1="${device_serial_id}" arg2=""/>
+						<equals arg1="${device_serial_id}" arg2="$${device_serial_id}"/>
+					</or>
+				</and>
+			</condition>
+		</fail>
+		<if>
+			<equals arg1="${build.option}" arg2="debug"/>
+			<then>
+				<property name="aab.loc" value="${dist.dir}/${appid}/build/outputs/bundle/debug/${appid}-debug.aab"/>
+			</then>
+			<elseif>
+				<equals arg1="${build.option}" arg2="release"/>
+				<then>
+					<property name="aab.loc" value="${dist.dir}/${appid}/build/outputs/bundle/release/${appid}-release.aab"/>
+				</then>
+			</elseif>
+			<elseif>
+				<equals arg1="${build.option}" arg2="protected"/>
+				<then>
+					<property name="aab.loc" value="${dist.dir}/${appid}/build/outputs/bundle/release/${appid}-release.aab"/>
+				</then>
+			</elseif>
+		</if>
+		<if>
+			<equals arg1="${aab_mode}" arg2="universal"/>
+			<then>
+				<if>
+					<equals arg1="${keyStoreFilePath}" arg2="$${keyStoreFilePath}"/>
+					<then>
+						<echo message="apk will be generated without keystore properties"/>
+						<java jar="${bundletool.loc}" fork="true" jvm="${installer.javahome}" failonerror="true">
+							<arg line="${DoubleQuotes}build-apks${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--bundle=${aab.loc}${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--overwrite${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--mode=universal${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--output=Appbundl_universal_ant.apks${DoubleQuotes}"/>
+						</java>
+					</then>
+					<else>
+						<java jar="${bundletool.loc}" fork="true" jvm="${installer.javahome}" failonerror="true">
+							<arg line="${DoubleQuotes}build-apks${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--bundle=${aab.loc}${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--overwrite${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--mode=universal${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--output=Appbundl_universal_ant.apks${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--ks=${keyStoreFilePath}${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--ks-pass=pass:${keyStorePassword}${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--ks-key-alias=${keyAlias}${DoubleQuotes}"/>
+							<arg line="${DoubleQuotes}--key-pass=pass:${keyPassword}${DoubleQuotes}"/>
+						</java>
+					</else>
+				</if>
+				<unzip src="Appbundl_universal_ant.apks" dest="${dist.dir}" overwrite="true">
+					<patternset>
+						<include name="universal.apk"/>
+					</patternset>
+				</unzip>
+				<property name="universalapk.loc" value="${dist.dir}/universal.apk"/>
+				<echo message="universal apk is generated in ${universalapk.loc} "/>
+			</then>
+			<elseif>
+				<equals arg1="${aab_mode}" arg2="connected_device"/>
+				<then>
+					<if>
+						<equals arg1="${keyStoreFilePath}" arg2="$${keyStoreFilePath}"/>
+						<then>
+							<java jar="${bundletool.loc}" fork="true" jvm="${installer.javahome}" failonerror="true">
+								<arg line="${DoubleQuotes}build-apks${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--bundle=${aab.loc}${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--overwrite${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--connected-device${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--output=Appbundl_connected_ant.apks${DoubleQuotes}"/>
+							</java>
+						</then>
+						<else>
+							<java jar="${bundletool.loc}" fork="true" jvm="${installer.javahome}" failonerror="true">
+								<arg line="${DoubleQuotes}build-apks${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--bundle=${aab.loc}${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--overwrite${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--connected-device${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--output=Appbundl_connected_ant.apks${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--ks=${keyStoreFilePath}${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--ks-pass=pass:${keyStorePassword}${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--ks-key-alias=${keyAlias}${DoubleQuotes}"/>
+								<arg line="${DoubleQuotes}--key-pass=pass:${keyPassword}${DoubleQuotes}"/>
+							</java>
+						</else>
+					</if>
+					<java jar="${bundletool.loc}" fork="true" jvm="${installer.javahome}" failonerror="true">
+						<arg line="${DoubleQuotes}install-apks${DoubleQuotes}"/>
+						<arg line="${DoubleQuotes}--apks=Appbundl_connected_ant.apks${DoubleQuotes}"/>
+						<arg line="${DoubleQuotes}--device-id=${device_serial_id}${DoubleQuotes}"/>
+					</java>
+				</then>
+			</elseif>
+			<else>
+				<fail message="aab_mode ${aab_mode} is not supported"/>
+			</else>
+		</if>
+	</target>
+</project>

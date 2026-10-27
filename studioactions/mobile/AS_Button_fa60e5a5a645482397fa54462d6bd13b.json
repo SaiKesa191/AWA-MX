@@ -1,0 +1,35 @@
+{
+    "AS_Button_fa60e5a5a645482397fa54462d6bd13b": {
+        "id": "AS_Button_fa60e5a5a645482397fa54462d6bd13b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "fd4cd255883c43dca34eb66ba2ca0470",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_c5166fc21fe447b29199aa196f2d3dbe",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationid": "1064",
+                "operationname": "ValidateEmail",
+                "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                "servicename": "Al_Wataneya_Custom_Services",
+                "type": "integration"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

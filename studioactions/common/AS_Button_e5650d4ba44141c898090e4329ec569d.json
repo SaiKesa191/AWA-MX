@@ -1,0 +1,317 @@
+{
+    "AS_Button_e5650d4ba44141c898090e4329ec569d": {
+        "id": "AS_Button_e5650d4ba44141c898090e4329ec569d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+            "name": "userwidgetmodel",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_d8aedccde42d4ef1b0d5d44716b50963",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print('saved');\nthis.view.flxOpacity.setVisibility(false);\nthis.view.flxOpacity.zIndex = \"1\";\nthis.view.flxContactPopup.setVisibility(false);\nalert(status);\nalert(Contact_us);",
+            "parentId": "INVOKE_SERVICE_d8912afa0a7349c3aa05e10b6519b0fa",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_SERVICE_d8912afa0a7349c3aa05e10b6519b0fa",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": [{
+                "name": "Authorization",
+                "value": "Basic QXVjdGlvbjpBdWN0aW9uMTIz"
+            }, {
+                "name": "",
+                "value": ""
+            }, {
+                "name": "",
+                "value": ""
+            }],
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_a074394fa1f341de839c6561c796fd07": {
+                    "channel": "common",
+                    "id": "ME_Mapping_a074394fa1f341de839c6561c796fd07",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbxFirstname",
+                        "widgetPath": "this.view.tbxFirstname",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "ue2383a268eb459f880f78c846a85794",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "firstName",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_a575702ad3254702bd91b0d1164c99a9": {
+                    "channel": "common",
+                    "id": "ME_Mapping_a575702ad3254702bd91b0d1164c99a9",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbAreaMessage",
+                        "widgetPath": "this.view.tbAreaMessage",
+                        "widgetType": "TextArea",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u7c17c66ea32409eafa98a93c60a328f",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "subject",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_b26e3794b693414da037076128a103f4": {
+                    "channel": "common",
+                    "id": "ME_Mapping_b26e3794b693414da037076128a103f4",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbAreaMessage",
+                        "widgetPath": "this.view.tbAreaMessage",
+                        "widgetType": "TextArea",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u7c17c66ea32409eafa98a93c60a328f",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "contactMethod",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_bbe806d2157240f39cd60dc247668739": {
+                    "channel": "common",
+                    "id": "ME_Mapping_bbe806d2157240f39cd60dc247668739",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbAreaMessage",
+                        "widgetPath": "this.view.tbAreaMessage",
+                        "widgetType": "TextArea",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u7c17c66ea32409eafa98a93c60a328f",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "serviceType",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_bc696ce4c65b4782a0093851e53d6b0a": {
+                    "channel": "common",
+                    "id": "ME_Mapping_bc696ce4c65b4782a0093851e53d6b0a",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbxEmail",
+                        "widgetPath": "this.view.tbxEmail",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u5598faef80246e1b06cc33d9ee99c20",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "email",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_d41ba9b26eb946569cfc59996086dcb2": {
+                    "channel": "common",
+                    "id": "ME_Mapping_d41ba9b26eb946569cfc59996086dcb2",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbxPhone",
+                        "widgetPath": "this.view.tbxPhone",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u8fd7db4fb624043b57ab6573ef235ab",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "mobile",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_e0eda1cd50614b57870767aec3b8cc6b": {
+                    "channel": "common",
+                    "id": "ME_Mapping_e0eda1cd50614b57870767aec3b8cc6b",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbxLastname",
+                        "widgetPath": "this.view.tbxLastname",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u4d5820fe7e44c4199a26323c842de8e",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "lastName",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                },
+                "ME_Mapping_fb07837365bc4d33b622bbeeaf59cc9d": {
+                    "channel": "common",
+                    "id": "ME_Mapping_fb07837365bc4d33b622bbeeaf59cc9d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Components",
+                        "propertyName": "text",
+                        "widgetId": "tbAreaMessage",
+                        "widgetPath": "this.view.tbAreaMessage",
+                        "widgetType": "TextArea",
+                        "dataType": "string",
+                        "itemId": "userwidgetmodel",
+                        "widgetKUID": "u7c17c66ea32409eafa98a93c60a328f",
+                        "itemKUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "description",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationid": "1075",
+                            "operationname": "Contact_us",
+                            "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                            "servicename": "salesforce_contact_us",
+                            "type": "integration"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_a074394fa1f341de839c6561c796fd07", "ME_Mapping_e0eda1cd50614b57870767aec3b8cc6b", "ME_Mapping_bc696ce4c65b4782a0093851e53d6b0a", "ME_Mapping_d41ba9b26eb946569cfc59996086dcb2", "ME_Mapping_a575702ad3254702bd91b0d1164c99a9", "ME_Mapping_b26e3794b693414da037076128a103f4", "ME_Mapping_fb07837365bc4d33b622bbeeaf59cc9d", "ME_Mapping_bbe806d2157240f39cd60dc247668739"],
+            "serviceconfig": {
+                "operationid": "1075",
+                "operationname": "Contact_us",
+                "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                "servicename": "salesforce_contact_us",
+                "type": "integration"
+            },
+            "enableMappingEditor": true,
+            "disabled": false
+        }, {
+            "id": "INVOKE_FUNCTION__d4b41e1dd7ac48ce8b1eba461c84e8c7",
+            "type": "INVOKE_FUNCTION",
+            "display": "btnOnSubmit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }]
+    }
+}

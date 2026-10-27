@@ -1,0 +1,193 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "CopyimgTrackDelivery0a9f7a09834bc46": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "trackdelivery.png"
+            },
+            "imgRightArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightarrow512h.png"
+            },
+            "lblAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Amount"
+            },
+            "lblAmountValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "250"
+            },
+            "lblAuctionID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transaction No"
+            },
+            "lblAuctionIDVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblCompletionStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Completion Status"
+            },
+            "lblCompletionStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In Progress"
+            },
+            "lblMakeAndModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Make & Model"
+            },
+            "lblMakeAndModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BMW 2019"
+            },
+            "lblPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Payment Status"
+            },
+            "lblPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paid"
+            },
+            "lblRequestRefund": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Request Refund"
+            },
+            "lblServiceType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Type"
+            },
+            "lblServiceTypeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Inspection"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegCompleted",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "gcee16ed4acc4306b2561801249cb523",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDataGrid",
+    "pf": "frmSmmaryOfOtherServicePaymnts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ab313813210940a6a9d2a12e2e2ebd7d",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxOtherServices",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyimgTrackDelivery0a9f7a09834bc46": "CopyimgTrackDelivery0a9f7a09834bc46",
+        "flx": "flx",
+        "flxAmount": "flxAmount",
+        "flxAmountValue": "flxAmountValue",
+        "flxAuctionID": "flxAuctionID",
+        "flxBack": "flxBack",
+        "flxBtnRequestRefund": "flxBtnRequestRefund",
+        "flxCompletionStatusContainer": "flxCompletionStatusContainer",
+        "flxData": "flxData",
+        "flxHideData": "flxHideData",
+        "flxMakeAndModelContainer": "flxMakeAndModelContainer",
+        "flxOtherServices": "flxOtherServices",
+        "flxPaymentStatus": "flxPaymentStatus",
+        "flxRequestRefundButton": "flxRequestRefundButton",
+        "flxServiceTypeContainer": "flxServiceTypeContainer",
+        "imgRightArrow": "imgRightArrow",
+        "lblAED": "lblAED",
+        "lblAmount": "lblAmount",
+        "lblAmountValue": "lblAmountValue",
+        "lblAuctionID": "lblAuctionID",
+        "lblAuctionIDVal": "lblAuctionIDVal",
+        "lblCompletionStatus": "lblCompletionStatus",
+        "lblCompletionStatusValue": "lblCompletionStatusValue",
+        "lblMakeAndModel": "lblMakeAndModel",
+        "lblMakeAndModelValue": "lblMakeAndModelValue",
+        "lblPaymentStatus": "lblPaymentStatus",
+        "lblPaymentStatusValue": "lblPaymentStatusValue",
+        "lblRequestRefund": "lblRequestRefund",
+        "lblServiceType": "lblServiceType",
+        "lblServiceTypeValue": "lblServiceTypeValue"
+    }
+}

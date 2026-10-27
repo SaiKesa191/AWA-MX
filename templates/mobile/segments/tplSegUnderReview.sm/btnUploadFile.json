@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s80bcc0f3a7f435cb78e20536f568a08",
+    "_text_": "UPLOAD FILE",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sa87b3f55ce0476ea4dbfd006e2cf0b6"
+    },
+    "displaytext": true,
+    "id": "btnUploadFile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j2bf345a71da488e9cb6985685771521",
+    "name": "kony.ui.Button",
+    "parent": "FlexGroup0bebbb63446124f",
+    "pf": "tplSegUnderReview",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

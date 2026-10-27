@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0f797d1f15f4974b53b29a9b50c40b0",
+    "_text_": "Browse Other Auction Categories",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s873278e67524cc98d93a757e5a20b52"
+    },
+    "displaytext": true,
+    "id": "btnBrowseOtherCategories",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b03593706773493bbf3fbe07a7acf2c2",
+    "name": "kony.ui.Button",
+    "parent": "FlexScrollContainer0cf2a10802eeb46",
+    "pf": "frmCominSoonServices",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Browse Other Auction Categories",
+    "wType": "Button"
+}

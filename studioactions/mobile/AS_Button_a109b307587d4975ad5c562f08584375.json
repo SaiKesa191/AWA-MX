@@ -1,0 +1,53 @@
+{
+    "AS_Button_a109b307587d4975ad5c562f08584375": {
+        "id": "AS_Button_a109b307587d4975ad5c562f08584375",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "ba7b1a32e79b4966977b4ce809f9ed63",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_h2a013ce7cf64a0c913101f33e0e9e32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtEmail.text===\"\"&&this.view.txtPassword.text===\"\"){\n  alert(\"Fields should be mandatory!!\");\n}"
+        }, {
+            "id": "ADD_SNIPPET_c9ea65a3d8774911bde9f193da247d1b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Login Failed!!!!\");",
+            "parentId": "INVOKE_SERVICE_i225f794539242449573464db2c847d6",
+            "callbackType": "Failure"
+        }, {
+            "id": "INVOKE_FUNCTION__if68667866624d4e9dc5eccbc4cbea01",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getUserObj",
+            "display": "getUserObj",
+            "inputparams": [],
+            "parentId": "INVOKE_SERVICE_i225f794539242449573464db2c847d6",
+            "callbackType": "Success",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_SERVICE_i225f794539242449573464db2c847d6",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "isDeepLinkRequired": false,
+                "login_type": "basic",
+                "operationname": "login",
+                "servicename": "UserLoginRepo",
+                "type": "identity"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

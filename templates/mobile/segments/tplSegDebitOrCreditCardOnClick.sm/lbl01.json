@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s402a37fe84642fdaf70c696d93adf92",
+    "_text_": "AED 7,500  for a buying limit of AED 150,000",
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lbl01",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bfbb6f07cb1b47388e68a359e21e9565",
+    "name": "kony.ui.Label",
+    "parent": "flx02",
+    "pf": "tplSegDebitOrCreditCardOnClick",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "\"AED 7,500 for a buying limit of AED 150,000\"",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

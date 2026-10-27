@@ -1,0 +1,161 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "14.3": {
+                "Kony_FileStorage-iOS-14.3": {
+                    "title": "Kony_FileStorage",
+                    "platform": "iOS",
+                    "os": "14.3",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_FileStorage-iOS-14.3.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "Kony_SDKCommons-iOS-14.3": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "14.3",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SDKCommons-iOS-14.3.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "Kony_SyncV2-iOS-14.3": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "14.3",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SyncV2-iOS-14.3.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                }
+            },
+            "18.0": {
+                "PDFDownloadNFI-iOS-18.0": {
+                    "title": "PDFDownloadNFI",
+                    "platform": "iOS",
+                    "os": "18.0",
+                    "isDefault": false,
+                    "filename": "PDFDownloadNFI-iOS-18.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "FileDownloadNFI-iOS-18.0": {
+                    "title": "FileDownloadNFI",
+                    "platform": "iOS",
+                    "os": "18.0",
+                    "isDefault": false,
+                    "filename": "FileDownloadNFI-iOS-18.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "ExcelUploadFileNFI-iOS-18.0": {
+                    "title": "ExcelUploadFileNFI",
+                    "platform": "iOS",
+                    "os": "18.0",
+                    "isDefault": false,
+                    "filename": "ExcelUploadFileNFI-iOS-18.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "PDFNFIUploadIOS-iOS-18.0": {
+                    "title": "PDFNFIUploadIOS",
+                    "platform": "iOS",
+                    "os": "18.0",
+                    "isDefault": false,
+                    "filename": "PDFNFIUploadIOS-iOS-18.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                }
+            },
+            "14.0": {
+                "Foundation-iOS-14.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "Foundation-iOS-14.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "UIKit-iOS-14.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "UIKit-iOS-14.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                },
+                "WebKit-iOS-14.0": {
+                    "title": "WebKit",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "WebKit-iOS-14.0.zip",
+                    "nfiversion": "3.0",
+                    "enable": true
+                }
+            },
+            "15.5": {}
+        },
+        "Android": {
+            "4.0": {
+                "Kony_FileStorage-Android-4.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_FileStorage-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SyncV2-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.webkit-Android-4.0": {
+                    "title": "android.webkit",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.webkit-Android-4.0.zip",
+                    "enable": true
+                }
+            },
+            "5.0": {
+                "ImageZoomNFI-Android-5.0": {
+                    "title": "ImageZoomNFI",
+                    "platform": "Android",
+                    "os": "5.0",
+                    "isDefault": false,
+                    "filename": "ImageZoomNFI.zip",
+                    "enable": true
+                }
+            }
+        },
+        "Desktop": {}
+    },
+    "Metadata": {
+        "Version": {
+            "iOS": "3.0"
+        }
+    }
+}

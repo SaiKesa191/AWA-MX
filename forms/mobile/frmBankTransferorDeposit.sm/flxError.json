@@ -1,0 +1,140 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s52efebb1e6941fdaf52560354be1a4e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CopyflxError0ae25f023de1d42": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dcf86633ad3144bcbe99d1e4b50e6e16",
+                "srcKUID": "cb4a07b01f2744ee83866eea5e19be90",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnTryAgain": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i26b3a9e301945419c38aa76eb1a950f",
+                "srcKUID": "dc35ac59f56a467cbb4b450df0e3bba3",
+                "wType": "Button"
+            }
+        },
+        "flxBody": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "af970ae106184e63af99d0c562758662",
+                "srcKUID": "a7a3c2f531e34409b9811f86d7742959",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxError": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "de822d5abfdd4e54b0f1117bfe2494c8",
+                "srcKUID": "e9b08e7a0f534d118c1242137260a221",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "zIndex": {
+                "Default": 120
+            }
+        },
+        "flxImg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ce63db0434974508bb180c619c74e202",
+                "srcKUID": "d586db1afcd949da99dc60dcc92e55cf",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c809a57702f04b80a6912602d0d1eae1",
+                "srcKUID": "b7857cd707664e0bb9cd8c5808f23466",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bf522c8847da45c3a0a061ce88bd03c2",
+                "srcKUID": "e8e934a9298b4e42b2d9839fbb8f02d7",
+                "wType": "Image"
+            }
+        },
+        "lblNetworkConnectionerror": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fe9247c598c540989af4e21bdddee6ee",
+                "srcKUID": "c30fb6f1492647078ac83549c55abff9",
+                "wType": "Label"
+            }
+        },
+        "lblerror": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c8fe63ccb512453fb8251e825c90c588",
+                "srcKUID": "efe9dd5eb1164512be18aa8c3fd41256",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxError",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "de822d5abfdd4e54b0f1117bfe2494c8",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmBankTransferorDeposit",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "e9b08e7a0f534d118c1242137260a221",
+    "wType": "UserWidgetInstance",
+    "zindex": 120
+}

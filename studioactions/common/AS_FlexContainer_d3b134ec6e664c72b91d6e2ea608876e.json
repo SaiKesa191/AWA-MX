@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_d3b134ec6e664c72b91d6e2ea608876e": {
+        "id": "AS_FlexContainer_d3b134ec6e664c72b91d6e2ea608876e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uf0b788c419e4c6fba74f83d81dd3a68"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f9d2fc312ee64ec98276d58e1fa46566",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToMyBidsPage",
+            "display": "navigateToMyBidsPage",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

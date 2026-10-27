@@ -1,0 +1,61 @@
+/*Type your css here*/
+#drop-area {
+/*   border: 2px dashed #ccc; */
+  border-radius: 20px;
+  font-family: sans-serif;
+/*   margin:5px;
+  padding: 5px; */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+#drop-area.highlight {
+  border-color: purple;
+}
+p {
+  margin-top: 0;
+}
+.my-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+#gallery {
+  margin-top: 10px;
+}
+#gallery img {
+  width: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.button {
+  text-decoration:underline;
+  display: inline-block;
+  padding: 10px;
+/*   background: #ccc; */
+  cursor: pointer;
+   color: #2353ff;
+  border-radius: 5px;
+ 
+/*   border: 1px solid #ccc; */
+  width: fit-content;
+}
+.button:hover {
+  background: #ddd;
+}
+#fileElem {
+  display: none;
+}
+#browseText{
+  color: #2353ff;
+/*  font-family: */
+    text-decoration:underline;
+
+  font-size:0.7vw;
+}

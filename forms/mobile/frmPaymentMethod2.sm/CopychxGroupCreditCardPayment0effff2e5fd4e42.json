@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbc06f1098b14f37953e281b25dc29b4",
+    "_top_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "CopychxGroupCreditCardPayment0effff2e5fd4e42",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "eeaf78fe4874420d9ef5c0e4ca2f0e7a",
+    "masterdata": [
+        [
+            "cbg1",
+            "I have read the terms and conditions of credit card payment"
+        ],
+        [
+            "cbg2",
+            "save this card for future payments"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "vertical",
+    "parent": "CopyflxTermsAndConditions0j511c8375f8540",
+    "pf": "frmPaymentMethod2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [
+        "cbg1",
+        "cbg2"
+    ],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        [
+            "cbg1",
+            "I have read the terms and conditions of credit card payment"
+        ],
+        [
+            "cbg2",
+            "save this card for future payments"
+        ]
+    ],
+    "size": 18,
+    "tickedimage": "check_box__2__1.png",
+    "untickedimage": "check_box__1__1.png",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5
+}

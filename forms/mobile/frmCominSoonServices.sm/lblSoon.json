@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7f7c4c915c64d4493ebf6079d3a64b3",
+    "_text_": "COMING SOON",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "psp": {
+            "includeFontPadding": true
+        },
+        "textStyle": {
+            "letterSpacing": 0,
+            "lineSpacing": -2,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblSoon",
+    "includeFontPadding": true,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        },
+        "textStyle": {
+            "baseline": 0,
+            "lineSpacing": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c3bf7127327b46ef888304a1b8445eb0",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxHeading",
+    "pf": "frmCominSoonServices",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "soon",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

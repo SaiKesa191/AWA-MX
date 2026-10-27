@@ -1,0 +1,151 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "iconamoon_arrow_down_2.png"
+            },
+            "imgdropdowm01": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "iconamoon_arrow_down_2.png"
+            },
+            "lblBasicInspection": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lblComprehensiveInspection": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lblLotID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblService": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lbllotAndCarname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblvehicleLotID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Service"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segService",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ac21574dba1b446284674cf040d2984d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "frmRequestYourInspectionReport",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c6cbc54e013b42ccafa174ed3d70c842",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "Flex0eb3bc627503e49",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexLOTDropDowm": "flexLOTDropDowm",
+        "flxBasicInspection": "flxBasicInspection",
+        "flxComprehensiveInspection": "flxComprehensiveInspection",
+        "flxDropDown": "flxDropDown",
+        "flxLotDropDown": "flxLotDropDown",
+        "flxSelectService": "flxSelectService",
+        "flxService": "flxService",
+        "flxVehicleLotID": "flxVehicleLotID",
+        "flxlotDetails": "flxlotDetails",
+        "imgDown": "imgDown",
+        "imgdropdowm01": "imgdropdowm01",
+        "lblBasicInspection": "lblBasicInspection",
+        "lblComprehensiveInspection": "lblComprehensiveInspection",
+        "lblLotID": "lblLotID",
+        "lblService": "lblService",
+        "lbllotAndCarname": "lbllotAndCarname",
+        "lblvehicleLotID": "lblvehicleLotID"
+    },
+    "zindex": 1
+}

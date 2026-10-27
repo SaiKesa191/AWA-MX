@@ -1,0 +1,356 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1fc8611c79349ee824c6c49e4c08b4a",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "SummaryOfOtherServicePayments": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "g7d1c1428489494db822aba2c04cdb9f",
+                "srcKUID": "u707fc6ecdef4b8f9f523df5431401db",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxButtons": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h917ac7a03ee462c93274167c4a294fd",
+                "srcKUID": "u8022b0be3b843ac97001034b3c5e47d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxIncreaseLimit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h868b512e4c148bb92beaa07d6f93fb4",
+                "srcKUID": "u0a1993ffaf444d5a269f5fa9ed982b0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxOtherServicePaymentsInner": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c0cb339c3e3b4bd1aa02a69365004739",
+                "srcKUID": "u3a91e2e9e3d483cb82fe070fc6394e7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPendingCompletion": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d2d66817518d4df5a9b68f2ef4b4e39c",
+                "srcKUID": "u8cd3abf0d1b41f6b57fc90dc67510c6",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPendingCompletionValueContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cfbe7a42fbae43d5b91d170e340ea946",
+                "srcKUID": "ufcf05b16eb74ad88c5255141d912f8a",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxPreviousSlips": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jb017a22350347d8904f06fc5c1340e4",
+                "srcKUID": "uda4bcf5f46a4c85862d4dba36a2b98b",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSOOSPBody": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ab1fb2abcb3146b49fd38e503ae7d103",
+                "srcKUID": "u344eb64e8ba4751bd48e467254cd564",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSOOSPHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e2cab25e6a004642bb84b2898662b10e",
+                "srcKUID": "ud6981b099e94a9f883e844c68a1e7f0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxScrollPendingCompletion": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8d6a5a8a6d7481cb8ba932f5def21e5",
+                "srcKUID": "ue3b9c309d6c4d5d8765e19633e57cd8",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxScrollServicesCompleted": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b27951b61b2a4a91abf4cac01fc3af0e",
+                "srcKUID": "ubffce8f3b4049b58db502b0c2d5b8e8",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxScrollTOtalOtherServicesAllowed": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c1e47814ac8a481e84d6d35a98981e9a",
+                "srcKUID": "u6ff9d9826b54c14bc5e0997540017ce",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "flxSeparator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fae4d35ced034aeba42b16cd344a8cf8",
+                "srcKUID": "u3639f4e25254833a90ec5d27726f7a2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSeparator2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b7213d33b6e44c16b9297676928eea70",
+                "srcKUID": "uaa58704e0bf44c0809bd86edc5211ea",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxServicesCompleted": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g34552d8938d40b6927a4b481a1db697",
+                "srcKUID": "ud6e38ea8021450298a9003fba4e303c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxServicesCompletedValueContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f9f0ee58d97e41a8add36837584f64c3",
+                "srcKUID": "u24384a38b9440fa8a90162cac948af6",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSummaryOfOtherServicesPaymentsText": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ec8fb3acdf7648b8ae97ae061fcc9c8d",
+                "srcKUID": "ufa3904ce4e246aabfa454afa42a9feb",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTotalOtherServiceCalls": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df28b8a157004a0abd81cb4394689472",
+                "srcKUID": "uce0be762c7c46538f65cd7aeb9f8286",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxTotalOtherServicesAvailed": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc6405cc6bf74cefbdb233b16c54af9d",
+                "srcKUID": "u705d99147184ac8bd946bf3c053e49e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxUploadPaymentSlipContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b680aa0c38d74c9989a50e8ddb40ce7a",
+                "srcKUID": "uf2abbe3791b4a988f5b182be3af4f9c",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgPreviousSlips": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a1c94af2b3b94e2dabc105b4326b7909",
+                "srcKUID": "u529d100e78b4d79bdd96bf1a4a42a8d",
+                "wType": "Image"
+            }
+        },
+        "imgRightArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j4d01bfe653d4543b241a9de1bc5fc2c",
+                "srcKUID": "u2ef546ff9c94d538dd614920a3e9282",
+                "wType": "Image"
+            }
+        },
+        "imgUpload": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h1b4fa3024ac4e5788eb0893fbd09672",
+                "srcKUID": "ufe19d865c734d79af0e52f41e1d62af",
+                "wType": "Image"
+            }
+        },
+        "lblAEDPendingCompletion": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e0a3060e993441b68e3f6ce9c803a868",
+                "srcKUID": "ud138a6a18ab46d2a47a68e51736df3f",
+                "wType": "Label"
+            }
+        },
+        "lblAEDServiesCompleted": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f620c00c719c467c9ddaa12dcc83b49e",
+                "srcKUID": "u827a176eff349feb9eedbf7321bcc51",
+                "wType": "Label"
+            }
+        },
+        "lblIncreaseLimit": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b3e7de8aa6aa4a52a438e1388bb0aae5",
+                "srcKUID": "u1c115c527bb4655b065fb25fca58571",
+                "wType": "Label"
+            }
+        },
+        "lblPendingCompletion": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i6997fbb2a8b435e9f6cb5d661865ff9",
+                "srcKUID": "uf7792a61ca64abeb60e57dea298a0e2",
+                "wType": "Label"
+            }
+        },
+        "lblPendingCompletionValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e1b7c53dea7f4c6095d4a86595a03cd9",
+                "srcKUID": "ueaf68d4c2f5483ab4760034eda7921c",
+                "wType": "Label"
+            }
+        },
+        "lblPreviousSlips": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i84d3a008e20433c9022d0cf67008ba2",
+                "srcKUID": "u0a4b1192adf4ecd914a26f83167300d",
+                "wType": "Label"
+            }
+        },
+        "lblSDAED": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c7dace86b45a4d359c1467abcb015c8a",
+                "srcKUID": "u77c800abce049aa87ac8453a6590896",
+                "wType": "Label"
+            }
+        },
+        "lblServicesCompleted": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hd3c7aa4844f46d6aae4e38264331581",
+                "srcKUID": "u59613b5eb9b494b9fd7004395d45680",
+                "wType": "Label"
+            }
+        },
+        "lblServicesCompletedValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b01b472c704848dd9bd6f18505b2cf3b",
+                "srcKUID": "u7b5e3f256fa46d3b68c8fa3e9217020",
+                "wType": "Label"
+            }
+        },
+        "lblSummaryOfOtherServicesPayments": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i4ae08d2b64546afb2a0d0af65d38064",
+                "srcKUID": "u5bf95883ca349f5ad4553c37eb88117",
+                "wType": "Label"
+            }
+        },
+        "lblTotalApprovedVehicles": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j7f53fa217e94d748ca62c7149e36666",
+                "srcKUID": "u6647b6d81a94e04a8880a7f749bbae4",
+                "wType": "Label"
+            }
+        },
+        "lblTotalOtherServicesAvailedValue": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d328d1bd24334b4b95fa349e172e60bf",
+                "srcKUID": "u6c897cccb83490eb19dafccd4f37450",
+                "wType": "Label"
+            }
+        },
+        "lblUploadPaymentSlip": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dfab2ceb155d4350b08733db76604425",
+                "srcKUID": "ueb1ee4c02a8452182fb078c1bc0896e",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "SummaryOfOtherServicePayments",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "g7d1c1428489494db822aba2c04cdb9f",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScrollMain",
+    "pf": "frmSmmaryOfOtherServicePaymnts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "u707fc6ecdef4b8f9f523df5431401db",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

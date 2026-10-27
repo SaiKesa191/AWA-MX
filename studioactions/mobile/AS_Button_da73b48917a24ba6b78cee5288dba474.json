@@ -1,0 +1,98 @@
+{
+    "AS_Button_da73b48917a24ba6b78cee5288dba474": {
+        "id": "AS_Button_da73b48917a24ba6b78cee5288dba474",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "c91a66a9b7404dcbac33b63a35eb571c"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__d318d852e1bc4869b0e7828c26e36527",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashBoard",
+            "formKUID": "b574f206311e430c95757095535cfaa0",
+            "projectName": "AlwataneyaAuction",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "SHOW_ALERT_g88792bb24c84df8b85a27af79d268db",
+            "callbackType": "True",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "NAVIGATE_TO_FORM__d4f25b7574194201b73e2284e3b58d98",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashBoard",
+            "formKUID": "b574f206311e430c95757095535cfaa0",
+            "projectName": "AlwataneyaAuction",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "SHOW_ALERT_g88792bb24c84df8b85a27af79d268db",
+            "callbackType": "False",
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "INVOKE_IDENTITY_SERVICE_f729683a26434a6d87bedda4da7229cf",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "DevAzureB2C",
+                "type": "identity",
+                "operationname": "logout",
+                "serviceid": "35dc09c3-ef66-4517-843c-7c58038fb5ff",
+                "login_type": "oauth2",
+                "isDeepLinkRequired": false
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }, {
+            "id": "SHOW_ALERT_g88792bb24c84df8b85a27af79d268db",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "You have successfully logged out.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_IDENTITY_SERVICE_f729683a26434a6d87bedda4da7229cf",
+            "callbackType": "Success",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "SHOW_ALERT_a64573b2ca76419e838de00bd9c7b63e",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_INFO",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Logout failed.",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_IDENTITY_SERVICE_f729683a26434a6d87bedda4da7229cf",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }]
+    }
+}

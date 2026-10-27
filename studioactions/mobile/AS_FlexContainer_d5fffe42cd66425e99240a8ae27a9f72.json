@@ -1,0 +1,36 @@
+{
+    "AS_FlexContainer_d5fffe42cd66425e99240a8ae27a9f72": {
+        "id": "AS_FlexContainer_d5fffe42cd66425e99240a8ae27a9f72",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "e5b21c4e66c24396af992266c013a6c4",
+            "name": "frmRegister1",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_cea9704071dc48a19ef6f4cb928d0e37",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationid": "1063",
+                "operationname": "ValidateUsername",
+                "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                "servicename": "Al_Wataneya_Custom_Services",
+                "type": "integration"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

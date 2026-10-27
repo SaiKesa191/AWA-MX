@@ -1,0 +1,92 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_skin_": "s0ecc93fcdfe400b8d83708620e27346",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "12%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "44%"
+    },
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "radiobtnBuyer",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 1
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "itemorientation": "vertical",
+    "kuid": "j61ecf324f7d4ddba52f66fe289979a6",
+    "masterdata": [
+        [
+            "Buyer",
+            "b"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "flxBuyer",
+    "pf": "frmRegister2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeyvalue": [
+        "Buyer",
+        "b"
+    ],
+    "size": 18,
+    "tickedimage": "selectedradio.png",
+    "untickedimage": "unselectedradio.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5
+}

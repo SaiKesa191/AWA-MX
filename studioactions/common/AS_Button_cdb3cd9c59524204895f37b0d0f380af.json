@@ -1,0 +1,27 @@
+{
+    "AS_Button_cdb3cd9c59524204895f37b0d0f380af": {
+        "id": "AS_Button_cdb3cd9c59524204895f37b0d0f380af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ub851c52d4c14d5ca5cc1189fab07c15"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__j08247d77fd6446da125198be80f3602",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "changeApplicationCurrentLocale",
+            "display": "changeApplicationCurrentLocale",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

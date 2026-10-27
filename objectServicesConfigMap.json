@@ -1,0 +1,44 @@
+{
+    "SQLServerLocal_activity_logs": {
+        "servicename": "SQLServerLocal",
+        "serviceid": "26e61685-c4c2-45d2-a500-bf613688cce3",
+        "type": "objectsvcs",
+        "objectname": "activity_logs",
+        "objectid": "4700"
+    },
+    "SQLServerLocal_asset_objects": {
+        "servicename": "SQLServerLocal",
+        "serviceid": "26e61685-c4c2-45d2-a500-bf613688cce3",
+        "type": "objectsvcs",
+        "objectname": "asset_objects",
+        "objectid": "4701"
+    },
+    "SQLServerLocal_error_logs": {
+        "servicename": "SQLServerLocal",
+        "serviceid": "26e61685-c4c2-45d2-a500-bf613688cce3",
+        "type": "objectsvcs",
+        "objectname": "error_logs",
+        "objectid": "4702"
+    },
+    "SQLServerLocal_fleet": {
+        "servicename": "SQLServerLocal",
+        "serviceid": "26e61685-c4c2-45d2-a500-bf613688cce3",
+        "type": "objectsvcs",
+        "objectname": "fleet",
+        "objectid": "4703"
+    },
+    "SQLServerLocal_object_files": {
+        "servicename": "SQLServerLocal",
+        "serviceid": "26e61685-c4c2-45d2-a500-bf613688cce3",
+        "type": "objectsvcs",
+        "objectname": "object_files",
+        "objectid": "4704"
+    },
+    "SQLServerLocal_object_images": {
+        "servicename": "SQLServerLocal",
+        "serviceid": "26e61685-c4c2-45d2-a500-bf613688cce3",
+        "type": "objectsvcs",
+        "objectname": "object_images",
+        "objectid": "4705"
+    }
+}

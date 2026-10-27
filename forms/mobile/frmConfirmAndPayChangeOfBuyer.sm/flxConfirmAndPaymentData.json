@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sb4e78c6eae54f888323f1e5421dc8cf",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxOrderSummary",
+        "flxLine",
+        "flxVehicleLotID",
+        "flxLine2",
+        "flxLocation1",
+        "flxLine3",
+        "flxContactNumber",
+        "flxLine4",
+        "flxnewBuyerName",
+        "flxline5",
+        "flxEmirates",
+        "flxLine6",
+        "flxAmountPayable"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxConfirmAndPaymentData",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "eced756f30774df2a308fd0457959615",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxData",
+    "pf": "frmConfirmAndPayChangeOfBuyer",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,40 @@
+{
+    "AS_FlexContainer_gf38a9ac525c4fff92500494f47c0717": {
+        "id": "AS_FlexContainer_gf38a9ac525c4fff92500494f47c0717",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e32a0f12f0ff427ba4d0db0d69edf22b"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_bfaff6e379a641b28d4b68e29239fb15",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(response);",
+            "parentId": "INVOKE_SERVICE_d73b3f2287bb4024a662512d6e5a91f1",
+            "callbackType": "Success"
+        }, {
+            "id": "INVOKE_SERVICE_d73b3f2287bb4024a662512d6e5a91f1",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "logout",
+                "servicename": "DevAzureB2C",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "oauth2"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": true,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

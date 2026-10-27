@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "43dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        5,
+        0,
+        5,
+        0
+    ],
+    "_skin_": "scc2f211d03d456c97da701a5a489608",
+    "_text_": "Your Favourites",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "scc2f211d03d456c97da701a5a489608",
+    "id": "btnYourFavourites",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "if1771067f034b17b00b36ebece85aae",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxScrollRecommendedFilterHeading",
+    "pf": "frmDashBoard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Your Favorites",
+    "wType": "Button"
+}

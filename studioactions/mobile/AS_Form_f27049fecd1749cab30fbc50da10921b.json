@@ -1,0 +1,24 @@
+{
+    "AS_Form_f27049fecd1749cab30fbc50da10921b": {
+        "id": "AS_Form_f27049fecd1749cab30fbc50da10921b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTestNavc",
+            "type": "forms",
+            "platform": null,
+            "KUID": "hdb2a80076f44ea4bd2a3fe55caf4249"
+        },
+        "language": "js",
+        "eventType": "init",
+        "actions": [{
+            "id": "ADD_SNIPPET_eded36276edd4e28b8175aaa4970b71f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"initexecuted\");\nvoltmx.print(\"initexecuted\");",
+            "parentId": null
+        }]
+    }
+}

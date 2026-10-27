@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_g9aebe1eeb8b4d2e81b10a79838f6f06": {
+        "id": "AS_FlexContainer_g9aebe1eeb8b4d2e81b10a79838f6f06",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u6b66a0c5ba041d0b5b9df5abf450df9",
+            "name": "userwidgetmodel",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g1f8500076624c66aa57ab39e404a9e8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "updatePlaceholder",
+            "display": "updatePlaceholder",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1.What is required for participants to agree to when registering on the Al Wataneya Auctions website?",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.How do participants register to use the Al Wataneya Auctions internet site?",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        },
+        {
+            "imgDownArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "downarrowfromvehicleinsp.png",
+                "type": "Image"
+            },
+            "lbl1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lbl2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "label",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "07",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRegAndAccount",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c5f6387c6bca4b26a81fbd4be6c497b3",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "frmRegistrationAndAccount",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "af7bfe3cd0824365b18562846385fc0b",
+    "rowcounter": 7,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxSegBiddingProcess",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flx01": "flx01",
+        "flx02": "flx02",
+        "flxButton": "flxButton",
+        "flxData": "flxData",
+        "flxMain": "flxMain",
+        "flxSegBiddingProcess": "flxSegBiddingProcess",
+        "imgDownArrow": "imgDownArrow",
+        "lbl1": "lbl1",
+        "lbl2": "lbl2"
+    }
+}

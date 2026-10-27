@@ -1,0 +1,231 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnBidnow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Button"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "imgfavicon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "imgrebid": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "imgshare": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "lblAucStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lblAucStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The auction is still ongoing"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblCurrentBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblCurrentbidamount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblTimerCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblTotalbids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblYourBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your Bid"
+            },
+            "lblYourBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": false
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segActiveBidList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": true
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a41283328510445998a2763b173c4dac",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxActiveSeg",
+    "pf": "frmMyBidsPage",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j157241532cf4f87b3011be4df4354f0",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxBidlist",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 6,
+    "showprogressindicator": true,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnBidnow": "btnBidnow",
+        "flxAucStatus": "flxAucStatus",
+        "flxBidlist": "flxBidlist",
+        "flxBottam": "flxBottam",
+        "flxCardata": "flxCardata",
+        "flxCurrentBid": "flxCurrentBid",
+        "flxDetails": "flxDetails",
+        "flxImage": "flxImage",
+        "flxLocation": "flxLocation",
+        "flxLot": "flxLot",
+        "flxRebid": "flxRebid",
+        "flxShare": "flxShare",
+        "flxTotalBids": "flxTotalBids",
+        "flxYourBid": "flxYourBid",
+        "flxfav": "flxfav",
+        "imgCardata": "imgCardata",
+        "imgfavicon": "imgfavicon",
+        "imgrebid": "imgrebid",
+        "imgshare": "imgshare",
+        "lblAucStatus": "lblAucStatus",
+        "lblAucStatusValue": "lblAucStatusValue",
+        "lblCarmodelname": "lblCarmodelname",
+        "lblCurrentBid": "lblCurrentBid",
+        "lblCurrentbidamount": "lblCurrentbidamount",
+        "lblLocation": "lblLocation",
+        "lblLocationVal": "lblLocationVal",
+        "lblLot": "lblLot",
+        "lblLotNum": "lblLotNum",
+        "lblTimerCount": "lblTimerCount",
+        "lblTotalBidsCount": "lblTotalBidsCount",
+        "lblTotalbids": "lblTotalbids",
+        "lblYourBid": "lblYourBid",
+        "lblYourBidValue": "lblYourBidValue"
+    }
+}

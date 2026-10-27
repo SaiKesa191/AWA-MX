@@ -1,0 +1,96 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        3,
+        0
+    ],
+    "_skin_": "s224b1e8b1da4f73b7cca1cb8a314a6f",
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "contactOptions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "itemorientation": "horizontal",
+    "kuid": "e8e71205526a4a3e937bef1d0911c10e",
+    "masterdata": [
+        [
+            "rbg1",
+            "Phone",
+            "phone"
+        ],
+        [
+            "rbg2",
+            "Email",
+            "Email"
+        ],
+        [
+            "rbg3",
+            "Both",
+            "both"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "paddinginpixel": false,
+    "parent": "flxContactYou",
+    "pf": "frmContactUS",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "rbg3",
+    "selectedkeyvalue": [
+        "rbg3",
+        "الاثنين معًا"
+    ],
+    "size": 18,
+    "tickedimage": "contactusradiobtn1px.png",
+    "untickedimage": "radiobuttonblack1px.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5
+}

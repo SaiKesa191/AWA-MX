@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_d64f3b4575ad4ec890ef79d193870449": {
+        "id": "AS_FlexContainer_d64f3b4575ad4ec890ef79d193870449",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_baf6b4d1483b4ec5b293416ad8ea2af8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxBranchDropdown.setVisibility(true);"
+        }]
+    }
+}

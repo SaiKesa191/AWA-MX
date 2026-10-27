@@ -1,0 +1,228 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_data_": [
+        {
+            "bidCloseTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BID NOW",
+                "type": "Button"
+            },
+            "imgAutoBidicon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "autobidnewone.png",
+                "type": "Image"
+            },
+            "imgCarPIcture": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgHeart": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dislikeheartcurrentauctions.png",
+                "type": "Image"
+            },
+            "lblAuctionID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lblBidAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lblCarname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chevrolet Impala 2018",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot #",
+                "type": "Label"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69865",
+                "type": "Label"
+            },
+            "lblObjID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label",
+                "type": "Label"
+            },
+            "lblPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 40,000",
+                "type": "Label"
+            },
+            "lblTimerCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "11D 7H 02M",
+                "type": "Label"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids",
+                "type": "Label"
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69",
+                "type": "Label"
+            },
+            "lblYear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot #"
+            },
+            "lblYearVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segFavourites",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hcb8980b80bc47e9921d0ea3da28d5e1",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegmentFavourites",
+    "pf": "frmFavourites",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "bb1a5ae27e2142108449be0945ff28ca",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxCurrentAuctions",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "eae9e900",
+    "separatorrequired": true,
+    "separatorthickness": 5,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "bidCloseTime": "bidCloseTime",
+        "btnBidNow": "btnBidNow",
+        "flxAutoBid": "flxAutoBid",
+        "flxBidPrice": "flxBidPrice",
+        "flxCarDetails": "flxCarDetails",
+        "flxCurrentAuctions": "flxCurrentAuctions",
+        "flxImgContainer": "flxImgContainer",
+        "flxLikeBid": "flxLikeBid",
+        "flxLikeHeart": "flxLikeHeart",
+        "flxLocation": "flxLocation",
+        "flxLot": "flxLot",
+        "flxTotalBids": "flxTotalBids",
+        "flxYear": "flxYear",
+        "imgAutoBidicon": "imgAutoBidicon",
+        "imgCarPIcture": "imgCarPIcture",
+        "imgHeart": "imgHeart",
+        "lblAuctionID": "lblAuctionID",
+        "lblBidAmount": "lblBidAmount",
+        "lblCarname": "lblCarname",
+        "lblLocation": "lblLocation",
+        "lblLocationName": "lblLocationName",
+        "lblLot": "lblLot",
+        "lblLotNum": "lblLotNum",
+        "lblObjID": "lblObjID",
+        "lblPrice": "lblPrice",
+        "lblTimerCount": "lblTimerCount",
+        "lblTotalBids": "lblTotalBids",
+        "lblTotalBidsCount": "lblTotalBidsCount",
+        "lblYear": "lblYear",
+        "lblYearVal": "lblYearVal"
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Under Review",
+                "text": "Under Review",
+                "type": "Label"
+            }
+        },
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Approved Vehicles",
+                "text": "Approved Vehicles",
+                "type": "Label"
+            }
+        },
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Live Auctions",
+                "text": "Live Auctions",
+                "type": "Label"
+            }
+        },
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Pending Sale Confirmation",
+                "text": "Pending Sale Confirmation",
+                "type": "Label"
+            }
+        },
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Sold",
+                "text": "Sold",
+                "type": "Label"
+            }
+        },
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Unsold",
+                "text": "Unsold",
+                "type": "Label"
+            }
+        },
+        {
+            "imgChevronRight": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "rightchevronnew.png",
+                "type": "Image"
+            },
+            "lblItemName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "Delivered Vehicles",
+                "text": "Delivered Vehicles",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segVehicleItemsSeller",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "b85d2c718def4c3390f0e9bd4de86f4d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxBody",
+    "pf": "frmOpenMyVehicles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c338e217dc7d430fb10b9da866fa240e",
+    "rowcounter": 5,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxMenuBarItems",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxChevronright": "flxChevronright",
+        "flxInsideItem": "flxInsideItem",
+        "flxMenuBarItems": "flxMenuBarItems",
+        "imgChevronRight": "imgChevronRight",
+        "lblItemName": "lblItemName"
+    }
+}

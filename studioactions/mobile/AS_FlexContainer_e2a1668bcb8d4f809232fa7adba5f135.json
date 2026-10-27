@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_e2a1668bcb8d4f809232fa7adba5f135": {
+        "id": "AS_FlexContainer_e2a1668bcb8d4f809232fa7adba5f135",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bde4108bdf2648088e29f6a1e06f5801",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSubcatageoryDropdown.setVisibility(true);"
+        }]
+    }
+}

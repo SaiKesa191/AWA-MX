@@ -1,0 +1,35 @@
+{
+    "AS_Button_c2d7fa9aa5564564ba13598c401d6983": {
+        "id": "AS_Button_c2d7fa9aa5564564ba13598c401d6983",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "d9b62bd6cc24449bbe076c25237b7518",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_a8f826d4b310491fba2e7d8539511011",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationid": "1256",
+                "operationname": "asset-categories-master-values",
+                "serviceid": "dacfb56b-30b1-4a90-b3ea-4f85d48192e1",
+                "servicename": "ms_fleet",
+                "type": "integration"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

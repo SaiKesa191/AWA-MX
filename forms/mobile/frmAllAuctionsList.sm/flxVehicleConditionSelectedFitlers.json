@@ -1,0 +1,81 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7602ba699ff40dc890825c29d6edc59",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "CopyflxCommercialVehiclesBodyTypeSelected0d02e9a2bcc0347",
+        "CopyflxClassicCarsBodyTypeSelected0hde16c4864264a",
+        "CopyflxSalvageBodyTypeSelected0c4256c2d775444",
+        "CopyflxBikesBodyTypeSelected0f6044850e2514a",
+        "CopyflxHeavyVehiclesBodyTypeSelected0e6a05cd058484a",
+        "CopyflxLightVehiclesBodyTypeSelected0ee8025b00cf846"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "flxVehicleConditionSelectedFitlers",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i53a44465f62437ea4b222b7924432cc",
+    "layouttype": 3,
+    "minheight": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxVehicleConditionFilter",
+    "pf": "frmAllAuctionsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "scrolldirection": 1,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1
+}

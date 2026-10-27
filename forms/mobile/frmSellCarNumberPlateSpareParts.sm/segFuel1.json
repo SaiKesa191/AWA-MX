@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblKeylist": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "one",
+                "type": "Label"
+            }
+        },
+        {
+            "lblKeylist": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "two",
+                "type": "Label"
+            }
+        },
+        {
+            "lblKeylist": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "three",
+                "type": "Label"
+            }
+        },
+        {
+            "lblKeylist": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "four",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segFuel1",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ba9c47a56f014361821499afb1adbacc",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxFuelDown1",
+    "pf": "frmSellCarNumberPlateSpareParts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "bc99778d3f304f7189540deab8fe575f",
+    "rowcounter": 3,
+    "rowfocusskin": "sc97977e03cd4986ba402b1e8f3c8cd2",
+    "rowskin": "s764b290f2db4565b45702063d512fb2",
+    "rowtemplate": "flxKeyslis",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s2fb0f7a06df4124beaf79b8e262fa00",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxKeyslis": "flxKeyslis",
+        "lblKeylist": "lblKeylist"
+    }
+}

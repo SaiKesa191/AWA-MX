@@ -1,0 +1,99 @@
+{
+    "AS_Button_ae6ee2dec3114696b43bb4a81863d900": {
+        "id": "AS_Button_ae6ee2dec3114696b43bb4a81863d900",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScreen2Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b591a49ba43b4605be3f62eea9715917"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_f38e940f0fcd405ba920390c7441b095",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {
+                "ME_Mapping_c7505da81fb143bb8eac7906693869b8": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c7505da81fb143bb8eac7906693869b8",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtEmail",
+                        "widgetPath": "this.view.txtEmail",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmScreen2Login",
+                        "widgetKUID": "cd46e13780794f1da0f7e415add40a12",
+                        "itemKUID": "b591a49ba43b4605be3f62eea9715917",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "userid",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationname": "login",
+                            "servicename": "UserLoginRepo",
+                            "type": "identity",
+                            "isDeepLinkRequired": false,
+                            "login_type": "basic"
+                        }
+                    }
+                },
+                "ME_Mapping_e07dbbd753d7448d8969aa5dfc820f6c": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_e07dbbd753d7448d8969aa5dfc820f6c",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtPassword",
+                        "widgetPath": "this.view.txtPassword",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmScreen2Login",
+                        "widgetKUID": "e151e65744ac4109ada4971644c4cd84",
+                        "itemKUID": "b591a49ba43b4605be3f62eea9715917",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "password",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "operationname": "login",
+                            "servicename": "UserLoginRepo",
+                            "type": "identity",
+                            "isDeepLinkRequired": false,
+                            "login_type": "basic"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_c7505da81fb143bb8eac7906693869b8", "ME_Mapping_e07dbbd753d7448d8969aa5dfc820f6c"],
+            "serviceconfig": {
+                "operationname": "login",
+                "servicename": "UserLoginRepo",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "basic"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Button_fe40e9eef9ba4a2b97240eae9564780e": {
+        "id": "AS_Button_fe40e9eef9ba4a2b97240eae9564780e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCsvdownloadcheck",
+            "type": "forms",
+            "platform": null,
+            "KUID": "dbb7462c85f34e5d8d42d6bceb188bb7"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__aeedc09aa7ec47878e97c76153a8116c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "testPDFNFIDownload",
+            "display": "testPDFNFIDownload",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

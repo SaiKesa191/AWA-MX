@@ -1,0 +1,1604 @@
+Signature-Version: 1.0
+Created-By: 11.0.2 (Oracle Corporation)
+SHA-256-Digest-Manifest: jza5Oj+p3wI76pNTxn9tYdaUyrNv4ocVI5MPw+FAwvg=
+SHA-256-Digest-Manifest-Main-Attributes: PL2AxRbMmX0EtxzPx+gS54zRQXSbAsg
+ kTW1GyMg0CJg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-datastore-apis.jar
+SHA-256-Digest: wA0XbkefE9NQtm3BpIeykyxd1W3Za6xV5UlaKTWdCfg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-store-apis.j
+ ar
+SHA-256-Digest: i6OiWnzHEBvbKyRwKhCHG3RS08as7q22SIB+wYrTPtU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-textarea
+ -widget.jar
+SHA-256-Digest: kkGgPnOX7J8j2XUlVQWkzTPuUdS0CN8ootclmubqCfY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-hybrid-api
+ s.jar
+SHA-256-Digest: aMHCK2Gprl7LpeNI77QcslR/fO92gk68qCEcBUPVa7k=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-button-wid
+ get.jar
+SHA-256-Digest: Qau1NqIs5eOZQ/fmFYAJvk/oQaUQMIBraaPT01pblw0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-button-widget.jar
+SHA-256-Digest: 2J+dXJ8LPe9PpWz7GRSssHoJRSJihgMy85mJdfVAM3k=
+
+Name: luaandroid/extlibs/SQLCIPHER_FIPS/libs/armeabi-v7a/libsqlcipher.so
+SHA-256-Digest: K3O1fyQhKBmGDfDDcTlyyCpE8bRdyYHW+suBJjUofdI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-media-apis.jar
+SHA-256-Digest: GQgOXV4laBp+YmBJEMjnYruGOA/c2bF474f+pUh1PkY=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-image-widget.jar
+SHA-256-Digest: k21w92rUQvFrYohouQQg8aYSI7Tv2FKGpfsoh0AAmQo=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-store-apis
+ .jar
+SHA-256-Digest: z/F+LCJcsRzEVykCuKVH3i7Xfy6V1Rt8+B5Figs8U/U=
+
+Name: luaandroid/extres/FunctionalModuleXmlParser.jar
+SHA-256-Digest: X/H0pYN1km369SaJWZb7caqaAFt0NPP1OERHf/3lPOk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-datastore-apis
+ .jar
+SHA-256-Digest: wp/Mw6NRTYQKVESlA8E1XHViQBOea82egwKFXgD7dN4=
+
+Name: luaandroid/build.xml
+SHA-256-Digest: jAbHW0q7kYhMozrVD/ytVgMwE6Q0PHxnFQyuVj5t0tk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-camera-widget.ja
+ r
+SHA-256-Digest: YXdb3O8l+X2MKkSR0ET4hWawO1KEPltTFpW76nixAt8=
+
+Name: luaandroid/build-cordova.xml
+SHA-256-Digest: kPMA9UeB2B2Xurdu0WpvElbfkgWIXxI/eBmkYoJpR+Q=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-localAuthe
+ ntication-apis.jar
+SHA-256-Digest: dMeQg97Nv+31Kc6u8Op/2yCJsjjgOJJGXdOIjKcy1Xc=
+
+Name: luaandroid/application.properties
+SHA-256-Digest: lQhmzIwnmyaHk8mJj4CRPBCZEhCRjSH9CH0g8xkN5mI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-pickerview-widge
+ t.jar
+SHA-256-Digest: nbFwR662IxOBgvODytW6ydC68jwJAz+rf17AsX8oVz8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/OptionalJars/ko
+ ny-battery-optimization-apis.jar
+SHA-256-Digest: 36i68emvN0DoOK3jQyJ8y1o6aF0Oxc0J2jo25T8SYuE=
+
+Name: luaandroid/extlibs/SQLCIPHER_FIPS/libs/x86/libsqlcipher.so
+SHA-256-Digest: EJWQP/9q9igppyRfyBc+FjGlYdx3Y+H5gEVfkzmss1c=
+
+Name: luaandroid/extres/react-native-0.57.0.jar
+SHA-256-Digest: KvcPCh7lnZe0BrGN1/qplCit6PjsZIvcajP0KfC+v94=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-map-widget
+ .jar
+SHA-256-Digest: 93S7mZEUDJUDctPMMKE5L8oT1ZbF9hlh+oxNTe3YSTc=
+
+Name: luaandroid/extres/chroma_key_video.sfb
+SHA-256-Digest: m8yegyUw81BjlcccNiyjpze1F/+KKyd+rOLN/pnNw2c=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-push-notif
+ ications-apis.jar
+SHA-256-Digest: uBuwUcLsg7TPexEpaBf2bsf19vxqjTMO1GXNEQWT4WY=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-label-widget.j
+ ar
+SHA-256-Digest: w9LAMQ4yNTHutL3VYH97WFlc4F48Y3FeFxjxDN52Agk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-label-widget.jar
+SHA-256-Digest: FBr0lFV+IcVpkHW69fXP3KxViqpekJr6rkkcoLGw/ng=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-gms-apis.jar
+SHA-256-Digest: eChjwZzLYVt1V22sVq270hRUWLcnSEtOCoIkz6H2Iyo=
+
+Name: luaandroid/codegen.jar
+SHA-256-Digest: jxaT6yN6U6WvPcbOJ3NsBV8Mk0AHNg5d4yPiK/+2oAM=
+
+Name: luaandroid/extres/AppJavaScriptSource.java
+SHA-256-Digest: M7RN+6u10zLSZfdNi+T3ZvMcLtJzE3Ef+/QwFpWrdT4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-mlcamera
+ -widget.jar
+SHA-256-Digest: 5PkQOchaqvN2ixifKH9Xkf63U1Zb42xC3DzJXoyQtuM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-gms-apis.j
+ ar
+SHA-256-Digest: gwq7VJ5iTHv0vr3GY45SD7mfzRBUcmUcFWO8LQelOQk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-map-widget.jar
+SHA-256-Digest: aopSvhTUvO3+CNlu6fBcgHj8JsNngnPALGI2mgBfYAQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-datastore-ap
+ is.jar
+SHA-256-Digest: j4teUp/Wpwlcv7ITE4vzn7tuEVb5RXr4WML7doDB87A=
+
+Name: luaandroid/extres/paas/license.js
+SHA-256-Digest: q6vaDuL+8YbKREoS9i4TTal0MuAE8Jpu3Yo2H2ElYKQ=
+
+Name: luaandroid/extres/konysqlcipher.jar
+SHA-256-Digest: yScpZEavLK+bWX8f3S62YiA3T8peOltczCgLNdaXVaQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-payment-apis.jar
+SHA-256-Digest: pj7NGcseCG22IqgD28lcTrdZzOIRukf7Mm56y0p6qcw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-checkboxgr
+ oup-widget.jar
+SHA-256-Digest: re32z7wtU7hoP513OxTCaEjm6KIbbReJvfr8293OtS4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-tab-widg
+ et.jar
+SHA-256-Digest: vkVAR63EPjzjdO0CZ0U9k5Sz8+kEZcZr0r9vxLAQSEc=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-seekbar-
+ widget.jar
+SHA-256-Digest: uwHNAPEOU5xMBzu0yuIMbqoc5RTAbkrrNISvNl33gMY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-reactnativec
+ ontainer-apis.jar
+SHA-256-Digest: KV6QsOPmOVxWG112W2e5cZSGD/Vn+Q2DkkFAYDM7g9c=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-richtext-w
+ idget.jar
+SHA-256-Digest: qeoaucFzbe0+eHXRG8gsNH+w2/eA14uinDM/5qzoxS4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-browser-widget
+ .jar
+SHA-256-Digest: hkNVKDlXIYcvwwzh/aybTeJODb3AubRMdBw/3nWRyjg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-store-apis.jar
+SHA-256-Digest: gGxn4wy1UtrSfB8rmv8gdrjkmVfW/5dftSBexrUXOjU=
+
+Name: luaandroid/extlibs/SQLCIPHER_FIPS/libs/x86_64/libsqlcipher.so
+SHA-256-Digest: MCdmyNEycY4zMUYbSuvyuHWDGhQUb+z7slx7Oq7NwSE=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-calendar-wid
+ get.jar
+SHA-256-Digest: ZXgIDwhRITnVfK1YMiY/QOj+ACqwnCmvsyEAwRaFdhM=
+
+Name: luaandroid/extres/ApkSigningHash.jar
+SHA-256-Digest: 7RAxqAs85nroD/k15Y8o7IFJJWKvhnlxu2Zh8KMCdOk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-ml-ImageClassifier
+ -apis.jar
+SHA-256-Digest: E1KB5XjVJK+fKAUiao3bksdrdZdY1DwVF0nPgrWp3N4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-datastore-apis.j
+ ar
+SHA-256-Digest: tN9gvNmJxqeA3aapz0Ab8upFy4yEBrpS5DXckeZGtu8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-payment-ap
+ is.jar
+SHA-256-Digest: MLlPqXkDEdNjKsc2jdSFMN9KbYHVwLyh5zd0i+lG9FY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-image-widg
+ et.jar
+SHA-256-Digest: 68Y0YsK8HArpENPS5LBf1zsFSi3isvKZ11eBfrhaKnw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-crypto-apis.jar
+SHA-256-Digest: mKgKWFFIayf+HFfU6oAPxw2h47pNRWr8gAkIOBGwOO8=
+
+Name: luaandroid/extres/actualLetters.png
+SHA-256-Digest: Ms/u6l7es9Lrnmj/tmH9c1k+XO0hQ/BcK+t+wLkvtu8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-hybrid-apis.jar
+SHA-256-Digest: RRJDOMcp0y2e+McfDAqT0+nJQv82bbop3UaEYglQsfk=
+
+Name: luaandroid/extlibs/x86_64/libkonyjsvm_release.so
+SHA-256-Digest: sXa7SRTrOZN4m2ohQwgVv5nHt4JheV7+Pd5x5EJ3H0I=
+
+Name: luaandroid/extres/boot.js
+SHA-256-Digest: 7rF95jF/aCDO6lO8EDmOiWWyXl/mldLivclsKwhqhh4=
+
+Name: luaandroid/extlibs/SQLCIPHER_FIPS/libs/sqlite.jar
+SHA-256-Digest: Ur4cB7+H1N28iYrqXq+FUxpjQqwul1UuwkY1sXM3384=
+
+Name: luaandroid/extres/kony_loadfile_linux
+SHA-256-Digest: yBequMwuzY41WoTWjvzvV8b5N4Nija8SL5eCJACFb8g=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-push-not
+ ifications-apis.jar
+SHA-256-Digest: hagjjozqupYuu45gxCpB3XUxrECCB3F+cSWv6Z+prDQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-label-widg
+ et.jar
+SHA-256-Digest: /IA0LYbuBNPxsPtCnamMhBW4/DEliZCW0+3jXu6jYsk=
+
+Name: luaandroid/extres/features-mapping.properties
+SHA-256-Digest: tWSlKgBggVXQkkFyj0VwA2me8aEsPuLu+FnPBbnvfME=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-contacts-apis.
+ jar
+SHA-256-Digest: njsdMY7U55p6OWBsOqXnwHy/Gdnphq5dycy881ZpXm4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-segment-
+ widget.jar
+SHA-256-Digest: MRX9n9RdS5Z8KDXx3jVZYliB1q2T16qs1Gkkg2GRMTw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-mlcamera-w
+ idget.jar
+SHA-256-Digest: ezYM8gP4VBRqmWmEWisb96QV1yX/6Yf807embuzzBqQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-image-widget.j
+ ar
+SHA-256-Digest: 9DNb3B0BPm4I4MyNC5BiyTbGxg1V6oVOWWiiVQwV4OM=
+
+Name: luaandroid/extlibs/armeabi-v7a/libkonyjsvm_release_protected.so
+SHA-256-Digest: u2RmGkcbxjQuFm4ALOmkwsZBIxNj/hGP6GXvAn8iChI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-textarea-w
+ idget.jar
+SHA-256-Digest: 3z1DCijn5n6R4vl+abifcZI+sK6li4r7cGmk6wUxyTY=
+
+Name: luaandroid/extres/BundleSelectedFeatures.jar
+SHA-256-Digest: TL7xiI+tIGxlne5yDbfruGey0+dWr8RSuLB/udndmDE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-reactnativecontain
+ er-widget.jar
+SHA-256-Digest: qRXZmXAaRTxEz1TrruixdyBXr6WneCDg8aE5fImgjTk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/konywidgets.jar
+SHA-256-Digest: NygxOjm6A+fwMizdTHvD8sO/jaY338Iw0tP3GhuhNto=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-crypto-apis.
+ jar
+SHA-256-Digest: 8CJHJlI/y3mfqxZP9eN1luWb7vQaeu7oqKpUkUQoG0c=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-checkboxgroup-widg
+ et.jar
+SHA-256-Digest: FwXxCFui9BDEDE9XgOE3ttfSZ2sH7ieDGR4ll72QzN0=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-toast-widget
+ .jar
+SHA-256-Digest: By03udxaGA7p790CN+Itn820RmjsHgfHONHdAwGLPx4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-canvas-widget.
+ jar
+SHA-256-Digest: jcMJgaWCJANVD1XfhWDc4XzBXoKjhafwvZFsheRyxxc=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-database-apis.
+ jar
+SHA-256-Digest: VtK2gvA9gisiRZzR1JcggX4v3B2MC1vGzyT/wRZ74mg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-datagrid-wid
+ get.jar
+SHA-256-Digest: uFziL8M0HvVCEe1iXin3FOwzRkZh/N2a53SkgKTtYrc=
+
+Name: luaandroid/extres/autodownload/gradletemplate.properties
+SHA-256-Digest: RkpLpgqP9tWGoRz8cCw7Oh6AMnohUXqa8FCj21ssDIs=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-richtext-wid
+ get.jar
+SHA-256-Digest: 8qnRAkG5FtSGMKC9EGMXnbd6VU+K5joc56qHPnzDpAg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-pickerview
+ -widget.jar
+SHA-256-Digest: au3ie94/CtzHl78RCE00dgkv5N3fZRqFFpNuqk/yko8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-reactnativeconta
+ iner-apis.jar
+SHA-256-Digest: Oz78ZOGBZZmvDfWC5Z+GsH2pFisF8Ttwg1ZC/QgMtj4=
+
+Name: luaandroid/extres/gradle_dependencies.xml
+SHA-256-Digest: 0R7WP2QY7ApnI0PCBTF01rYf9Mk2PrsEBej/Qc9pK2I=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-checkboxgrou
+ p-widget.jar
+SHA-256-Digest: NG++5UFSVc7ss1VHzQ9vg3qYPFLFmspMH4BIqgxL37k=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-calendar-w
+ idget.jar
+SHA-256-Digest: zRNs2BOjA2DzBz/HYr0EjZqhOgV3+sacLp2Eog82qpM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-contacts-apis.ja
+ r
+SHA-256-Digest: d6EX0+zT9ly38n8KcD+Rw7aV/fMj9A48a8Gix5Iznno=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-cordovab
+ rowser-widget.jar
+SHA-256-Digest: XCcxcFY6Xwr+K6px8DnAOuzDkFEoXVb0zFU8ZZBXxwY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-map-widget.j
+ ar
+SHA-256-Digest: 98E8Qn9YR9c5qvBZwMSdWu8mVRiDwYjiv8JizhnFoRc=
+
+Name: luaandroid/extres/AssetsHash.jar
+SHA-256-Digest: 0G3Brls63W45jZb/w+j+pk01kf4RsCQ5+zVIIMdXePk=
+
+Name: luaandroid/extres/pluginlabel.txt
+SHA-256-Digest: hBY7WlUmgtmgxzijkcOtRAZ8rbU0OaFOuW08bKYQ2NQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-browser-widg
+ et.jar
+SHA-256-Digest: gReiOBBB+7y8fdg3kmTp/v+zaIFBEOglTCNPLGR00N0=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-calendar
+ -widget.jar
+SHA-256-Digest: oak8ItRUSngeWd5KFB4eqA9jQaxKYPytRbkhjJp+7DQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/konywidgets.jar
+SHA-256-Digest: xioGUNnSjrcF3jgsYKZxnKPG8+ZBpdRvgW5AI/I4/JE=
+
+Name: luaandroid/extlibs/jsbindings.jar
+SHA-256-Digest: jdJ9g1/sL89WaA4LJZNcrvHd3Usk6l7F8ZdbbCqVqGY=
+
+Name: luaandroid/extres/EscapeJavaScriptSourceTask.jar
+SHA-256-Digest: dYQZkhAsRXZ59RjVclfnk6tAH7H1eMHgykzi/tdwFzk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/OptionalJars/protected/kony-b
+ attery-optimization-apis.jar
+SHA-256-Digest: dE/UizmHQaCUn8fBV5gH4cPNcHpte8reFM7FV7rNM+w=
+
+Name: luaandroid/extres/voltmxmvc_sdk.js
+SHA-256-Digest: 7fXKY51ApvRcx/ctDG3h5echS83KKUAXCh56RcUd7sM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-reactnativecon
+ tainer-widget.jar
+SHA-256-Digest: SDN/fTHAHjWTXtnizAaKaGGOwwTr8DQ8Fj2H1xRtGdw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-image-widget
+ .jar
+SHA-256-Digest: ATRIFk1eNqTuv369WLI7oJ5KtxEKj5fmhU4kNB+EO/o=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-hybrid-a
+ pis.jar
+SHA-256-Digest: NU5wii6w2oofyBhm6mXcoRajVUpUM1TCDldL7HT82/8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-datagrid-w
+ idget.jar
+SHA-256-Digest: cpsP5kTjTh5HcAURXZ8/4u1gQzlidZg0V5ETFfqFWd8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-map-apis
+ .jar
+SHA-256-Digest: jsXqHITFlUOYQXXjXGdBheOQCfftpfcS0i1Zq2cs7Vs=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-mlcamera-wid
+ get.jar
+SHA-256-Digest: Zxh0NBI1rs/HPZu6v4RGawW2zGg2fk+oNCFnafpPfIQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-payment-apis
+ .jar
+SHA-256-Digest: 4odDmwtI/9E4iQR3Axx2AzMpV4SNvjHzlcOuHj9w+TU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-collecti
+ onview-widget.jar
+SHA-256-Digest: 323tgB1/qSWgigBityArqs/vJwK3g0M/QC07PJrw1qQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-video-widget.j
+ ar
+SHA-256-Digest: gMN6g4jYUfAta8/nC6cYZ/31LuJP+FfdMvP/RnfiiWk=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-pickervi
+ ew-widget.jar
+SHA-256-Digest: k0sK2XS0LHnuMAMiFWbMCKVfoOQDiw5TZfbvWUDQk5w=
+
+Name: luaandroid/extlibs/KonyAllowAllTrustManager.jar
+SHA-256-Digest: rmGyibVYl2btrjiNl8xi8AQQMeca6+JvnMtdZRjPtOc=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-phone-ap
+ is.jar
+SHA-256-Digest: EKXBOMxoYWxf6SIcERBdP4QhxnVe6GxGkVn2hl+6KdQ=
+
+Name: luaandroid/extres/functionalModules.xsd
+SHA-256-Digest: ybJwjBTlIRzz98Lqw5jiFhD9y+uPVeTxbHMiyclYSdc=
+
+Name: luaandroid/extlibs/dexmaker-1.2.jar
+SHA-256-Digest: 8u9M3tWkaBxu24DKJI4mdXlxOAZEgeGFWE0N5h5o75k=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-radiogroup-w
+ idget.jar
+SHA-256-Digest: W5A1vB2sWdIbQj1Sp5Xra5Dox9K6mPAr/RTAO0nVHYE=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-pickerview-w
+ idget.jar
+SHA-256-Digest: 4uS6kY0JMLMF6M3p8WLN+Qg5jE4jb16kUtlw8z8epZw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-canvas-widget.jar
+SHA-256-Digest: HVz28Zj73aHYtlX7iihvjN4XZIzy9xDxc7QKQGmdN0E=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-radiogro
+ up-widget.jar
+SHA-256-Digest: nqkdmn1f6f51wfSUKeqIwcgIvlmS2vmo5d5Qps+tav4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-canvas-wid
+ get.jar
+SHA-256-Digest: x482AabwRjZBCpUvcbnzgQUiv8lTVs5JVR3hc0VRE+k=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-media-apis.jar
+SHA-256-Digest: rCVJ/YA+Wf6kZeNU/KZfHz7R0CSKOHBKtYZc21FAyQM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-location
+ -apis.jar
+SHA-256-Digest: IIo8zDGmTEyf5K6Q5WuM8+w+MGj/5GqkR12XGAwODPg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-label-widget
+ .jar
+SHA-256-Digest: GbPa8k8XfWFwPbxMwHCbc8laCSwW2ypIq9q+hve/dhU=
+
+Name: luaandroid/extres/automationUtils.js
+SHA-256-Digest: xnn7grbzjW6udACIWVM3geqmtLwvvLBQtQaLbp1nZOA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-browser-widget.j
+ ar
+SHA-256-Digest: MWkYFhDhczBsFFKOrKPvWaOPfC/RCfZZTTe0lzKLHzg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-mlcamera-widge
+ t.jar
+SHA-256-Digest: R3ocksCOP+DALYKrbGN1ME6Mp6y6Tp3G2v3fwgAg3aA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-database-apis.jar
+SHA-256-Digest: MmuMuT/FbKG22cQE5vHoBOOS7gOin+Hy5gpeeNTFveM=
+
+Name: luaandroid/extres/JasmineCodeCoverage/instrumentfiles.js
+SHA-256-Digest: 5ufIPUwfHrdDtpvgTBp75rfTjrpYZ1dK7M/vWrp1ZnA=
+
+Name: luaandroid/extres/script.txt
+SHA-256-Digest: Ml9XrA1bck6K/HqJUVhqJxLkYs/CgUjPVlh2aQheM6c=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-forcetouch-apis.ja
+ r
+SHA-256-Digest: evbyj2WDrIBImpZgEjoOaXI3/092j3tKx8nOyC37GBE=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-localAuthent
+ ication-apis.jar
+SHA-256-Digest: 3MWw7wj1FI9QH0Ss1Sxwbj3bCRciSOgjCeJZdjpEji4=
+
+Name: luaandroid/extres/autodownload/buildtemplate.gradle
+SHA-256-Digest: j+gFuORAEZfFRC2mJdZc/NIBa0q8HeqI5dqowJDZnDU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-store-apis.jar
+SHA-256-Digest: NEY2gBqYb6ZJMeC0dFnLcmRjuZ002pR0+maGzJ8G8BA=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/OptionalJars/
+ kony-battery-optimization-apis.jar
+SHA-256-Digest: DVgKwCSyXyxb/ciVeck9badIdnjl6UzW8WsR9JxJPsE=
+
+Name: luaandroid/extlibs/CryptoWrapper/x86_64/libcrypto_wrapper.so
+SHA-256-Digest: 6YpxZqWnISt9IGmmbysfllDeE23qPSklhblw9Ot6nUc=
+
+Name: luaandroid/extres/jasmine.js
+SHA-256-Digest: lFruPNzdkTDmFjak5wKrAbw4k41tImOA/6YThWW1HwI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-collectionview-wid
+ get.jar
+SHA-256-Digest: MqzTowH+RX0rpFMIrdA61WNYlEMSFyfKIkDemsOnE8g=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-localAuthenticatio
+ n-apis.jar
+SHA-256-Digest: DFL9UVUpP+rb+p6RwQRd3ruaDRIEzNeiiAdJkhZZXeE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-wearable-apis.jar
+SHA-256-Digest: Dw339fYFO2f6ynEjX6J5HyzG16wovHJjs+bm0+NATs8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-checkbox
+ group-widget.jar
+SHA-256-Digest: pcvjKIcNdvC1NL7oMQJtwCcALS8NJFYf7V38ZIC61ls=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/OptionalJars/release/kony-bat
+ tery-optimization-apis.jar
+SHA-256-Digest: dXOaL6R691erGwB3dRlMk32dRbPJa4lvPpv3tPsfoOc=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-push-notificatio
+ ns-apis.jar
+SHA-256-Digest: vBN11bNgJxGQPwzEs6JEyfcivSKSGhUpSIafQrV0E28=
+
+Name: luaandroid/extres/ant_apk.xml
+SHA-256-Digest: +fv44b7xKburYqAiPWyEobpEE7Jez2HROu2gRcnU0rQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-textbox-widget.jar
+SHA-256-Digest: YczIYT7I9A+2xZ119vm0VdZp5UmM82lxxcG58u6LTtk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-cordovabrowser-wid
+ get.jar
+SHA-256-Digest: PwwtjOsfF0iWqZp/emsNhLaCkmuHxO2Ar52XXdPnXqM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-line-widget.
+ jar
+SHA-256-Digest: jA+I0OI/+U4XYl7PlkjEoe6Pq0QKyHLIYDHTHz9YCps=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-camera-w
+ idget.jar
+SHA-256-Digest: h3kT7pMvL2yZRtDWP7rIlmttgQ6x4EDQDS1dEPoduik=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-line-widget.ja
+ r
+SHA-256-Digest: Xx5BFDAY8V9LoZ5rcVwfT5DGBII4VHWbEwNbUADJ6gw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-keychain-apis.
+ jar
+SHA-256-Digest: OnqW3gEYOtR4eZLCTpI+MAQQ22b7UWlIzG/zBjRHCpg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-forcetouch-apis.
+ jar
+SHA-256-Digest: CJpN47ycQ3i54etm95DB2lDh/p+GT8BLsCNhwiX6XP4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-textarea-widget.ja
+ r
+SHA-256-Digest: wTmf+tmNE6X90Tj+I3nror3Hv6WCViInIXVM1WD4C1s=
+
+Name: luaandroid/extres/buildparams.properties
+SHA-256-Digest: VYwFu7vszVyF8M+OafAjYqwdd8EL9e3cbueiHOAZzck=
+
+Name: luaandroid/extlibs/x86_64/libkonyjsvm_release_protected.so
+SHA-256-Digest: YtwCbYkGWRCN6QmIJa11QrSFLU7bKhKN4uuiLOpkehg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-button-widget.
+ jar
+SHA-256-Digest: 8SIs91ACh9J4UAy6b5E6HjYrNDJBAjHfhYn2Rn+XAE8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-wearable
+ -apis.jar
+SHA-256-Digest: +K1PAMaFq399xb+//UXvZJvPMYyyXWOf2Io1fh9kG7Y=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-nativecontainer-wi
+ dget.jar
+SHA-256-Digest: ZgplDSdLgmtl2Eq6t/qCcOJLiME95i9jI2sBaCJKxB8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-textbox-widget
+ .jar
+SHA-256-Digest: dnCqvRDAz1EQWlPoNDW/vcen3nQ7DzbV8Cw/ZqlHnq4=
+
+Name: luaandroid/extlibs/Vulkanlibrary.jar
+SHA-256-Digest: klL7KWH9+MFqKAL1itMtjxbOsMbpFoHDGatWETtP8rY=
+
+Name: luaandroid/extres/APKSigner.jar
+SHA-256-Digest: ywkFlCAx9K5eoCqKtnjWFxONsUWXO/jVSWIHoy3Rh7U=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-tab-widget.j
+ ar
+SHA-256-Digest: LGi04jLEtEF+K9CZ95Asf6DLbg8FRfgJOf9FUm3ga9Y=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-bottomsheet-wi
+ dget.jar
+SHA-256-Digest: 9Jn1t75cvkOV9fjR7lCPkwhhcjHBrrELrYlCLp0jwKw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-notifications-
+ apis.jar
+SHA-256-Digest: +AUxymT5Lcf1NPWMyOUIgYIa8Nu9kmlojxbTpWNTO3Q=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-forcetouch-a
+ pis.jar
+SHA-256-Digest: 1LB/fqE7BUEhm3Sn5TM3be9rTkaOGgVNeKxwphCPkhw=
+
+Name: luaandroid/extres/api_versions.json
+SHA-256-Digest: bR1pfryfiKLSd2XOOlxUmAHkrrP0B6a6n4Ztsu9t7W8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-tab-widget.jar
+SHA-256-Digest: T1LEuzYyOVQTs61pLzJcihP7fgMcplGb1uxMItf2adM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-collectionview
+ -widget.jar
+SHA-256-Digest: dtVurUR39p1bEj+YqgIpTUwpIuCVrhBYRRIrofhN8CU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/OptionalJars/debug/kony-batte
+ ry-optimization-apis.jar
+SHA-256-Digest: DUfl1ff1Q0a341cdb0M2L5QXETdGgT4N8yrwx4eYJPs=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-switch-widge
+ t.jar
+SHA-256-Digest: QFQsC+1IK/v9eydOlPB+f8B57LOPqFf3AEGkaYkllvM=
+
+Name: luaandroid/extlibs/CryptoLib/arm64-v8a/fips.so
+SHA-256-Digest: ZEoOJ0CJelUPhNuRu88h6oRfZfcahkUpo2z1KOHZros=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/konywidgets.jar
+SHA-256-Digest: m6MzyYhL5QJzEWtkEYgX2DIiL9VqhEeq6Mo7H4AOkO8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-bottomsheet-widget
+ .jar
+SHA-256-Digest: Y1gkaJgAAML3m9Tfn92PmoWfJjQV84oXlRr2UQTEltA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-switch-widget.ja
+ r
+SHA-256-Digest: Si9sTu/ZytnQHilt4ayQYEHvAPfsm3K8GiClkv/MhBk=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-textbox-
+ widget.jar
+SHA-256-Digest: +oV2UaXMcZYdc0Rnay49mOtDoiXrXoFtKTRLLz52mBw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-notifications-apis
+ .jar
+SHA-256-Digest: E0qNojXKhaQySEjxCPVLYgkQkWa3D1dPuwUCrWqmWC8=
+
+Name: luaandroid/extlibs/renderscript-toolkit-release.aar
+SHA-256-Digest: RK2b2Y8scXeR3rmzb3gLYPiIaCbQL299pVCM9QKxAUc=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-image-widget.jar
+SHA-256-Digest: nNbKdkWDBfKn4ggan8LSBOIht27d+nuXSHN5j2S/XXQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-bottomsheet-
+ widget.jar
+SHA-256-Digest: Nv7B/DNRrsbm8MjAMAIrKCxCH/5xY3nD79dmd8gV8/I=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-textarea-wid
+ get.jar
+SHA-256-Digest: LABPzNlODrlnW1BzcLFp8HDrYuppQiryVcGQDGepRmM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-location-apis.jar
+SHA-256-Digest: rqDWWYPFyK2TpThhyQPbBkLtbAXMooaYmluQPRFlupQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-notification
+ s-apis.jar
+SHA-256-Digest: LYb9EmV3jal/pladqv4UODWWoV9DtluUTgiXBcekNYM=
+
+Name: luaandroid/extlibs/arm64-v8a/libkonyjsvm_debug.so
+SHA-256-Digest: 42hNtWBc9AWKgTHI+eiiiLz7KP0yn61y7Eo9FvqJ1pA=
+
+Name: luaandroid/extres/ExecuteShellComand.jar
+SHA-256-Digest: gesOlrEdJrCC05n5KIf0XOucQ/3OKgRBk9aaIvxgNKE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-tab-widget.jar
+SHA-256-Digest: JaiFQmJHx3j4S8ndqp3M+GQ/zANdeuiHtHBcwVsxp4w=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-map-apis.jar
+SHA-256-Digest: WH3nICwVMgsEINTkW8f9o7kdcjQek3yzuOK7982Ox4s=
+
+Name: luaandroid/extres/libcrypto-1_1.dll
+SHA-256-Digest: 0nXfLlachzGn4ZsHimal0AXDCFmPV6Srxqy4ZNt+V9I=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-media-ap
+ is.jar
+SHA-256-Digest: /6gHoeSoSvd6K8G4PmutlIY450Ig5Mlp54VfIbjeHaI=
+
+Name: luaandroid/extres/msys-1.0.dll
+SHA-256-Digest: G0vbUqisz9qoo7YaGIZJQMrcNzaWveCFNRG92Sr2npw=
+
+Name: luaandroid/extlibs/CryptoLib/x86_64/fips.so
+SHA-256-Digest: g8K0jOdNp5k3QmkbuIV/BKF5gzU814eKJ+SD7uE+52E=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-button-widget.ja
+ r
+SHA-256-Digest: loEJ4YcK2vbbh+Mi8O9oH9DndhmHG+EaxXXtMjY6P0A=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-notificati
+ ons-apis.jar
+SHA-256-Digest: PYFI8COPvysb65+0C12FE68tJs/hdr5cBd3VeQtsAoI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-phone-apis.j
+ ar
+SHA-256-Digest: mvCdGbFUEvPuzURYUqPnROXkk0UMhpQGyXzsiCN5oOU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-keychain-apis.ja
+ r
+SHA-256-Digest: NXrW5QRU92fk+FVIIYX3+xKMHTO1SR/oBww7DOAPz8k=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-video-widget.jar
+SHA-256-Digest: TYibM353KFC0Ob8IfIwgmBnsxLBjvKQ51gbeLV7Zhx8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-localAuthenticat
+ ion-apis.jar
+SHA-256-Digest: NwcrKiQVMWAzxQFsepfr7e9BCEocVzsVO5Eo1x+EI40=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-radiogroup-widge
+ t.jar
+SHA-256-Digest: u71cWx6Y0mfEBfKCwRHk3CrHTpgLiTknORsXuZI4AQo=
+
+Name: luaandroid/extres/RegxSubstitution.jar
+SHA-256-Digest: aC3lswxsG4Q1iQcu2/wTD6TNJHm2RJyAyLU8V/LMbpM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-push-notific
+ ations-apis.jar
+SHA-256-Digest: pi3A8FOimZxcKsemczl4zt9n4l3ubottRzf40kYtCzM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-bottomshee
+ t-widget.jar
+SHA-256-Digest: ekD5z3QiyUaOKTn24X/I9OMi6kMN0fWR0pE7Y0InL2E=
+
+Name: luaandroid/extres/CordovaCleanOperation.jar
+SHA-256-Digest: r7mFeyfca027tP0GfPTebigjIrzsiwTqQalOi/OVqqA=
+
+Name: luaandroid/extres/kony_loadfile.exe
+SHA-256-Digest: l+9IFFOYAbKv2DnN5GnVx5b1c5mi1xuT2pwedhk+v1s=
+
+Name: luaandroid/extres/reactnative-interface-methods.txt
+SHA-256-Digest: FntlThWg5Fnw5qaIVwzbXDcE2EdYZcrNyKUQ/M9E7sk=
+
+Name: luaandroid/extlibs/CryptoLib/x86_64/libcrypto_3_0_2.so
+SHA-256-Digest: ruSBCbp0CNxh9QnDWl7F0mMChXP6NZOAr4WTknKPwyg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-nativecontai
+ ner-widget.jar
+SHA-256-Digest: BGK74s4XDZ2yo5FNDcBv7t8eD2ON5X4ucPqyucHOzoo=
+
+Name: luaandroid/extres/autodownload/gradle.properties
+SHA-256-Digest: iqD0mTrwoV4+ApguHH/9rDuPDmV12V/V/jVhLS3kMRk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-datagrid-widge
+ t.jar
+SHA-256-Digest: qf5v9x5MkiT8CxeJi16ZxXQuB87XHcR2dZi6eiy43Jc=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-notifica
+ tions-apis.jar
+SHA-256-Digest: ucqjVGDq2V5U2dzCgMCux73nACXgogoqrNQ4Co9iP54=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-reactnativecon
+ tainer-apis.jar
+SHA-256-Digest: gj/kDDTs9rndbZSAwIG/PozBLBMqowCVhk2riepgiLg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-browser-wi
+ dget.jar
+SHA-256-Digest: zMpgdjQVquEFg1DDl4jQTI1iz+Pp/hUDMpyv6Br1cY4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-switch-widget.
+ jar
+SHA-256-Digest: 0IFg3ve+TkMG5ClzJuupX6mXGR1kx+LwmN0aMzaoQQQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-image-wi
+ dget.jar
+SHA-256-Digest: 1eaybdAbrA+3EoxVlky5BbhEjqRHKwJbhRse240GI9A=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-cordovabrowser
+ -widget.jar
+SHA-256-Digest: pPIloscH+yGLfzm8iPF5odwrb6v/VixXaXjFvr79YbI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-listbox-
+ widget.jar
+SHA-256-Digest: WH3yUmQyInKbtb1Y9FWfJYBfeLM2KnrtC3s6qDK+iA0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-filters-apis.j
+ ar
+SHA-256-Digest: wzM1ilAdLmgXGGhwe7ThbEfM4JwcF45PkLr45Mxz484=
+
+Name: luaandroid/extres/huaweimap.xml
+SHA-256-Digest: Hf72F3Opb62bls5FqK4+HHI6So4K5Vjw6bB7S4MBk+4=
+
+Name: luaandroid/extlibs/Crittercism/libs/crittercism_v5_0_4_ndk.jar
+SHA-256-Digest: 7Qk0CteobAwu4FgkgX7Gfg9JKeLK26ZNBzxmeiAQRZ0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-checkboxgroup-
+ widget.jar
+SHA-256-Digest: eAQDN1pw3gXxxJdkJBPtMibX5YTHvwRIzQ7seZODYCQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-button-widge
+ t.jar
+SHA-256-Digest: UpfKIG4lUXgN8bBs8GdadC08H+SUpEJI54Y+jCbUuGQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-keychain-api
+ s.jar
+SHA-256-Digest: 9CPM582ll8+JzYTYajFtKLOlQSz8WbG7zDXgJHc5Roo=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-os-apis.ja
+ r
+SHA-256-Digest: 3KOkOfVQ5T70yUDfUaylP2Cdu+fa4h87XtvDUnw66iQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-map-widg
+ et.jar
+SHA-256-Digest: nkNuDllnavpwJAZKxNOcuIxrtzBNR/3eiy+HTciX+AU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-seekbar-wi
+ dget.jar
+SHA-256-Digest: rex9l+u06tha2orCJVrV9WxGZzaHspTyWi+EE1rw0CI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-ml-ImageClassifi
+ er-apis.jar
+SHA-256-Digest: /4SGPMptChHxySyoOlFDBZijI7mFfqBIHsUwzE92B9Y=
+
+Name: luaandroid/extres/SubstituteDrive.jar
+SHA-256-Digest: tDkn8V8yuCFOKNEBvBc8C4rCYc17oS5kKoPd6Mn4bJ8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-video-wi
+ dget.jar
+SHA-256-Digest: BQNaPZQu3Sp2xR/sS/Tl4Aw49V2DI5kao6e4nTQUUbs=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-keychain-apis.jar
+SHA-256-Digest: UE6rV+YSKhoecaX6Lra4Jg/XuuPz0F7qHl0hEBoP/JU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-localAut
+ hentication-apis.jar
+SHA-256-Digest: L8+tOeNRcXQuFY1Fs2HXwNq8m86nlBqMIj42E0AHrAg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-nativeco
+ ntainer-widget.jar
+SHA-256-Digest: RgnbIxB6NsEgAJyncIo3r992MccBEBb1L2tCQx/ABjA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-filters-apis.jar
+SHA-256-Digest: MzLHNLi3t6KstRvRVW2jzmsXOJ6Q3bYK4D8wRtvLkqk=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-textbox-wi
+ dget.jar
+SHA-256-Digest: 7AeimdVmVN6Wt/ZLAx/i0CksHgNUZDLzNCTSx0NT0ro=
+
+Name: luaandroid/extlibs/CryptoWrapper/x86/libcrypto_wrapper.so
+SHA-256-Digest: Rl7gHE7hcuSI3LJXktrXpUvSwG+TwKx9ymSptJEt7lM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-listbox-widget
+ .jar
+SHA-256-Digest: Gh0ebXzBCS8qUlCjPMtuxhQKMKv3oDI/zg8MsVp4WIw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-crypto-a
+ pis.jar
+SHA-256-Digest: 15R9FpTOnzXUT970UeXjh3p04hGyspjZkJeWBVSZGT0=
+
+Name: luaandroid/build-jssource.xml
+SHA-256-Digest: MeYdm9SdOKEPpu2IRGI7A3+lerhCnCiIXWnehXAJllY=
+
+Name: luaandroid/extres/target_sdk_check.xml
+SHA-256-Digest: b/B0MFRFebefp8jBZmPKSWKrhsGKZR3/kxSzuPEwZbM=
+
+Name: luaandroid/extres/jasmine-feature-runner.js
+SHA-256-Digest: FZwXBmF16BRZ1QzikYnrMnX/oAqDSA/jC3nRevyup7A=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-keychain-a
+ pis.jar
+SHA-256-Digest: Dtv+Zxa39/weYFCPSLz5KycLcbdNwMZnN/XbmeX+XIk=
+
+Name: luaandroid/extres/fileproviderpaths.xml
+SHA-256-Digest: lW1Q07HipWpKT0FF9FRa5VNlUa2lDCK7G0F9/eoxrw8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-forcetou
+ ch-apis.jar
+SHA-256-Digest: IgFPCBW00/7HAovU3l5HSpPYzfu3lJhbi3c0n+EdqEs=
+
+Name: luaandroid/extres/JSSourceFileTemplate.java
+SHA-256-Digest: VHRGxK6aucAeiGh5RZRThBy0dCq5gpI89HEDmyH51m0=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-ml-ImageClas
+ sifier-apis.jar
+SHA-256-Digest: jaS62wEYLGMwCPNyLKCcIcXNFVGkOJ9ERsMeGASWWxg=
+
+Name: luaandroid/extres/customreporter.js
+SHA-256-Digest: a4P379r9sDwNfWinV7T2uFWa6TOe5fuYNs5ew0veX1A=
+
+Name: luaandroid/extres/androidprecompiletask.xml
+SHA-256-Digest: dcBDq4I4f28JDXVCEbNFfIZqxtE05m9HbkDe5ihjowE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-notifications-ap
+ is.jar
+SHA-256-Digest: np+FZYi9EBtk8OYSt+kdy701leHPeWUsjhGUo3liCiw=
+
+Name: luaandroid/extlibs/vulkan/armeabi-v7a/libvulkan_wrapper.so
+SHA-256-Digest: 6t3nNSsLZaTGbkqGTUt3+Y+1gpkPnACKVI7QfOjs+uU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-seekbar-widget.jar
+SHA-256-Digest: CmwpKIsuvvdnZ8mAX84vS6n6axBDhWPw4UAAjQFgXoc=
+
+Name: luaandroid/extlibs/CryptoLib/x86/libcrypto_3_0_2.so
+SHA-256-Digest: gmHqqaVUp8RGrb5VxHRIJLBDHtGKqTxQWn98LBcG+2o=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-listbox-widget.jar
+SHA-256-Digest: 9ncmgj2sxACjVvf+QDM4TCqmOo/ECQl+s6COSyDDN8s=
+
+Name: luaandroid/extres/AndroidJsUtil.js
+SHA-256-Digest: uWw0Y/iR1mKK9A+MZcmUB8wkd+9ijbKSneSgDRccUkE=
+
+Name: luaandroid/extlibs/armeabi-v7a/libkonyjsvm_debug.so
+SHA-256-Digest: 186ccIIdTq1ig86kRY6Yr+1kK4i7aw7MOCbPlbfB+Jo=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-reactnat
+ ivecontainer-apis.jar
+SHA-256-Digest: qN6t41Ej7IllC2g/lcgEgqtFFhA+g0Bkmipu7rMpJAc=
+
+Name: luaandroid/extres/kony_loadfile.jar
+SHA-256-Digest: ijqWIuJqI0I5aMLDPu1M8TJmMogICZYY+rVPnDdj00s=
+
+Name: luaandroid/extres/autodownload/gradlew.bat
+SHA-256-Digest: 0/botXy5DToNRMbGYG2cbo2uaja7I872pWzQ15O19PU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-calendar-widge
+ t.jar
+SHA-256-Digest: h0A6nx/y+Rh9ZQZLlk+yC79qHhFui/Lx0lrwrU0AsYI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-reactnativ
+ econtainer-widget.jar
+SHA-256-Digest: 9SnwPG8F8O2dJNhI82FZqeMSMCvhHw5ZaTKEzxS5yFc=
+
+Name: luaandroid/extlibs/armeabi-v7a/libc++_shared.so
+SHA-256-Digest: 3OWrivbskpUXpmH6XgqIPZ5LeoRK4QybLOnKEZEbqr8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-datastor
+ e-apis.jar
+SHA-256-Digest: nbFtfYn1TQ7hSFdFhRNICMDOSSx8J9SeEn6SjqYyw0g=
+
+Name: luaandroid/extres/pngConversion.py
+SHA-256-Digest: t5vpCa2Ki1I2pF7qthLEV1vkx5xFeZepjZ0MGV7espw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-segment-widget.jar
+SHA-256-Digest: YhxikZd1E9R3MFHbPpzT6r1HcqsXepaVPCWtLQPn04E=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-os-apis.
+ jar
+SHA-256-Digest: nakslUkRxpi/1yTa3M0lIePihcZDXKnBmlA4FovYiVA=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/konywidgets.jar
+SHA-256-Digest: Qu23BOxXLSYbTOCpKq5+y379gcmV7bUmGFKn9g79cY4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-mlcamera-widget.
+ jar
+SHA-256-Digest: MfiHFvD6dI2MCke/HmtxvKCo3zeWr+KefKnX2TVJdPg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-browser-
+ widget.jar
+SHA-256-Digest: PUGkLGvoHAEqlfQyoJGj+ag46qOolCFnoltyiMV2K1A=
+
+Name: luaandroid/extlibs/vulkan/x86_64/libvulkan_wrapper.so
+SHA-256-Digest: 9ExGBSqBpyBZ2moDr1R5i9CSVPOwhWkgWFwpKjKtBRk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-seekbar-widget.j
+ ar
+SHA-256-Digest: HFt8FeKusrX9kbl/Ag5beflLM95zCGJ+A8JwDjgUix8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-video-widget
+ .jar
+SHA-256-Digest: a1C+Ejl7Zh2wQT5vcF7Mgj5RNPuk3wbdDV+0el/dB6o=
+
+Name: luaandroid/extres/commons-lang-2.6.jar
+SHA-256-Digest: glkhwKslxtQnzvGqYy3NHHi8/nLb8bRyFa3/5eMOfOM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-listbox-widg
+ et.jar
+SHA-256-Digest: OBTl/Ty49LSK8Ea2Xw/bnXMHn3Dl/PzT4hplFptQJMA=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-hybrid-apis.
+ jar
+SHA-256-Digest: gPI1adl4A9ahsn5/V2kYrqqHsPbUPIWr+bfE3WE7Sog=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-gms-apis.jar
+SHA-256-Digest: Q1nCiMsGHwtxwHsoXLSV/phVGHi8G78kYCAr4wIpz7U=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-seekbar-widget
+ .jar
+SHA-256-Digest: Eens4ou7T5rA69Ny1C4Dq6YULt31htQRSNeH4ATITcw=
+
+Name: luaandroid/extres/autodownload/local.properties
+SHA-256-Digest: p7utRR037pY8L9fwmzmUAws5GXwyabuehPZtrIwKfsU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-line-wid
+ get.jar
+SHA-256-Digest: HrKJAur5qWorrO90mtLhqxHFw7Y7sPZmWtwslw0RlMQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-wearable-apis.ja
+ r
+SHA-256-Digest: y26FAVz5h4D3CHAym3Yp6Pa9mKNBBlSU+e6rTJeBNWQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-gms-apis
+ .jar
+SHA-256-Digest: Hr6Rc8HnhYYuydI0oktj3R2kpS/AlPfBloX2qJOZASk=
+
+Name: luaandroid/extres/automationInvoker.js
+SHA-256-Digest: XI4EX9RdL8MtRKgPrfb2nFuYkHBTSkB893kgWDnk9kw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-segment-widget.j
+ ar
+SHA-256-Digest: Dw/a/fTcyCco8v3mUou+u84cnDkhT2qHDgoAcOC6awI=
+
+Name: luaandroid/extres/voltmxVideoWidget.js
+SHA-256-Digest: RgJPyTSAjWfX5S/YBEd9SkKGxRgT+QlfIaI/7KmxrRk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-richtext-widget.ja
+ r
+SHA-256-Digest: z43Rzrcz9mOs1UwDaW7AyhddfKr+x+/t+xO3lxnCtmE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-push-notificat
+ ions-apis.jar
+SHA-256-Digest: Mm8AfFmms1Mo8Zg12pH461T4OvadUnM8h+kMrX28ki8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-segment-widget
+ .jar
+SHA-256-Digest: WdX1tas7dTfbsI+4Z1GCC3khzK8Bj4P3oItPltSL2Fc=
+
+Name: luaandroid/extres/autodownload/gradlew
+SHA-256-Digest: Pppv0v9bAXRy1ZqQltKyUmik6PgFwkz6uaKR0uZigEI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-calendar-widget.ja
+ r
+SHA-256-Digest: 8W75EeclkrHnp4A6ffJWq2FVsxCk0t258OiOEcPw9ZQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-reactnat
+ ivecontainer-widget.jar
+SHA-256-Digest: XhjuDecT1JFjttXuRVIpiAFmK3UOJBAA08x8yBBYAao=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-richtext-widge
+ t.jar
+SHA-256-Digest: 5iHZM589a5pTrbJF1HHwx05X5onYhZAa7hIVJGwoENI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-bottomsh
+ eet-widget.jar
+SHA-256-Digest: wJsU2GtzpAx/RRvsEKKEcYajKBJ1txBSRSXr9lT4zQg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-reactnativ
+ econtainer-apis.jar
+SHA-256-Digest: XIChv3nhOjie28CA4GPuc4rEixpbDZTmumVSCYm6L/w=
+
+Name: luaandroid/extres/testDefinitions.js
+SHA-256-Digest: hpVG/BSqs+oPnovl8YBX9zyxQd2HNqYRxGFgXou0SI4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-camera-wid
+ get.jar
+SHA-256-Digest: 1LJBx6C8KhaEYEpWbP2m8V/zCtYRelnWPwzNM6ijxpM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-map-apis.jar
+SHA-256-Digest: lpEBdbZ1rADhAngAZ3fZ3n1kdpIb6gVtGO0XVy9NYlY=
+
+Name: luaandroid/extres/kony_loadfile
+SHA-256-Digest: tppDWTP3lKJvCSY7w48uH+wGMzozo/vsORjL8V8tmDQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-camera-widget.jar
+SHA-256-Digest: NhYa6PhomOP2qJIdJNfcgD8f50yQ2qUoQzejDHqc/+Y=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-richtext-widget.
+ jar
+SHA-256-Digest: Hxg2P1gPIEYydBfdL4xoyvxRN2Xm5VjC2WoTB9+vkUQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-line-widge
+ t.jar
+SHA-256-Digest: TceRU2wLi4F5Z7LjSzQbVKLuN1l2IICsJo1SvY4GrGM=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-textbox-widg
+ et.jar
+SHA-256-Digest: 7xOsXVaHDEid8WnAuMwbv087a/sE3CUF1mPQnHdH0aQ=
+
+Name: luaandroid/extres/autodownload/build.gradle
+SHA-256-Digest: cWV+gyN9sNvSWxYlYCX+PgTSKaqmygMuika9lRYudG8=
+
+Name: luaandroid/extres/OrderedZip.jar
+SHA-256-Digest: Dxm5VyQkkr/jHj2u9bAKXCvGa9qDseqyVyWokBwmtK8=
+
+Name: luaandroid/extres/autodownload/src/main/AndroidManifest.xml
+SHA-256-Digest: Gdr14bKvcgpMD1nj2L+HqM4VBcOGXXj3rQfMWPgJjcU=
+
+Name: luaandroid/extres/require.js
+SHA-256-Digest: qjxxYKFu0vJMoTH5u2zYELCiERZmUOTQantvvvuI6N8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-textarea-widget.
+ jar
+SHA-256-Digest: N/ckM2r4nAv8+uH8D2qhD0nE/M/a09AJc0jFnksAuP0=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-cordovabrows
+ er-widget.jar
+SHA-256-Digest: lFVZUpcoxCElyfQDefAMElXqY5B0leRbVy1PhDqX0io=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-seekbar-widg
+ et.jar
+SHA-256-Digest: cktTdrA6R5wizgM5Vm7rLqBpduSkEO+RWpTFJEMWzvU=
+
+Name: luaandroid/extres/PrintApkSignatureHash.jar
+SHA-256-Digest: xike7XF+8mi7II+vQJHqDFB3karaJJEC4csQW1/EzAI=
+
+Name: luaandroid/extlibs/armeabi-v7a/libkonyjsvm_release.so
+SHA-256-Digest: OCtlr6+rVQd1PaF6tUvB6I0ZbKwVU4kA6ThBJ8BoTg4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/konywidgets.j
+ ar
+SHA-256-Digest: VinONcVagd+qSvHSBwRUijHkH+5Cxf6x1fp93ulKR3Y=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-map-apis.jar
+SHA-256-Digest: XUc98vsyXKiR+ckhZ7/KDYBfMRSMydjJPwrT6+0IaK8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-phone-apis
+ .jar
+SHA-256-Digest: V7GYnF4o9zU1Fs5E4hdlSjo+Yg/haltsFpm01RVrcyY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-database
+ -apis.jar
+SHA-256-Digest: 8bVXd043Iv5rMaLKVYrrEbKPohy8C9P/WHsrPflOPGg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-canvas-w
+ idget.jar
+SHA-256-Digest: 9bKNtRJHOYK8wmoniV1LybWnWNZD7o05U8HRsOngYFA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-os-apis.jar
+SHA-256-Digest: mgW6zmXjEhg/TKEBVmPPsGYeaxJVuOVxwSMwwrIhd+8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-os-apis.jar
+SHA-256-Digest: bIwjquzCFYHDuj7yPfPqNmHmymGWW3HXz4MK/n82lIk=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-location-a
+ pis.jar
+SHA-256-Digest: mUs9zjbO7gHj0OHOLgSFurV7HF69PZycT1w66UDU9wk=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-collectionvi
+ ew-widget.jar
+SHA-256-Digest: oNhucKgF5IaGc1XwF+JTvMEP+a5orKoa3/2eNOAB1mk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-map-widget.jar
+SHA-256-Digest: auRTed3syNvrYbAIU2DCPHvIIzQFktOwPI+Ghu/vfyQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-os-apis.jar
+SHA-256-Digest: qoTcOgbmj3xLpJd8J3l2keVfQEDT6PP/ppZAns7vzJI=
+
+Name: luaandroid/extlibs/arm64-v8a/libkonyjsvm_release_protected.so
+SHA-256-Digest: ULbxpN4EzEI+vStDJAyhuzOzfI7WDldwRHyVIIK5aoo=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-filters-
+ apis.jar
+SHA-256-Digest: Xul8WWFMSkzi7osuJrO8CqBVW6lIlKzlIKZajhE89+4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-contacts-api
+ s.jar
+SHA-256-Digest: rvz6qS3m4iSkGmkcrpKS3Y0QxjUzfrmg/TLWSPj9HtQ=
+
+Name: luaandroid/extlibs/arm64-v8a/libc++_shared.so
+SHA-256-Digest: kJdvhkb2zZOU4WcDX57ZoqnD5JFK3q4Au8Rxdrmo/bs=
+
+Name: luaandroid/extres/autodownload/gradle-wrappertemplate.properties
+SHA-256-Digest: 9FX6iSgSlToOcB+RQrRQG5ap/m4Ce8BN5UeD0iR7kB8=
+
+Name: luaandroid/extres/JSONKeyExtractor.jar
+SHA-256-Digest: Ezl5jE9ventz2vlJgW4x4eONYebYhptUM3Mw3qy3M64=
+
+Name: luaandroid/extlibs/arm64-v8a/libkonyjsvm_release.so
+SHA-256-Digest: io8nvj7KBBOu7uZIpnBvI3iT02yD0IlaN7k4lCwkNQo=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-phone-apis.jar
+SHA-256-Digest: SBoWaaBJlxPH9iXA6cgv5uXIXRBXU+lgjjRNtv6alD4=
+
+Name: luaandroid/extres/aab_to_apk_conversion.xml
+SHA-256-Digest: wEjYRpmZHI6VCf2DAssLm0rd8qfaHUGXbRiaeskHdcs=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-push-notifications
+ -apis.jar
+SHA-256-Digest: DM/17kotMpTSoFNtD3GCWtXQwzDUOX2mbSy3v1sqK4U=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-nativecont
+ ainer-widget.jar
+SHA-256-Digest: Q/5xrwBjIOwlRrHvy75nRlgVE/qYOmLusUMgBnEWxI0=
+
+Name: luaandroid/extres/fileproviderattr.xml
+SHA-256-Digest: jBtIxCxFZu9Xj9Vw9dXYLQoZL0DMSH/PXXdtiHPfbs4=
+
+Name: luaandroid/extres/nativeplatform.js
+SHA-256-Digest: bPM/fmqWDdF3z8ukMw2Orp/qVG2kexrb9uxbcRvJZyY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-canvas-widge
+ t.jar
+SHA-256-Digest: nRkttWP8u1DukiHjz5ZIk8VrIm6J7Gtv/DNJCsJTqs0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-calendar-widget.
+ jar
+SHA-256-Digest: o1zxxAP+hXvvJmxRmE6SAwCtERNxiX8zTmEFl8sIm8c=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-tab-widget
+ .jar
+SHA-256-Digest: NLZaoqS0+9guR0HNF7+eZey58r0SyxwNE6AK3g3PTZk=
+
+Name: luaandroid/extlibs/SQLCIPHER_FIPS/libs/arm64-v8a/libsqlcipher.so
+SHA-256-Digest: eMY/ev1/QP3KjvwTVSPLHXBQ5j4Ots/cMQrjo+QhqW4=
+
+Name: luaandroid/extlibs/CryptoLib/armeabi-v7a/libcrypto_3_0_2.so
+SHA-256-Digest: PSLgrIdkF3KctLui4x/SFmApCXOMDh4qbSPmanSd9qg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-video-widget.jar
+SHA-256-Digest: IgCup4J5CBEnKtDT9bHONhFPFjslYa+rB18wKV3Fha4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-contacts
+ -apis.jar
+SHA-256-Digest: /sFu2IEDJdZsYtToEjd3fFecyr42Ydslz0zqCTv3xSk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-radiogroup-wid
+ get.jar
+SHA-256-Digest: kY7LJRcEWj757HQS1A5A+eqj37/DMDdQ4KJMlTgEIxU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-filters-ap
+ is.jar
+SHA-256-Digest: VNmtc3MLEogVTav5iHMAxoA3wLCxgLkC0iHlvrRynZY=
+
+Name: luaandroid/extlibs/vulkan/arm64-v8a/libvulkan_wrapper.so
+SHA-256-Digest: 7c6F/rv/QhmK7kprarDxBgE9inN9k6UG3J82RJX4aI4=
+
+Name: com/pat/android/Activator.class
+SHA-256-Digest: WLxulJrL0o9Spxrltj7qtlA+DGnVVAuMsdccAKoQirQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-crypto-api
+ s.jar
+SHA-256-Digest: 2AScQODuWZ6Uezs4Hxpa50LEwAgf1FmKQ6iWJZbbuOc=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-contacts-apis.jar
+SHA-256-Digest: IQEZR5AmKvx2uwzm4w4Fxe6OHuD/lzO0lCeuWuXAt4s=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-segment-wi
+ dget.jar
+SHA-256-Digest: B7dIBR5YprdxCeXVLjDT5isuo/ALqE9gSBdDZx5GF8U=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-collectionview-w
+ idget.jar
+SHA-256-Digest: Xv+lBYxCp5a2Ez/ts3X5agRLAUiIUEgsO40Al+3WSIM=
+
+Name: luaandroid/extlibs/CryptoWrapper/armeabi-v7a/libcrypto_wrapper.so
+SHA-256-Digest: zrCR5rO4fyzgMZarbK+meaDmIJhG+hI6ZdlxpAXm+fI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-toast-widget.j
+ ar
+SHA-256-Digest: ewKnfnlbY+LVs8ZH31a1/SeeLYZcxq/8HEib/shCgHg=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-video-widg
+ et.jar
+SHA-256-Digest: 6j43S9EHqQcfU6BayMhKiYTfIh2ve/nW4oiTfdRFHb8=
+
+Name: luaandroid/extlibs/x86/libkonyjsvm_release_protected.so
+SHA-256-Digest: 5LCI0cctESJpW8tWHT2DriqoJ+x3o9AFyd5xUH3NWXA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-map-apis.jar
+SHA-256-Digest: 5sREJhxsuvOWpsPbG3+tZndBfmhTX2YOBafTb+jyBRg=
+
+Name: luaandroid/extlibs/java_websocket.jar
+SHA-256-Digest: nuJEgCUN48PT0wdet8Ch9mmDp/d7Oqm2twL24j7us48=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-filters-apis.jar
+SHA-256-Digest: OeOqm1KWqnDgN83sLaYbnB60AqpTPo0c6/u4MVdFCoE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-hybrid-apis.jar
+SHA-256-Digest: xjjqX7OXjzQ8crlXeXdkZhl2uHatQ0nlTpXOZp7kuvU=
+
+Name: luaandroid/extres/ConvertStringToLowerCase.jar
+SHA-256-Digest: JaTcwIGTF5dYHrqdvUwDzmD57ufZKEEpD6y20UP+w7U=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-store-apis.jar
+SHA-256-Digest: d4ABHmy9nZraurzyszNCyGB4PavwtnZNd2i2FJKZwqk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-cordovabrowser-w
+ idget.jar
+SHA-256-Digest: oHR12OSwENQFjmy1Wil+cXlzznNKmAAx46VMSkNUCcY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-switch-wid
+ get.jar
+SHA-256-Digest: u1yMC8+jV/8nMtCaXy3tCBrErhK9EVk7ay6C6g6NShY=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-phone-apis.jar
+SHA-256-Digest: gFfSINAG7Y1/OBPFyDRazsHnpT6+NFPoWADrdiFHWO0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-canvas-widget.ja
+ r
+SHA-256-Digest: VFlpWgEd7qtTDujeaj2Np9s1cMZAOkawrZ9nYSK9Hpo=
+
+Name: luaandroid/extlibs/CryptoWrapper/arm64-v8a/libcrypto_wrapper.so
+SHA-256-Digest: wcMxa2UqpLVJMwxIpl4bezBtHX9ma0rkO2g8zwI+1p4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-datagrid-widget.
+ jar
+SHA-256-Digest: e3jIrxZvTkblQiGbNf4mG7rv+OTu1CCGdD4/yGAzdAM=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-camera-widget.
+ jar
+SHA-256-Digest: +rNTfoUTDPDxcTz8UpJtjpdm3YqxJg2klhJVqJgDSl4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-label-widget.jar
+SHA-256-Digest: ScrD7x7xGWd3oHpaepWXPENO0L5GBV9hUOjXHdcNEm8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-textarea-widge
+ t.jar
+SHA-256-Digest: wStZYnm5cYHMw5qDK8/KVa7sv5/SIxN59PpPNkVMeUE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-line-widget.jar
+SHA-256-Digest: k29HUumqUcxPAJuXhwEPhL0ksPcR/HvV8v230dXyPGc=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-media-apis.j
+ ar
+SHA-256-Digest: C2xFqzbMLsX8hXoPEdfVf/7DOUjDc99J60E81T97rB0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-textbox-widget.j
+ ar
+SHA-256-Digest: Hvmshf6R1ACNqm5UOY053/4hB64vfS1thmLtUO8zqdw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-database-a
+ pis.jar
+SHA-256-Digest: pF4/cdyf6I1pWeAqo+CNiEckpsmpNz+m6nEsiniHrXk=
+
+Name: luaandroid/extres/stringconstants.xml
+SHA-256-Digest: Pj8sZi7WAw4IfLjG5MRWOyu74XI2lHufE8HXt1MRRCo=
+
+Name: luaandroid/extlibs/CryptoLib/armeabi-v7a/fips.so
+SHA-256-Digest: JbrOxYvRBMce7yIE632F7Ml5hyvgTogLLXCE7ixzh/0=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-pickerview-widget.
+ jar
+SHA-256-Digest: uBuPyjL84N9mNbGCOPHTamI8idjq+TyFnSEg1RGfFCc=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-gms-apis.jar
+SHA-256-Digest: TWi33P3hWJNxcewNt8yi5HzFgeCIQbBBc+PwPugxBb8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-media-apis.jar
+SHA-256-Digest: n0D7RpWDmB1C1YPtulQe7ORcSNOfSRMSqgXg0aSeWIs=
+
+Name: luaandroid/extlibs/x86_64/libc++_shared.so
+SHA-256-Digest: pJ1mgDvi3zJnl80XTnMAInvMdpAmzsNkPVIN/Zgp+js=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-bottomsheet-widg
+ et.jar
+SHA-256-Digest: s+82DkF+uhAlwxB5XbYQoe1tIfnMDkzodSzwrsLutys=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-toast-widg
+ et.jar
+SHA-256-Digest: LS0d2IvgzwwpeAPAUHuibzOzDDxznuAhGTruwaWTtSU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/OptionalJars/kony
+ -battery-optimization-apis.jar
+SHA-256-Digest: jB3q8GyFHx2HIWiHKsk9m6Xa4SAYyGzP9ElVIVrUEUo=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-reactnativecontain
+ er-apis.jar
+SHA-256-Digest: iISdslh54URvdobJG7QI6M8zSCrQgskQMOy08o0xrbs=
+
+Name: luaandroid/extlibs/x86/libkonyjsvm_debug.so
+SHA-256-Digest: 63W//JnVb/8avYIkswvGHwduSA2cZtoBiAepbWi6vf0=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-location-api
+ s.jar
+SHA-256-Digest: XOrcjqQqPQ/+H7m2vFmrv0fUJZ2184tMvfpmaEbZbCQ=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-forcetouch
+ -apis.jar
+SHA-256-Digest: DWgoudCrnULTbZaIYy0bkVYqvkvFdpo35KWAH7x4DOk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-line-widget.jar
+SHA-256-Digest: CWhV3qyrdzIq2AHl9xkogyQNm4OYhJofYsTVv/84Cuw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-checkboxgroup-wi
+ dget.jar
+SHA-256-Digest: Hwjn46LtM6n4kbh+A6CFBH91byoDsRuyq5M9KAl5RLk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-wearable-apis.
+ jar
+SHA-256-Digest: UQ4ZfnZVGzaZ7HXBAYPx+zWArXByofwcq1oUXWzdQuQ=
+
+Name: luaandroid/extres/yuicompressor-2.4.6.jar
+SHA-256-Digest: a6lgF7v4ZdoBq5IgOPe2HvmnUlvCx52eX3WRPgYHdXI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-crypto-apis.jar
+SHA-256-Digest: 2lfbB+8uWANYC7Ow6P2re7pKsNsvS+C3v9P+Zw5QUjE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/konywidgets.jar
+SHA-256-Digest: uzs0rKn0gWgsiPLbeJoJio8jWdrrJc1TVnffyp4ymm4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-radiogroup
+ -widget.jar
+SHA-256-Digest: yOUFBC41EcnE4ke723gb98MdtY/7hm7lyxfqbyaIIhY=
+
+Name: luaandroid/extres/mapv2.xml
+SHA-256-Digest: wDTVpUAOKu+ofeDa5G6J/phLTO4V2CvyhzbhP5pyrCc=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-pickerview-wid
+ get.jar
+SHA-256-Digest: QuB2kBwKHz0OyE8OqgNJ55mX1Yv5s7JwWxumqegLTmw=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-payment-apis.j
+ ar
+SHA-256-Digest: VDThN709S7Ih5hBZsCfN13vZmW7uQbEny4rMZ9ewRK8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-toast-widget.jar
+SHA-256-Digest: H6zItXhB/3AB+1jd95SynhK8fA4NRQOwUTCus2CdXoc=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-datagrid
+ -widget.jar
+SHA-256-Digest: CaPYxIHU6r59uVqvysZl0Ush6GT976rRXMSSVdsZn1k=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-media-apis
+ .jar
+SHA-256-Digest: 9I6HcGhUXS+2Z15UzfoxcR/Pd3Blr1pTefX0tRwEai4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-gms-apis.jar
+SHA-256-Digest: DIOrKG2pY6pyNGdlRpl0Wf80xPmF5f7xBAx3w88ENWc=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-filters-apis
+ .jar
+SHA-256-Digest: SnhPmmqlHoyGWqKtkd9qaJkRzVvaDqFiBzlWI5nmoW8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-radiogroup-widget.
+ jar
+SHA-256-Digest: oUVtQznwdzQRWOyyDBoSY6IbHaDzB2iVxzwlc8I2TJA=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-ml-ImageCl
+ assifier-apis.jar
+SHA-256-Digest: plNe/099bDZYrjm0NYp11BmskKsDTu7SB2SJ2Re6j74=
+
+Name: luaandroid/extres/jasmineCucumber.js
+SHA-256-Digest: jFew5iFvxD50y7bY0ruOqQkjDgf5YYAyo02KtM6bKXk=
+
+Name: luaandroid/extres/autodownload/gradle/wrapper/gradle-wrapper.prope
+ rties
+SHA-256-Digest: lYhFdHikkSweG5Nym7pIhxfdeZB8SjPqPybvJiPSAJs=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-forcetouch-api
+ s.jar
+SHA-256-Digest: fSeUkFV5iVqHJG7tN59Kt4EHccXhl3gTrk2UJlk7JNk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-database-apis.ja
+ r
+SHA-256-Digest: Ku40+mgy2UThPbRjs02gSh+oN8Mn/P4+80pR/PWUQmk=
+
+Name: luaandroid/extlibs/CryptoLib/x86/fips.so
+SHA-256-Digest: KVWuWtr4gX4Iy1CMjTWBzYJfkLTI3cXVfm0hjMKidT0=
+
+Name: luaandroid/extlibs/vulkan/x86/libvulkan_wrapper.so
+SHA-256-Digest: rPnOYCBsbCQGoxF2CxJ37rp79M9HFaaXW8YVzuSPges=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-wearable-a
+ pis.jar
+SHA-256-Digest: 7y591U1qwWaKbvWqZgrAgYugqDIOpAH4lSIggyEPb50=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-ml-ImageClassi
+ fier-apis.jar
+SHA-256-Digest: 7cNJU+Sq1/k1w8XktF3Kj2hkl9bCEvKsnDIt/JPX7ms=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-button-w
+ idget.jar
+SHA-256-Digest: FCDGlhZvxMHiBityM7fp54OzQHmJGlgoU0vmqOSTMVU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-map-apis.j
+ ar
+SHA-256-Digest: y2JiQjLLJPzSnSTYZd0bT61gwGIoBNHbdilCCZOIr7Q=
+
+Name: luaandroid/extlibs/x86/libc++_shared.so
+SHA-256-Digest: rII+GQLj+/Uvcwgz48bpESRQ4MRShDhf4qopIHQrGtg=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-listbox-widget.j
+ ar
+SHA-256-Digest: hIGmqkabE2zjJ555SHu3cEkeE7LqKGUxd0uEKNj3HU4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-reactnativec
+ ontainer-widget.jar
+SHA-256-Digest: 0bulaJ+z7rjOoJVqglUIzwutYZy6DnsWDSNxLh04pP8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-tab-widget.jar
+SHA-256-Digest: DCUZ06HHk6Q9OtC3ONNUjsNuiSOgDBiLwIUwjtFGmRE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-payment-apis.jar
+SHA-256-Digest: BJ0Dtyim8kuisN2Ub9cBp7ODwghs5zjugT2xvQrt3mU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-toast-widget.jar
+SHA-256-Digest: RzegxrU759Iqcf2gtzY/ira4WeqPxtAe5163jGHcCTY=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-hybrid-apis.ja
+ r
+SHA-256-Digest: /S/KLN3jV27S4sbTa1hcEHbjC0HZSM3+pqkxciYhyN8=
+
+Name: luaandroid/extlibs/x86_64/libkonyjsvm_debug.so
+SHA-256-Digest: R2nxgriIn05hu5NtsCz7SSrshDId4r0ESMNRyqkaKTY=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-os-apis.jar
+SHA-256-Digest: CJdtBfRllheT56dydfCXwO+3xuvQUomHRMavcTQuzxU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-keychain
+ -apis.jar
+SHA-256-Digest: aUhS2RE+xzzR4rg+alP65mF80Fwh3fGId/vesxKMos8=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-listbox-wi
+ dget.jar
+SHA-256-Digest: UejF59pQ1EH/KQwL/qC4I3ORHxtp5MNzJ2QwfT1E/HU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-nativecontaine
+ r-widget.jar
+SHA-256-Digest: W9iqHhZPLjmwiVabiPvAVbuhbbZRNKWLvOpz01alhqQ=
+
+Name: luaandroid/extlibs/x86/libkonyjsvm_release.so
+SHA-256-Digest: UXMuTZQ08be6/1lCtk9Nek/rvPZ44/JoMoPOfZwDP28=
+
+Name: luaandroid/extres/XMLMerger.jar
+SHA-256-Digest: 9qJQHta8+r2U4sOEX52+O/w2vaYrLp/umdd2tnQwbe4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-map-widget.jar
+SHA-256-Digest: qMMfpFTJJHEaRM6PBrk7kBX0nFhtNl2AYhf2FAyexUU=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-phone-apis.jar
+SHA-256-Digest: 2gi82hQnNbi/DK21DagMO0aOY3aU2ihU+5VzcfLH78U=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-segment-widg
+ et.jar
+SHA-256-Digest: rj3WRkbf75MI1IWyDVYUXCMmWx2QufI2eTRULNgqSV4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-datastore-
+ apis.jar
+SHA-256-Digest: BJZW9IGm251V7ZbbZ3ig5ICBU/knyZ86yoqdKxLeryA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-browser-widget.jar
+SHA-256-Digest: JDP4mQ7jzVZLTPtJ635JVNZExo+Bpb32Yfw8AZF1bmA=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-localAuthentic
+ ation-apis.jar
+SHA-256-Digest: PxCizWT8vjDqV5lse1iriq0yomLJbkDU1PnXxABFNEc=
+
+Name: luaandroid/fpreview.xml
+SHA-256-Digest: rLfrbHtWg35hu+HdnCnHKBkv5/PsQwU+ICUXQSgbf7I=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-database-api
+ s.jar
+SHA-256-Digest: +gpKaNWLpxOUkmfUQ28tXEWyIzzcyCBBN5L8PDfebM4=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-datagrid-widget.ja
+ r
+SHA-256-Digest: 1H0ouurxdfsFqig+snblV8E4fkDO+ZmYWxtDGBPkmL0=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-cordovabro
+ wser-widget.jar
+SHA-256-Digest: KrCSPh6V3UOGUUYNZF3kad4oHXT5cj3ENZHzLVj7rLE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-nativecontainer-
+ widget.jar
+SHA-256-Digest: Nul9P9YeNR/kzn2Jt1NfY/iI2a9B8ZvTr7tS9VSYjGE=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-location-apis.
+ jar
+SHA-256-Digest: sBqly5Aluoo9ncFvBPpnTGplnN/nzOyJvTuKiwYqNYI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-payment-
+ apis.jar
+SHA-256-Digest: OZZLOb09D8FGX5laAf+UTedO+4gAQoRtXQlk4faPkmg=
+
+Name: luaandroid/extlibs/Crittercism/libs/konycrittercism.jar
+SHA-256-Digest: /fj5bkivpFKyJajOnXzbY6dX+KnNZo4bPrdFY3qrHBs=
+
+Name: luaandroid/9.5.47.v202501172018.txt
+SHA-256-Digest: uMgpouBXVk8s6Cb9hbO/lvxbkHDou4//vK6bUlqw/aw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-label-wi
+ dget.jar
+SHA-256-Digest: crlvsWwG4TnMtmI8tqWWCx9jVPEA8cepD/IYsT3QemI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-toast-wi
+ dget.jar
+SHA-256-Digest: SNwOcs+7x6pKspiDgXT2qVjjtMnyVsQgO7Cy+EwxOKQ=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-mlcamera-widget.ja
+ r
+SHA-256-Digest: N+8GfU3oRdgJEb4NzYrb856UajAyI+Q1i/sHajWJNk4=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-richtext
+ -widget.jar
+SHA-256-Digest: jrERFHYFninE/1zsb/99u67Npk++V0QdjVfSD3OSdhA=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-wearable-api
+ s.jar
+SHA-256-Digest: BmsXu4Z0rKbwChSXIX5wDFge5XcvNGTveMsEkDGClgQ=
+
+Name: luaandroid/extlibs/bcprov-jdk15to18-1.78.jar
+SHA-256-Digest: eDGEPoFgk5y40dGlY70OflzC93zhxXJXxGy7yYaulnw=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-store-ap
+ is.jar
+SHA-256-Digest: My5ttIzE5UlDTYCsrABdYJzctMjtan8dHywqqhSZDWA=
+
+Name: luaandroid/extlibs/SQLCIPHER_FIPS/libs/sqlcipher.jar
+SHA-256-Digest: 6sVwGkgHGxYqgYj+GtEeG5jWIV+G82g6nFboT5b4xeI=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/protected/kony-crypto-apis.ja
+ r
+SHA-256-Digest: yecEqVbEv4v6cgV/Z/qpAd3VPXAYmP03zB3TN2LJNdI=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-ml-Image
+ Classifier-apis.jar
+SHA-256-Digest: Ln437il0Jbl9A7lI959bUzeWLJQSLUNmH9PEhK8gfgU=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-contacts-a
+ pis.jar
+SHA-256-Digest: Njcg7iZX1qDqzA5QCgYYV9VXejYOg6+Jg6Fud3tCX3Q=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/debug/kony-camera-widge
+ t.jar
+SHA-256-Digest: vA9qQbPuF4D76E7cTsMbTnT2jmuA/59x01bTt+5p2vs=
+
+Name: luaandroid/extres/autodownload/gradle/wrapper/gradle-wrapper.jar
+SHA-256-Digest: ORp/Fy1TteqSSfqrQ98temZKHi/wcCB4WEwvQvSftIM=
+
+Name: luaandroid/extlibs/CryptoLib/arm64-v8a/libcrypto_3_0_2.so
+SHA-256-Digest: +mYFYPcMtn7Z8g7RdiLErl6n8So850+tinbnLDWueeY=
+
+Name: luaandroid/extlibs/commons-lang3-node-java.jar
+SHA-256-Digest: ZeDk013EiqrI7SsgZIvkHqdm07e4LPrfHAAPpAZbgQo=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/protected/kony-switch-w
+ idget.jar
+SHA-256-Digest: 9NQgMnDigkcUBtvNeMgOB3Hlpe6bt9sflw8Cn5LoT2c=
+
+Name: luaandroid/extlibs/KonyFrameworkStrictJars/release/kony-collection
+ view-widget.jar
+SHA-256-Digest: 1AeIYgrnPmo09NZE0/51zSn2PULAJNBT3xzjfGbGnvw=
+
+Name: luaandroid/platform.properties
+SHA-256-Digest: /c4oFw9AmgCFwophzF+A1ojQ4TGaM5N/pQWre4gqLq8=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/debug/kony-switch-widget.jar
+SHA-256-Digest: zzvOt0R5Zw0zQJM1wCqxmxGeeb30N9skg0z0ZinAuZY=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-location-apis.ja
+ r
+SHA-256-Digest: dLqaY8YRE/wFJQ6q8qAmDzSFXFxjVYBJ7+nIHORJUmk=
+
+Name: luaandroid/extlibs/KonyFrameworkJars/release/kony-reactnativeconta
+ iner-widget.jar
+SHA-256-Digest: 4AmLM+v1V0HxxM1s/xnZbHi7on+zEVeXdvWfYyzJ+FY=
+

@@ -1,0 +1,127 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblLines": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1. Select pickup and drop-off locations",
+                "type": "Label"
+            }
+        },
+        {
+            "lblLines": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 2. Get instant price calculation ",
+                "type": "Label"
+            }
+        },
+        {
+            "lblLines": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3. Confirm and book your service",
+                "type": "Label"
+            }
+        },
+        {
+            "lblLines": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 4.Our team will coordinate and update you every step of the way",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segHowItWorksLines",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e91cd46e8dc24b889b3f8a1420b4422d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxTextHowItWorksContainer",
+    "pf": "frmRoadSideAssistance",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d374e9d625c4474cb80cb5d2162c60da",
+    "rowcounter": 3,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s632bdf342584891a8a44b8aa34b8461",
+    "rowtemplate": "segRowHowItWorks",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblLines": "lblLines",
+        "segRowHowItWorks": "segRowHowItWorks"
+    }
+}

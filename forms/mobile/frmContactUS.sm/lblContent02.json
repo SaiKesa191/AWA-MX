@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s552b57637a6489d8a63d96603d8219f",
+    "_text_": "We usually reply within 1 business day",
+    "_width_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblContent02",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af6557e2ce4d45a6a650857120ed24f1",
+    "name": "kony.ui.Label",
+    "parent": "flxContent02",
+    "pf": "frmContactUS",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "We usually reply within 1 business day",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

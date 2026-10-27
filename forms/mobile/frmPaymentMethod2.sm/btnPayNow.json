@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf1f94f3242a41b2b3e0fc1a3491d80d",
+    "_text_": "Pay Now",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa87b3f55ce0476ea4dbfd006e2cf0b6",
+    "id": "btnPayNow",
+    "ide_onClick": "AS_Button_cd320c2a40574715bd6778f5cb988e1a",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "be9bb516866d4fc4bf110ec378228644",
+    "name": "kony.ui.Button",
+    "parent": "CopyflxBodyInputs0c4c418ffeeff48",
+    "pf": "frmPaymentMethod2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

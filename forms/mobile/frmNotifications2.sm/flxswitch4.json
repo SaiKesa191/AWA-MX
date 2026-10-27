@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "42%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "78%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf459c20f3a54cbd9576e1bb8a064747",
+    "_width_": {
+        "type": "string",
+        "value": "14.50%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxcircle4",
+        "lblNotification4"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxswitch4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "iaa8d225dda640a5a2fc8136525f59b5",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flx04",
+    "pf": "frmNotifications2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

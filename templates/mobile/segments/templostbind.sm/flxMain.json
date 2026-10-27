@@ -1,0 +1,73 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sca51c8884664fdb8297de5ee7390e24",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flximage",
+        "lblmodelnamecar",
+        "lbllot",
+        "lblLotValue",
+        "lbltotalbidsize",
+        "lblTotalBidValue",
+        "lblLocation",
+        "lbllocationname",
+        "flxline",
+        "lblyourbid",
+        "lblBidPrice",
+        "lblmanymore",
+        "btnGoToAuction",
+        "Image0f64cf40eed744e"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxMain",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7ef0f01e2e347ad8f82ae79cf991e87",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxlostbid",
+    "pf": "templostbind",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

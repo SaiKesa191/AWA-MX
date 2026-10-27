@@ -1,0 +1,35 @@
+{
+    "AS_Button_j29cd5fd5c6f4403807e1c16fda2a57b": {
+        "id": "AS_Button_j29cd5fd5c6f4403807e1c16fda2a57b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "fd4cd255883c43dca34eb66ba2ca0470",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_d3302b915f8a4674a309807e964c85ed",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationid": "1060",
+                "operationname": "SendOtp",
+                "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                "servicename": "Al_Wataneya_Custom_Services",
+                "type": "integration"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "18%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfde9e414ed741e085ca7f877caaa43c",
+    "_text_": "Upload receipt",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "s68d6773fe7c49edb31ad0c9be4a541e"
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s68d6773fe7c49edb31ad0c9be4a541e",
+    "id": "btnUploadReceipt",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da5b0d25cb2941bcb0e728e26be1be4f",
+    "name": "kony.ui.Button",
+    "parent": "flxdetailsForm",
+    "pf": "frmBankTransferorDeposit",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

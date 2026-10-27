@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0480256fd074ab493a9aa9e94487644",
+    "_text_": "Add Delivery Address",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s57f14e4683c4a4f9ae36b08170871d9",
+    "id": "btnAddDeliveryAddress",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j753a8b5df0346ac9f0dba0105e61437",
+    "name": "kony.ui.Button",
+    "parent": "flxDeliveryAddress",
+    "pf": "frmRequestRoadSideAssistance",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Add Delivery Address",
+    "wType": "Button"
+}

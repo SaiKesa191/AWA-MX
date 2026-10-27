@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_ec2f85b344d146d086655fb7ee1850a8": {
+        "id": "AS_FlexContainer_ec2f85b344d146d086655fb7ee1850a8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmProfile",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e32a0f12f0ff427ba4d0db0d69edf22b"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_j4f7cd7145b74abd90cc36a1cb5dfa0b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new voltmx.mvc.Navigation(\"frmOpenAuctions\");\nx.navigate();"
+        }]
+    }
+}

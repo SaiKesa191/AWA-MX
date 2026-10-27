@@ -1,0 +1,110 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s370a955cd2d4e88a19f781127549a46",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {},
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "chxbxBasicInspection",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 3
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "itemorientation": "vertical",
+    "kuid": "fb8827d7e8a844c2b1a986a4be4fc404",
+    "masterdata": [
+        [
+            "cbg1",
+            "  Oil & filter change"
+        ],
+        [
+            "cbg2",
+            "  Fluid level checks & top-ups (brake, coolant, windshield washer)"
+        ],
+        [
+            "cbg3",
+            "  Brake inspection"
+        ],
+        [
+            "cbg4",
+            "  Battery test"
+        ],
+        [
+            "cbg5",
+            "  Tyre pressure check & adjustment"
+        ],
+        [
+            "cbg6",
+            "  Basic engine diagnostics"
+        ],
+        [
+            "cbg7",
+            "  Visual inspection of belts & hoses"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "vertical",
+    "parent": "flxCheck",
+    "pf": "frmMaintenanceAndRepairs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [
+        "cbg2"
+    ],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        [
+            "cbg2",
+            "  Fluid level checks & top-ups (brake, coolant, windshield washer)"
+        ]
+    ],
+    "size": 18,
+    "tickedimage": "",
+    "untickedimage": "",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "winphone8": {}
+}

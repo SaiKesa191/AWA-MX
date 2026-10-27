@@ -1,0 +1,27 @@
+{
+    "AS_Button_e38298b895aa47c58883228549727042": {
+        "id": "AS_Button_e38298b895aa47c58883228549727042",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "j48bdd3dc614492b9b41d6ef6b228be7"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a6c8b5cc777b48ba9cb762cbcaa2cec0",
+            "type": "INVOKE_FUNCTION",
+            "display": "pdfCheck",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

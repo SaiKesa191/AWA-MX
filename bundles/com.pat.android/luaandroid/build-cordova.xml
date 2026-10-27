@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="konywidgets" basedir="."  default="enter-cordova-build">
+
+	<property name="cordovatemp.dir" value="${project.loc}/cordovatemp"/>
+	<property name="cordovaprebuilt.dir" value="${project.loc}/cordovaprebuilt"/>
+	<!-- For Target 15, we are using java 17 for android build. Still java 17 is not supported for cordova build. So instead of using java 17 for cordova build we are using java 11.
+	Java 11 path should be specified in androidbuild.properties file using 'cordovaJavaHome' property and this should be docummented as part of Target 15 release. -->
+	<property name="java.dir" value="${installer.javahome}"/>
+	<property name="gradle.home" value=""/>
+
+	<target name="copy-web-cordova">
+		<if>
+			<available file="${project.loc}/web/cordova" type="dir" />
+			<then>
+				<if>
+				<available file="${cordovatemp.dir}" type="dir" />
+				<then>
+					<antcall target="delete-cordova-dir" />
+				</then>
+				</if>
+				<echo>Creating project cordova directory ${cordovatemp.dir} on windows OS</echo>
+				<mkdir dir="${cordovatemp.dir}"/>
+				<copydir src="${project.loc}/web/cordova"
+					dest="${cordovatemp.dir}" forceoverwrite="true"
+				/>
+				<replaceregexp file="${cordovatemp.dir}/config.xml" match='&lt;platform name="android"&gt;'
+    				replace='&lt;platform name="android"&gt;${line.separator}&lt;preference name="hostname" value="localhost" /&gt;${line.separator}&lt;preference name="scheme" value="https" /&gt;${line.separator}&lt;preference name="AndroidInsecureFileModeEnabled" value="true" /&gt;' byline="true"/>
+			</then>
+		</if>
+	</target>
+	<target name="copy-config-file">
+        <if>
+        	<available file="${cordovatemp.dir}/node_modules/cordova-android/framework/cdv-gradle-config-defaults.json" type="file" />
+	        <then>
+	        	<property name="isCordova10Above" value="true"/>
+	        	<copy file="${cordovatemp.dir}/node_modules/cordova-android/framework/cdv-gradle-config-defaults.json" todir="${app.dir}" />
+	        </then>
+	        <else>
+	        	<property name="isCordova10Above" value="false"/>
+	        </else>
+    	</if>
+    </target>		
+
+	<target name="check-and-add-package">
+		<echo> check and add package.json file </echo>
+		<if>
+			<not>
+				<available file="${cordovatemp.dir}/package.json" type="file" />
+			</not>
+			<then>
+				<xmlproperty file="${cordovatemp.dir}/config.xml" collapseAttributes="true"/>
+				<touch file="${cordovatemp.dir}/package.json" />
+				<echo file="${cordovatemp.dir}/package.json" append="false">{
+    "name": "${widget.id}",
+    "displayName": "${widget.name}",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0"
+}
+		</echo>
+			</then>
+		</if>
+	</target>
+
+	<target name="build-cordova">
+		<if>
+			<os family="windows" />
+			<then>
+				<echo>building cordova project ${cordovatemp.dir} on windows OS</echo>
+				<exec-shell dir="${cordovatemp.dir}" executable="cmd" failonerror="false" failifexecutionfails="false" >
+					<env key="JAVA_HOME" path="${java.dir}"/>
+					<env key="Path" path="${java.dir}/bin:${env.Path}"/>
+					<arg line='/c "${cordova-exec} platform add android --save"' />
+				</exec-shell>
+				<exec-shell dir="${cordovatemp.dir}" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<env key="JAVA_HOME" path="${java.dir}"/>
+					<env key="Path" path="${java.dir}/bin:${env.Path}"/>
+					<env key="Path" path="${gradle.home}/bin:${env.Path}"/>
+					<arg line='/c "${cordova-exec} build android"' />
+				</exec-shell>
+			</then>
+			<else>
+				<echo>building cordova project ${cordovatemp.dir} on non windows OS</echo>
+				<exec-shell dir="${cordovatemp.dir}" executable="cmd" failonerror="false" failifexecutionfails="false" >
+					<arg line='-c "export JAVA_HOME=${java.dir};export ANDROID_HOME=${andhome};export PATH=${java.dir}/bin:${PATH};${cordova-exec} platform add android --save"' />   
+				</exec-shell>
+				<exec-shell dir="${cordovatemp.dir}" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<arg line='-c "export JAVA_HOME=${java.dir};export ANDROID_HOME=${andhome};export PATH=${java.dir}/bin:${PATH};export PATH=${gradle.home}/bin:${PATH};${cordova-exec} build android"' />
+				</exec-shell>				
+			</else>			
+		</if>
+	</target>
+	
+	<target name="delete-cordova-icon-update-manifest">
+		<echo>Deleting the cordova icon from cordova assets</echo>
+		<delete>
+			<fileset dir="${cordovatemp.dir}/platforms/android/${res_path}" includes="**/${ApplicationId}_icon.png">
+				<filename regex="^drawable"/>
+			</fileset>
+		</delete>
+		<replace file="${cordovatemp.dir}/platforms/android/${manifest_path}" token="android.intent.category.LAUNCHER" value="android.intent.category.DEFAULT"/>
+		<replace file="${cordovatemp.dir}/platforms/android/${manifest_path}" token="android:icon=&quot;@drawable/${ApplicationId}_icon&quot;" value=""/>
+	</target>
+	
+	
+	
+	<target name="convert-cordova-appproject-to-libraryproject">
+	<replaceregexp file="${cordovatemp.dir}/platforms/android/${build_gradle_path}" match="^(apply plugin).*$" replace="apply plugin: 'android-library'" byline="true"/>
+	<replace file="${cordovatemp.dir}/platforms/android/${build_gradle_path}" token="applicationId" value="//applicationId"/>
+	<if>
+			<os family="windows" />
+			<then>
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<env key="JAVA_HOME" path="${java.dir}"/>
+					<env key="ANDROID_HOME" path="${andhome}"/>
+					<env key="Path" path="${java.dir}/bin:${env.Path}"/>			
+					<arg value="/c"/>
+					<arg value="&quot;${cordovatemp.dir}/platforms/android/gradlew&quot; clean assembleDebug"/>
+				</exec-shell>
+			</then>
+			<else>
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="chmod 774 &quot;${cordovatemp.dir}/platforms/android/gradlew&quot;"/>
+				</exec-shell>	
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="export JAVA_HOME=${java.dir};export ANDROID_HOME=${andhome};export PATH=${java.dir}/bin:${PATH};&quot;${cordovatemp.dir}/platforms/android/gradlew&quot; clean assembleDebug"/>
+				</exec-shell>					
+			</else>			
+		</if>
+	</target>
+
+	<target name="write-subprojects-paths-tofile">
+		<copy file="${cordovatemp.dir}/platforms/android/build.gradle" tofile="${cordovatemp.dir}/platforms/android/bkp_build.gradle" overwrite="true"/>
+		
+		<concat destfile="${cordovatemp.dir}/platforms/android/build.gradle" append="true">
+			task writeCordovaSubProjectsPathsToFile {
+				doLast {
+					project.subprojects.each {
+						File f = new File("subprojectspaths.txt")
+						f.append(it.projectDir)
+						f.append("\n")
+					}   
+				}
+			}
+		</concat>
+		
+		<if>
+			<os family="windows" />
+			<then>
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<env key="JAVA_HOME" path="${java.dir}"/>
+					<env key="ANDROID_HOME" path="${andhome}"/>
+					<env key="Path" path="${java.dir}/bin:${env.Path}"/>			
+					<arg value="/c"/>
+					<arg value="&quot;${cordovatemp.dir}/platforms/android/gradlew&quot; -q writeCordovaSubProjectsPathsToFile"/>
+				</exec-shell>
+			</then>
+			<else>
+				<exec-shell executable="cmd" failonerror="false" failifexecutionfails="true">
+					<arg value="/c"/>
+					<arg value="chmod 774 ${DoubleQuotes}${cordovatemp.dir}/platforms/android/gradlew${DoubleQuotes}"/>
+				</exec-shell>
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="export JAVA_HOME=${java.dir};export ANDROID_HOME=${andhome};export PATH=${java.dir}/bin:${PATH};&quot;${cordovatemp.dir}/platforms/android/gradlew&quot; -q writeCordovaSubProjectsPathsToFile"/>
+				</exec-shell>				
+			</else>			
+		</if>
+		
+		<delete file="${cordovatemp.dir}/platforms/android/build.gradle"/>
+		<copy file="${cordovatemp.dir}/platforms/android/bkp_build.gradle" tofile="${cordovatemp.dir}/platforms/android/build.gradle" overwrite="true"/>
+		<delete file="${cordovatemp.dir}/platforms/android/bkp_build.gradle"/>
+	</target>
+	
+	<target name="copy-aars-to-libs-update-gradle-manifest-of-cordovamainproject-and-subprojects">
+		<copy todir="${cordovatemp.dir}/platforms/android/${dest_app_aar}">
+			  <fileset dir="${cordovatemp.dir}/platforms/android/${source_app_aar}/." >
+					<filename regex="(.*).aar$"/>
+			  </fileset>	
+		</copy>
+		<replace file="${cordovatemp.dir}/platforms/android/${build_gradle_path}" token="java.srcDirs" value="java.srcDirs = [] //"/>
+		<echo>Gradle 8 does no longer allow classifier inside Jar task. archiveClassifier must be used instead.</echo>
+		<concat destfile="${cordovatemp.dir}/platforms/android/${build_gradle_path}" append="true">
+		dependencies {
+			implementation fileTree(dir: 'libs', include: '*.aar')
+		}
+		allprojects {   
+			repositories {
+				flatDir {
+					dirs 'libs'
+				}	
+			}
+		}
+		task sourcesJar(type: Jar) {
+    			from android.sourceSets.main.java.srcDirs = [] //
+    			archiveClassifier = 'sources'
+		}
+		artifacts {
+    			archives sourcesJar
+		}
+		</concat>
+	    <antcall target="add-package-to-app-module">
+            <param name="input_manifest_path" value="${cordovatemp.dir}/platforms/android/${manifest_path}"/>
+            <param name="input_gradle_path" value="${cordovatemp.dir}/platforms/android/${build_gradle_path}"/>
+        </antcall>
+		<replaceregexp file="${cordovatemp.dir}/platforms/android/${manifest_path}"
+				  match="(&lt;manifest[^&gt;]*&gt;)([\s\S]*?)(&lt;\/manifest&gt;)"
+      replace="\1\3"/>
+		<antcall target="copy-aars-to-libs-update-gradle-manifest-of-cordovasubprojects" />	
+		<delete file="${cordovatemp.dir}/platforms/android/subprojectspaths.txt"/>	
+		<if>
+			<os family="windows" />
+			<then>
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<env key="JAVA_HOME" path="${java.dir}"/>
+					<env key="ANDROID_HOME" path="${andhome}"/>
+					<env key="Path" path="${java.dir}/bin:${env.Path}"/>			
+					<arg value="/c"/>
+					<arg value="&quot;${cordovatemp.dir}/platforms/android/gradlew&quot; clean"/>
+				</exec-shell>
+			</then>
+			<else>
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="chmod 774 &quot;${cordovatemp.dir}/platforms/android/gradlew&quot;"/>
+				</exec-shell>	
+				<exec-shell dir="${cordovatemp.dir}/platforms/android" executable="cmd" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="export JAVA_HOME=${java.dir};export ANDROID_HOME=${andhome};export PATH=${java.dir}/bin:${PATH};&quot;${cordovatemp.dir}/platforms/android/gradlew&quot; clean"/>
+				</exec-shell>					
+			</else>			
+		</if>
+
+	</target>
+		
+	<target name="copy-aars-to-libs-update-gradle-manifest-of-cordovasubprojects">
+		<loadfile property="pathlist" srcfile="${cordovatemp.dir}/platforms/android/subprojectspaths.txt" />		
+		<for param="path" list="${pathlist}" delimiter="${line.separator}">
+			<sequential>
+				<echo>path @{path}</echo>
+				<copy todir="@{path}/libs">
+					<fileset dir="@{path}/build/outputs/aar/." >
+						<filename regex="(.*).aar$"/>
+					</fileset>	
+				</copy>
+			    <replaceregexp file="@{path}/build.gradle" match="include[ ]*:[ ]*\[?'\*.jar'\]?" replace="exclude: '*.jar'" byline="true"/>		
+				<replace file="@{path}/build.gradle" token="java.srcDirs" value="java.srcDirs = [] //"/>
+				<concat destfile="@{path}/build.gradle" append="true">		
+					dependencies {
+						implementation fileTree(dir: 'libs', include: '*.aar')
+					}
+					allprojects {   
+						repositories {
+							flatDir {
+								dirs 'libs'
+							}	
+						}
+					}
+				</concat>
+				<if>
+					<available file="@{path}/AndroidManifest.xml" type="file"/>
+					<then>
+						<antcall target="add-package-to-app-module">
+            				<param name="input_manifest_path" value="@{path}/AndroidManifest.xml"/>
+            				<param name="input_gradle_path" value="@{path}/build.gradle"/>
+        				</antcall>
+						<replaceregexp file="@{path}/AndroidManifest.xml"
+				  			match="(&lt;manifest[^&gt;]*&gt;)([\s\S]*?)(&lt;\/manifest&gt;)"
+      						replace="\1\3"/>
+					</then>	
+				</if>			
+			</sequential>
+		</for>		
+	</target>
+	
+	
+	<target name="copy-cordova-android-codegen">
+		<echo>Copying the cordova android codegen from ${cordovatemp.dir}</echo>
+		<mkdir dir="${app.dir}/CordovaAssetsLib"/>
+		<if>
+			<available file="${cordovatemp.dir}/platforms/android" type="dir" />
+			<then>
+				<java fork="true" failonerror="yes" jvm="${java.dir}/bin/java" 
+				jar="${basedir}/extres/CordovaCleanOperation.jar">
+				<arg line="${cordovatemp.dir}/platforms/android"/>
+				</java>				
+				<copydir src="${cordovatemp.dir}/platforms/android"
+					dest="${app.dir}/CordovaAssetsLib" forceoverwrite="true"
+				/>			
+			</then>
+		</if>
+	</target>
+	
+	<target name="modify-build-gradle">
+		<echo>Modifying build.gradle file </echo>
+		<property name="SubstituteRegexJar" value="${extres}/RegxSubstitution.jar"/>
+		<java fork="true" failonerror="false" jvm="${java.dir}/bin/java" jar="${SubstituteRegexJar}">
+			<arg value="${app.dir}/CordovaAssetsLib"/>
+		</java>
+	</target>
+	
+	<target name="update-gradles">
+		<echo>Updating gradle and manifest files for cordova</echo>
+		<if>
+			<available file="${app.dir}/CordovaAssetsLib/settings.gradle" type="file" />
+			<then>
+				<copy file="${app.dir}/CordovaAssetsLib/settings.gradle" tofile="${app.dir}/CordovaAssetsLib/settingstemp.gradle" overwrite="true"/>
+				<replaceregexp file="${app.dir}/CordovaAssetsLib/settingstemp.gradle" match=":" replace=":CordovaAssetsLib:" byline="true"/>
+				<loadfile property="LibList" srcfile="${app.dir}/CordovaAssetsLib/settingstemp.gradle" />				
+				<for param="line" list="${LibList}" delimiter="${line.separator}">
+					<sequential>
+						<concat destfile="${app.dir}/settings.gradle" append="true">${line.separator}@{line}</concat>
+					</sequential>
+				</for>
+			</then>
+		</if>
+		<replaceregexp file="${app.dir}/CordovaAssetsLib/settingstemp.gradle" match='include ":CordovaAssetsLib' replace="" byline="true"/>
+    	<replaceregexp file="${app.dir}/CordovaAssetsLib/settingstemp.gradle" match='"' replace="" byline="true"/>         
+        <concat destfile="${app.dir}/build.gradle" append="true">${line.separator}dependencies { </concat>
+        <if>
+        	<equals arg1="${isCordova10Above}" arg2="false" />
+        	<then>
+        		<loadfile property="moduleList" srcfile="${app.dir}/CordovaAssetsLib/settingstemp.gradle" />
+        		<for param="lib" list="${moduleList}" delimiter="${line.separator}">
+        			<sequential>
+        				<if>
+        					<matches string="@{lib}" pattern=":\w" />
+        					<then>
+        						<concat destfile="${app.dir}/build.gradle" append="true">${line.separator} implementation project(':CordovaAssetsLib@{lib}')</concat>
+        					</then>
+        				</if>
+        			</sequential>
+        		</for>
+        	</then>
+        	<else>
+        		<replaceregexp file="${app.dir}/settings.gradle" match='CordovaAssetsLib: "cdv-gradle-name.gradle"' replace='"CordovaAssetsLib/cdv-gradle-name.gradle"' byline="true"/> 
+        		<!-- Added rootProject.name in setting.gradle to include the app name in the binary extension like appid.apk or appid.aab-->
+                <concat append="true" destfile="${app.dir}/settings.gradle" fixlastline="yes">${line.separator}rootProject.name = "${appid}"${line.separator}</concat>
+        		<concat destfile="${app.dir}/build.gradle" append="true">${line.separator} implementation 'androidx.appcompat:appcompat:1.3.1'</concat>
+        		<concat destfile="${app.dir}/build.gradle" append="true">${line.separator} implementation 'androidx.webkit:webkit:1.4.0'</concat>  
+        	</else>
+        </if>
+        <if>
+        	<equals arg1="${isLatestStructure}" arg2="false" />
+        	<then>
+        		<concat destfile="${app.dir}/build.gradle" append="true">${line.separator} implementation project(':CordovaAssetsLib:')</concat>
+        	</then>
+    	</if>
+        <concat destfile="${app.dir}/build.gradle" append="true">${line.separator} } </concat>
+		<delete file="${app.dir}/CordovaAssetsLib/settingstemp.gradle"/>	
+		<replaceregexp file="${app.dir}/CordovaAssetsLib/${build_gradle_path}" match="([A-Za-z]*[Cc]ompile[ ]*[(]*[ ]*project[ ]*[(]*[ ]*path[ ]*:[ ]*[&quot;|'][:]*)" replace="\1:CordovaAssetsLib:" byline="true"/>
+		<replaceregexp file="${app.dir}/CordovaAssetsLib/${build_gradle_path}" match="(implementation[ ]*[(]*[ ]*project[ ]*[(]*[ ]*path[ ]*:[ ]*[&quot;|'][:]*)" replace="\1:CordovaAssetsLib:" byline="true"/>
+		<replace file="${app.dir}/CordovaAssetsLib/${build_gradle_path}" token="::" value=":"/>
+		<replace file="${app.dir}/CordovaAssetsLib/${build_gradle_path}" token="&lt;&lt;" value=""/>
+		<replaceregexp file="${app.dir}/CordovaAssetsLib/${build_gradle_path}" match="include[ ]*:[ ]*\[?'\*.jar'\]?" replace="exclude: '*.jar'" byline="true"/>
+	</target>
+	
+	<target name="delete-cordova-dir">
+		<if>
+		<available file="${cordovatemp.dir}" type="dir" />
+		<then>
+			<echo>Deleting the ${cordovatemp.dir} directory</echo>
+			<!-- Stopping Gradle daemon as many aapt processes spawned as childs of gradle daemon are locking the folder being deleted resulting in build failures-->
+			<if>
+				<not>
+					<equals arg1="${killGradleDaemon}" arg2="false" />
+				</not>
+				<then>
+				<echo>${gradlebuild.bin} --stop</echo>	
+				<exec-shell executable="cmd" failonerror="false" failifexecutionfails="false" >
+					<env key="JAVA_HOME" path="${java.dir}"/>
+					<arg line='/c "${app.dir}/gradlew --stop "'/>
+				</exec-shell>
+				</then>
+			</if>
+			
+			<delete dir="${cordovatemp.dir}" failonerror="false"/>
+		</then>
+		</if>
+	</target>
+	
+	<target name="copy-cordova-android-prebuilt">
+		<echo>Copying the cordova android prebuilt from ${cordovaprebuilt.dir}</echo>
+		<mkdir dir="${app.dir}/CordovaAssetsLib"/>
+		<if>
+			<available file="${cordovaprebuilt.dir}" type="dir" />
+			<then>
+				<java fork="true" failonerror="yes" jvm="${java.dir}/bin/java" 
+				jar="${basedir}/extres/CordovaCleanOperation.jar">
+				<arg line="${cordovaprebuilt.dir}"/>
+				</java>
+				<copydir src="${cordovaprebuilt.dir}"
+					dest="${app.dir}/CordovaAssetsLib" forceoverwrite="true"
+				/>	
+
+			</then>
+		</if>
+	</target>
+	<target name="gradle-upgrade-changes">
+		<!-- As part of Target 15, gradle upgraded to 8, couples of changes required due to upgradation-->
+		<echo>build_gradle_path ${app.dir}/CordovaAssetsLib/${build_gradle_path}</echo>
+		<echo>Gradle 8 does no longer allow classifier inside Jar task. archiveClassifier must be used instead.</echo>
+		<replaceregexp file="${app.dir}/CordovaAssetsLib/${build_gradle_path}" match="classifier =" replace="archiveClassifier =" byline="true"/>
+		
+		<antcall target="add-package-to-app-module">
+            <param name="input_manifest_path" value="${app.dir}/CordovaAssetsLib/app/src/main/AndroidManifest.xml"/>
+            <param name="input_gradle_path" value="${app.dir}/CordovaAssetsLib/app/build.gradle"/>
+        </antcall>
+        <antcall target="add-package-to-app-module">
+            <param name="input_manifest_path" value="${app.dir}/CordovaAssetsLib/CordovaLib/AndroidManifest.xml"/>
+            <param name="input_gradle_path" value="${app.dir}/CordovaAssetsLib/CordovaLib/build.gradle"/>
+        </antcall>
+
+	</target>
+	<target name="add-package-to-app-module">
+		<!-- Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported.
+		so, Specify a namespace in the module's build file only. -->
+		<loadfile property="file" srcfile="${input_manifest_path}"/>
+	    <for param="line" delimiter="${line.separator}" list="${file}">
+	       <sequential>
+	       	<propertyregex property="package.name" input="@{line}" regexp="package=\${DoubleQuotes}([^\${DoubleQuotes}]+)\${DoubleQuotes}" select="\1" />
+	       </sequential>
+	    </for>
+	    <if>
+			<not>
+			<equals arg1="${package.name}" arg2="$${package.name}"/>
+			</not>
+			<then>
+			    <echo message="${package.name} removing this package name from ${input_manifest_path}" />
+				<replaceregexp file="${input_manifest_path}" match="package=&quot;${package.name}&quot;" replace="" />
+				
+				<!-- Specify a namespace in the module's build file-->
+				<echo message="adding package name with ${package.name} in ${input_gradle_path} file" />
+				<concat destfile="${input_gradle_path}" append="true">	
+					android {
+		  				namespace '${package.name}'
+					}	
+				</concat>
+			</then>
+		</if>
+	</target>	
+	<target name="getCordovaJavaHome">
+		<echo>cordovaJavaHome is defined in androidbuild.properties file : ${cordovaJavaHome} </echo>
+		<if>
+			<not>
+			<equals arg1="${cordovaJavaHome}" arg2="$${cordovaJavaHome}"/>
+			</not>
+			<then>
+				<var name="java.dir" value="${cordovaJavaHome}"/>
+			</then>
+			<else>
+				<fail message="Please set cordovaJavaHome property to java11 path in androidbuild.properties to build Cordova"/>
+			</else>
+		</if>
+		<echo>gradleHome is defined in androidbuild.properties file : ${gradleHome} </echo>
+		<if>
+			<not>
+			<equals arg1="${gradleHome}" arg2="$${gradleHome}"/>
+			</not>
+			<then>
+				<var name="gradle.home" value="${gradleHome}"/>
+			</then>
+			<else>
+				<fail message="Please set gradleHome property to build Cordova"/>
+			</else>
+		</if>
+	</target>
+		
+<target name="cordova-full-build" 
+		depends="
+				getCordovaJavaHome,
+				copy-web-cordova,
+				check-and-add-package, 
+				build-cordova, 
+				check-version,
+				set-properties-paths,
+				delete-cordova-icon-update-manifest, 
+				convert-cordova-appproject-to-libraryproject, 
+				write-subprojects-paths-tofile, 
+				copy-aars-to-libs-update-gradle-manifest-of-cordovamainproject-and-subprojects, 
+				copy-cordova-android-codegen,
+				modify-build-gradle,
+				copy-config-file,
+				update-gradles,
+				copy-aars-from-cordova-to-kony
+		">
+</target>
+<target name="cordova-incremental-build" 
+		depends="
+				getCordovaJavaHome,
+				copy-cordova-android-prebuilt,
+				check-version,
+				set-properties-paths,
+				gradle-upgrade-changes,
+				modify-build-gradle,
+				copy-config-file,
+				update-gradles,
+				copy-aars-from-cordova-to-kony
+		">
+</target>
+
+<target name="enter-cordova-build">
+	<if>
+		<equals arg1="${cordovabuildmode}" arg2="incremental" />
+		<then>
+			<echo>cordovabuildmode ${cordovabuildmode}</echo>
+			<if>
+				<available file="${cordovaprebuilt.dir}" type="dir" />
+				<then>
+					<antcall target="cordova-incremental-build" />
+				</then>
+				<else>
+					<fail message="Please provide valid location of cordova prebuilt project's folder to do cordova incremental build"/>
+				</else>
+			</if>	
+		</then>
+		<else>
+			<echo>cordovabuildmode ${cordovabuildmode}</echo>
+			<antcall target="cordova-full-build" />
+		</else>
+	</if>				
+</target>
+
+<target name = "set-properties-paths">
+	<echo>set-properties-paths</echo>
+	<if>
+        <equals arg1="${isLatestStructure}" arg2="true" />
+        <then>
+			<property name="manifest_path" value="app/src/main/AndroidManifest.xml"/>
+			<property name="res_path" value="app/src/main/res"/>
+			<property name="build_gradle_path" value="app/build.gradle"/>
+			<property name="source_app_aar" value="app/build/outputs/aar"/>
+			<property name="dest_app_aar" value="app/src/main/libs"/>
+		</then>
+    	<else>
+    		<property name="manifest_path" value="AndroidManifest.xml" />
+			<property name="res_path" value="res" />
+			<property name="build_gradle_path" value="build.gradle" />
+			<property name="source_app_aar" value="build/outputs/aar" />
+			<property name="dest_app_aar" value="libs" />
+    	</else>
+    </if>
+</target>
+
+<target name="check-version">
+	<echo>check cordova version </echo>
+    <if>
+        <available file="${cordovatemp.dir}/platforms/android/app/src/main/AndroidManifest.xml" type="file" />
+        <then>
+        	<property name="isLatestStructure" value="true"/>
+        </then>
+        <else>
+        	<property name="isLatestStructure" value="false"/>
+        </else>
+    </if>
+    <echo> ${isLatestStructure} </echo>
+</target>
+
+<target name="copy-aars-from-cordova-to-kony">
+		<copy file="${app.dir}/build.gradle" tofile="${app.dir}/bkp_build.gradle" overwrite="true"/>	
+			<concat destfile="${app.dir}/build.gradle" append="true">
+				task writeCordovaSubProjectsPathsToFile {
+					doLast {
+						project.subprojects.each {
+							if(it.projectDir.toString().contains("CordovaAssetsLib")){
+								File f = new File("subprojectspaths.txt")
+								f.append(it.projectDir)
+								f.append("\n")
+							}
+						}   
+					}
+				}
+			</concat>
+			<if>
+				<os family="windows" />
+				<then>
+					<exec-shell dir="${app.dir}" executable="cmd" failonerror="true" failifexecutionfails="true" >
+						<env key="JAVA_HOME" path="${installer.javahome}"/>
+						<env key="ANDROID_HOME" path="${andhome}"/>
+						<env key="Path" path="${java.dir}/bin:${env.Path}"/>			
+						<arg value="/c"/>
+						<arg value="&quot;${app.dir}/gradlew&quot; -q writeCordovaSubProjectsPathsToFile"/>
+					</exec-shell>
+				</then>
+				<else>
+					<exec-shell executable="cmd" failonerror="false" failifexecutionfails="true">
+						<arg value="/c"/>
+						<arg value="chmod 774 ${DoubleQuotes}${app.dir}/gradlew${DoubleQuotes}"/>
+					</exec-shell>
+					<exec-shell dir="${app.dir}" executable="cmd" failonerror="true" failifexecutionfails="true" >
+						<arg value="-c"/>
+						<arg value="export JAVA_HOME=${installer.javahome};export ANDROID_HOME=${andhome};export PATH=${java.dir}/bin:${PATH};&quot;${app.dir}/gradlew&quot; -q writeCordovaSubProjectsPathsToFile"/>
+					</exec-shell>				
+				</else>			
+			</if>
+			
+			<delete file="${app.dir}/build.gradle"/>
+			<copy file="${app.dir}/bkp_build.gradle" tofile="${app.dir}/build.gradle" overwrite="true"/>
+			<delete file="${app.dir}/bkp_build.gradle"/>
+		
+			<move todir="${app.dir}/libs">
+			  <fileset dir="${app.dir}/CordovaAssetsLib/${dest_app_aar}/." >
+					<filename regex="(.*).aar$"/>
+			  </fileset>	
+			</move>
+			
+			<loadfile property="pathlist" srcfile="${app.dir}/subprojectspaths.txt" />		
+			<for param="path" list="${pathlist}" delimiter="${line.separator}">
+				<sequential>
+					<echo>path @{path}</echo>
+					<if>
+					<available file="@{path}/libs" type="dir" />
+					<then>
+						<move todir="${app.dir}/libs">
+							<fileset dir="@{path}/libs/." >
+								<filename regex="(.*).aar$"/>
+							</fileset>
+						</move>
+					</then>
+					</if>
+				</sequential>
+			</for>
+			<delete file="${app.dir}/subprojectspaths.txt"/>	
+
+	</target>
+</project>

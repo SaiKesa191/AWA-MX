@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_ef9248baf349452aa28ab2d6fa8ce2ed": {
+        "id": "AS_FlexContainer_ef9248baf349452aa28ab2d6fa8ce2ed",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_e762f7562cc743279e59b312044c17c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new voltmx.mvc.Navigation(\"frmOpenBidStatus\");\nx.navigate();",
+            "parentId": null
+        }]
+    }
+}

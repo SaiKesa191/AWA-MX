@@ -1,0 +1,210 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "CopyimgTrackDelivery0a9f7a09834bc46": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "imgRightArrow": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "lblAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblAmountValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblAuctionID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblAuctionIDVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblCompletionStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblCompletionStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblMakeAndModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblMakeAndModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblRequestRefund": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblServiceType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblServiceTypeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegCompleted",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "cffac086d68f4109bd0fed65f83954ec",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDataGrid",
+    "pf": "frmSummaryOfOtherServicePayments",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ab313813210940a6a9d2a12e2e2ebd7d",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxOtherServices",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyimgTrackDelivery0a9f7a09834bc46": "CopyimgTrackDelivery0a9f7a09834bc46",
+        "flxAmount": "flxAmount",
+        "flxAmountValue": "flxAmountValue",
+        "flxAuctionID": "flxAuctionID",
+        "flxAuctionIdContainer": "flxAuctionIdContainer",
+        "flxBtnRequestRefund": "flxBtnRequestRefund",
+        "flxCompletionStatusContainer": "flxCompletionStatusContainer",
+        "flxData": "flxData",
+        "flxHideData": "flxHideData",
+        "flxMakeAndModelContainer": "flxMakeAndModelContainer",
+        "flxMakeAndModelValueContainer": "flxMakeAndModelValueContainer",
+        "flxOtherServices": "flxOtherServices",
+        "flxPaymentStatus": "flxPaymentStatus",
+        "flxRequestRefundButton": "flxRequestRefundButton",
+        "flxRightArrow": "flxRightArrow",
+        "flxServiceTypeContainer": "flxServiceTypeContainer",
+        "imgRightArrow": "imgRightArrow",
+        "lblAED": "lblAED",
+        "lblAmount": "lblAmount",
+        "lblAmountValue": "lblAmountValue",
+        "lblAuctionID": "lblAuctionID",
+        "lblAuctionIDVal": "lblAuctionIDVal",
+        "lblCompletionStatus": "lblCompletionStatus",
+        "lblCompletionStatusValue": "lblCompletionStatusValue",
+        "lblMakeAndModel": "lblMakeAndModel",
+        "lblMakeAndModelValue": "lblMakeAndModelValue",
+        "lblPaymentStatus": "lblPaymentStatus",
+        "lblPaymentStatusValue": "lblPaymentStatusValue",
+        "lblRequestRefund": "lblRequestRefund",
+        "lblServiceType": "lblServiceType",
+        "lblServiceTypeValue": "lblServiceTypeValue"
+    }
+}

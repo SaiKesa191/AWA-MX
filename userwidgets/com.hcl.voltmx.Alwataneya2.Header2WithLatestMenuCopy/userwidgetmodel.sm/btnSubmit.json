@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "s9b08e7b8b0c4615aa8f8c487e101d7a",
+    "_text_": "Submit",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s611e8d4a8a0430996abc4b2b18497ff"
+    },
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnSubmit",
+    "ide_onClick": "AS_Button_i0fe6fcff22b4d72b82b285f9a65259d",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u94e32a7c75c44beb288346c3c36a413",
+    "name": "kony.ui.Button",
+    "parent": "flxCancelandSubmitButtons",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s552b57637a6489d8a63d96603d8219f",
+    "_text_": "Tyre pressure check & adjustment",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "Copylbl0h2d32293be5e40",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c1b52b5359764b7e8f3433deec88230e",
+    "name": "kony.ui.Label",
+    "parent": "Copyflx0bb153cea1b3442",
+    "pf": "frmMaintenanceAndRepairs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Tyre pressure check & adjustment",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

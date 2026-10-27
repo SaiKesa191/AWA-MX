@@ -1,0 +1,36 @@
+{
+    "AS_Image_hb4f97f1a8ee4423a3f471a0283b243c": {
+        "id": "AS_Image_hb4f97f1a8ee4423a3f471a0283b243c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPaymentMethod2",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a3836e4db0794e35adbc1a29aa51ee99"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__abb6f51dbe1e404ab9c7d75c62df6c37",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPaymentMethod",
+            "formKUID": "gaf4ccc769284680afe094f0a4104c73",
+            "projectName": "AlwataneyaAuction",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_c71896ab528f44b7a975ea427ad62956": {
+        "id": "AS_FlexContainer_c71896ab528f44b7a975ea427ad62956",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u789060bcedb43cea62c8a7aed3c1499"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_e4e8e4d47a6a4c69beae3a1c7f168578",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "SellCarNavigation",
+            "display": "SellCarNavigation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

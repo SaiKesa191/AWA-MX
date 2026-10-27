@@ -1,0 +1,172 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s52efebb1e6941fdaf52560354be1a4e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "efaee1e7a12c4ce99c299343f8d61383",
+                "srcKUID": "cb92fb1bc4a6493f967a7d9d27bdc404",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxLine": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dfa80dfdb92e426092c96ff642a4f543",
+                "srcKUID": "dae4d324f95745d1b5326c932fc6e347",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxNotification": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "db4d6ae090854e29b84e4c0b4875d6f4",
+                "srcKUID": "d295feec51334f41a05a6ce323f7b155",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxScrollBody": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c6e8b63466cb4031bee8567a4d011b97",
+                "srcKUID": "c20067a5623b4e66890078284b4f001b",
+                "wType": "FlexScrollContainer"
+            }
+        },
+        "imgArrow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cdbe580be64b4908a2c4d674d5816dbb",
+                "srcKUID": "c886d879771b4ab19721c39227e2d43f",
+                "wType": "Image"
+            }
+        },
+        "lblHeading01": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "icf35dfa4622469fa068642a35da5332",
+                "srcKUID": "jec945beccfc4d30930d1a525d980416",
+                "wType": "Label"
+            }
+        },
+        "lblHeading02": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0bb9720c68f459fa4d560ab73d9a6ad",
+                "srcKUID": "e0cb7675e0bf45ed87dc233e10498d62",
+                "wType": "Label"
+            }
+        },
+        "lblHeading03": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c9b85962f9d94efc99238b66e847aa53",
+                "srcKUID": "j6c9c527b6844d06941f0649425643d2",
+                "wType": "Label"
+            }
+        },
+        "lblInfo01": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ea0d4acfa0064cde87167bc0166fdfea",
+                "srcKUID": "eb71b6f1b04f49ac9533059b43a6587f",
+                "wType": "Label"
+            }
+        },
+        "lblNotification": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ace648dc5c7441a1be4a96e5329007c2",
+                "srcKUID": "a83393d978ec495bb5dc4b50985a992d",
+                "wType": "Label"
+            }
+        },
+        "lblinfo02": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3102cee14bd47f18452d6d9155a1bd5",
+                "srcKUID": "de1daff937074676a843f8025fece46e",
+                "wType": "Label"
+            }
+        },
+        "richTextPoints": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i019f417b8574d1487302db9dac460b2",
+                "srcKUID": "c55c37c8509e4dd2b4e80f5fdbd78e2f",
+                "wType": "RichText"
+            }
+        },
+        "tc": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f4245be5e2e34c508034957d3a678f33",
+                "srcKUID": "i7032bc7b05f44f7ba5ccea7e00ffad7",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false,
+            "zIndex": {
+                "Default": 150
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "tc",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "f4245be5e2e34c508034957d3a678f33",
+    "layouttype": 4,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "i7032bc7b05f44f7ba5ccea7e00ffad7",
+    "wType": "UserWidgetInstance",
+    "zindex": 150
+}

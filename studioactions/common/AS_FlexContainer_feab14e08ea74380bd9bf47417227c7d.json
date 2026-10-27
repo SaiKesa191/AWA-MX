@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_feab14e08ea74380bd9bf47417227c7d": {
+        "id": "AS_FlexContainer_feab14e08ea74380bd9bf47417227c7d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_c7c96236e11b47a285a2150905078250",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var x = new voltmx.mvc.Navigation(\"frmOpenSettings\");\nx.navigate();",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "AS_AppEvents_hc34ca6ab2894a90b27e5a27ef6cdd80": {
+        "id": "AS_AppEvents_hc34ca6ab2894a90b27e5a27ef6cdd80",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "Pre Appinit",
+        "actions": [{
+            "id": "ADD_SNIPPET_a60b5c38bd444e8db8c513d67425ce4a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentLocale = voltmx.store.getItem(\"currentLocale\");\n//  alert('lang changed');\n  if (!currentLocale) {\n    voltmx.store.setItem(\"currentLocale\", \"en\");\n    voltmx.i18n.setCurrentLocaleAsync(\"en\", function() {\n      voltmx.print(\"Default locale 'ar' applied.\");\n    }, function() {\n      voltmx.print(\"Failed to apply default locale.\");\n    });\n  } else {\n    voltmx.i18n.setCurrentLocaleAsync(currentLocale, function() {\n      voltmx.print(\"Existing locale '\" + currentLocale + \"' applied.\");\n    }, function() {\n      voltmx.print(\"Failed to apply stored locale.\");\n    });\n  }\n",
+            "parentId": null
+        }, {
+            "id": "INVOKE_FUNCTION__g08e28040da14f0c871baf53860928d3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fetchClientProperties",
+            "display": "fetchClientProperties",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }, {
+            "id": "INVOKE_FUNCTION__c7e475718a92433cab2a541d344be218",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setPushCallbacks",
+            "display": "setPushCallbacks",
+            "inputparams": [],
+            "parentId": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

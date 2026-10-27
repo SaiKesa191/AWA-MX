@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0480256fd074ab493a9aa9e94487644",
+    "_text_": "RETURN TO AUCTIONS",
+    "_top_": {
+        "type": "string",
+        "value": "18.00%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s57f14e4683c4a4f9ae36b08170871d9",
+    "id": "btnReturnToAuction",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f94d921670fa4bd78a7a52cbe509eb7c",
+    "name": "kony.ui.Button",
+    "parent": "flxBookingConfirmedContainer",
+    "pf": "frmBookingSummaryVehiclePickUp",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "RETURN TO AUCTIONS",
+    "wType": "Button"
+}

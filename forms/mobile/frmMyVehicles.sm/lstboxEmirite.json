@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Road Side Assisstance",
+    "_skin_": "s61f71d43a1f48f3a15897c9179ffa29",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s06323040b2a43a6b9d39cd4232981c7",
+    "groupcells": false,
+    "id": "lstboxEmirite",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e23b207c63784dc0a347216434c50de7",
+    "masterdata": [
+        [
+            "lb1",
+            "UAE"
+        ],
+        [
+            "lb2",
+            "Dubai"
+        ],
+        [
+            "lbl3",
+            "Abu Dhabi"
+        ],
+        [
+            "lbl4",
+            "Sharjah"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxEmirite",
+    "pf": "frmMyVehicles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox"
+}

@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s5f8a640718649b19ebd0213743496ba",
+    "_text_": "<div class=\"terms-container\">   <h2>TERMS & CONDITIONS AGREEMENT</h2>   <p>     This Terms and Conditions Agreement (the “Agreement”) is entered into by and between:<br><br>     <strong>(1)</strong> Emirates Public Transport & Services Company (“Emirates Transport” or “ET”) and<br>     <strong>(2)</strong> National Auction (“AWA”)<br><br>     Together, referred to as the “Parties.”   </p>    <p>     This Agreement governs participation in the National Auction (AWA) online platform, which operates under Emirates Transport (ET).     Registration on the platform constitutes full acceptance of these Terms & Conditions.   </p>    <p>     Any interpretation or ambiguity in this Agreement shall be based solely on written agreements duly signed by authorized representatives     of National Auction (AWA) or Emirates Transport (ET). Any verbal or unsigned agreement is invalid and not binding.   </p>    <ol>     <li>       <strong>Registration & Eligibility</strong>       <ul>         <li>Only one account is permitted per bidder.</li>         <li>Users must be 21 years or older.</li>         <li>AWA / ET may accept, reject, or cancel any registration at its sole discretion.</li>         <li>Accounts may be suspended or cancelled without notice in case of misuse.</li>         <li>Bidders are fully responsible for confirming bid amounts before submission.</li>       </ul>     </li>      <li>       <strong>Required Documents</strong>       <ul>         <li>Companies: Valid Trade License + VAT Registration (if applicable).</li>         <li>Individuals: Valid Emirates ID, Passport, or UAE Driving License.</li>       </ul>     </li>      <li>       <strong>Vehicle Status, Information & Inspection</strong>       <ul>         <li>All vehicles are sold “As-Is” with all known or unknown defects.</li>         <li>No refund / replacement / repair allowed after purchase.</li>         <li>Only chassis is guaranteed for 72 hours upon valid failed passing report.</li>         <li>Exterior inspection only during active auction.</li>         <li>AWA / ET is not responsible for third-party website info.</li>       </ul>     </li>      <li>       <strong>Deposits & Financial Guarantees</strong>       <p>A security deposit must be paid before account activation.</p>       <p>Accepted: Card, Transfer, Cash Deposit, Security Cheque, Bank Guarantee.</p>       <table border=\"1\" cellspacing=\"0\" cellpadding=\"6\">         <tr><th>Deposit (AED)</th><th>Maximum Bidding Limit</th></tr>         <tr><td>5,000</td><td>Up to 100,000</td></tr>         <tr><td>7,500</td><td>Up to 150,000</td></tr>         <tr><td>10,000</td><td>Up to 200,000</td></tr>         <tr><td>50,000</td><td>Unlimited</td></tr>       </table>       <p>AWA / ET may request additional deposit at its discretion.</p>     </li>      <li><strong>Auction Timing & Validity</strong> — Inspection and access only during active auction.</li>      <li>       <strong>Payment Terms</strong>       <ul>         <li>Full payment within 48 hours after winning result.</li>         <li>Late penalty: AED 100 per day per vehicle.</li>         <li>Failure to pay: full deposit confiscation + 20% penalty + sale cancellation.</li>         <li>Only AED accepted.</li>       </ul>     </li>      <li>       <strong>Vehicle Release & Collection</strong>       <ul>         <li>Release: Mon–Fri, 08:00–16:00</li>         <li>Parking penalty after 7 days:</li>         <table border=\"1\" cellspacing=\"0\" cellpadding=\"6\">           <tr><th>Vehicle Type</th><th>Daily Parking Fees</th></tr>           <tr><td>Light vehicles</td><td>AED 100</td></tr>           <tr><td>Heavy vehicles & buses</td><td>AED 150</td></tr>         </table>         <li>Only AWA / ET transport allowed.</li>       </ul>     </li>      <li><strong>Deposit Refund Policy</strong> — Refund timelines vary by method; bank fees borne by bidder.</li>      <li><strong>Notifications & Approval</strong> — All vehicles subject to approval 4–21 working days.</li>      <li><strong>Vehicle Sale Documents</strong> — Issued within 25 working days (extendable).</li>      <li><strong>Customer Support</strong> — Email: <a href=\"mailto:support@alwataneya.ae\">support@alwataneya.ae</a></li>      <li><strong>Privacy Policy</strong> — User data confidential.</li>      <li><strong>Intellectual Property</strong> — All trademarks belong to AWA / ET.</li>      <li>       <strong>Auction Participation Steps</strong>       <ol type=\"a\">         <li>Register</li>         <li>Pay deposit</li>         <li>Participate & monitor My Bids</li>         <li>Bids confidential in silent auctions</li>       </ol>     </li>      <li><strong>Auto-Bid Feature</strong> — Bidder fully responsible for maximum auto-bid limit.</li>      <li><strong>Buyer Confirmation</strong> — AWA / ET only act as broker.</li>      <li><strong>VAT</strong> — 5% VAT applies.</li>      <li>       <strong>Administrative Charges</strong>       <table border=\"1\" cellspacing=\"0\" cellpadding=\"6\">         <tr><th>Vehicle Type</th><th>Admin Charge</th></tr>         <tr><td>Light vehicles</td><td>AED 750</td></tr>         <tr><td>Heavy vehicles & buses</td><td>AED 1000</td></tr>       </table>     </li>      <li><strong>Bidder Cancellation</strong> — 20% penalty for cancellation after award.</li>      <li><strong>Vehicle Taken Before Ownership Issuance</strong> — Buyer assumes full risk & cost.</li>      <li><strong>Limitation of Liability</strong> — Vehicles sold AS-IS.</li>      <li><strong>Governing Law</strong> — UAE jurisdiction applies.</li>      <li><strong>Government Cost Increase</strong> — Buyer bears any new non-refundable fees.</li>      <li><strong>User Acknowledgment</strong> — Acceptance = binding agreement; no claims of ignorance accepted.</li>   </ol> </div>",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "richTextPoints",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c55c37c8509e4dd2b4e80f5fdbd78e2f",
+    "linkskin": "s61b30cc87ae42db8dfd414ee3fd94bf",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flxScrollBody",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5
+}

@@ -1,0 +1,412 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgContct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "contactsupport512h.png",
+                "type": "Image"
+            },
+            "imgInvoice": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "invoice512h.png",
+                "type": "Image"
+            },
+            "lblBuyerPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Buyer Payment Status",
+                "type": "Label"
+            },
+            "lblBuyerPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paid",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblContactSupport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Support",
+                "type": "Label"
+            },
+            "lblETPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ET Payment Status",
+                "type": "Label"
+            },
+            "lblETPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending",
+                "type": "Label"
+            },
+            "lblHighestBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid",
+                "type": "Label"
+            },
+            "lblHighestBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#",
+                "type": "Label"
+            },
+            "lblLotValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69952",
+                "type": "Label"
+            },
+            "lblVehicleStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Status",
+                "type": "Label"
+            },
+            "lblVehicleStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Recieved by Buyer"
+            },
+            "lblViewInvoice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View Invoice",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgContct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "contactsupport512h.png",
+                "type": "Image"
+            },
+            "imgInvoice": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "invoice512h.png",
+                "type": "Image"
+            },
+            "lblBuyerPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Buyer Payment Status",
+                "type": "Label"
+            },
+            "lblBuyerPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paid",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblContactSupport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Support",
+                "type": "Label"
+            },
+            "lblETPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ET Payment Status",
+                "type": "Label"
+            },
+            "lblETPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending",
+                "type": "Label"
+            },
+            "lblHighestBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid",
+                "type": "Label"
+            },
+            "lblHighestBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#",
+                "type": "Label"
+            },
+            "lblLotValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69952",
+                "type": "Label"
+            },
+            "lblVehicleStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Status",
+                "type": "Label"
+            },
+            "lblVehicleStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Recieved by Buyer"
+            },
+            "lblViewInvoice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View Invoice",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgContct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "contactsupport512h.png",
+                "type": "Image"
+            },
+            "imgInvoice": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "invoice512h.png",
+                "type": "Image"
+            },
+            "lblBuyerPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Buyer Payment Status",
+                "type": "Label"
+            },
+            "lblBuyerPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paid",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblContactSupport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Support",
+                "type": "Label"
+            },
+            "lblETPaymentStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ET Payment Status",
+                "type": "Label"
+            },
+            "lblETPaymentStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pending",
+                "type": "Label"
+            },
+            "lblHighestBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid",
+                "type": "Label"
+            },
+            "lblHighestBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#",
+                "type": "Label"
+            },
+            "lblLotValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69952",
+                "type": "Label"
+            },
+            "lblVehicleStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Vehicle Status",
+                "type": "Label"
+            },
+            "lblVehicleStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Recieved by Buyer"
+            },
+            "lblViewInvoice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "View Invoice",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDeliveredVehicles",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ia4b4c62bfdb436d87f82b53dade6172",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScroll",
+    "pf": "frmDeliveredVehicles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "cc7e2ea8084f4b78aeffcfe9769fc9a6",
+    "rowcounter": 2,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxDeliveredVehiclesNew",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxETPaymentStatusValue0cc61cc3d68f64e": "CopyflxETPaymentStatusValue0cc61cc3d68f64e",
+        "flxBottomLineContactSupport": "flxBottomLineContactSupport",
+        "flxBottomLineViewInvoice": "flxBottomLineViewInvoice",
+        "flxBuyerPaymentStatus": "flxBuyerPaymentStatus",
+        "flxBuyerPaymentStatusValue": "flxBuyerPaymentStatusValue",
+        "flxCarName": "flxCarName",
+        "flxCardata": "flxCardata",
+        "flxContactSupport": "flxContactSupport",
+        "flxContactSupportAndViewInvoice": "flxContactSupportAndViewInvoice",
+        "flxDeliveredVehiclesNew": "flxDeliveredVehiclesNew",
+        "flxDetails": "flxDetails",
+        "flxETPaymentStatusValue": "flxETPaymentStatusValue",
+        "flxEtPaymentStatus": "flxEtPaymentStatus",
+        "flxHighestBid": "flxHighestBid",
+        "flxHighestBidValue": "flxHighestBidValue",
+        "flxImage": "flxImage",
+        "flxLocation": "flxLocation",
+        "flxLocationValue": "flxLocationValue",
+        "flxLotNo": "flxLotNo",
+        "flxLotValue": "flxLotValue",
+        "flxVehicleStatus": "flxVehicleStatus",
+        "flxViewInvoice": "flxViewInvoice",
+        "imgCardata": "imgCardata",
+        "imgContct": "imgContct",
+        "imgInvoice": "imgInvoice",
+        "lblBuyerPaymentStatus": "lblBuyerPaymentStatus",
+        "lblBuyerPaymentStatusValue": "lblBuyerPaymentStatusValue",
+        "lblCarName": "lblCarName",
+        "lblContactSupport": "lblContactSupport",
+        "lblETPaymentStatus": "lblETPaymentStatus",
+        "lblETPaymentStatusValue": "lblETPaymentStatusValue",
+        "lblHighestBid": "lblHighestBid",
+        "lblHighestBidValue": "lblHighestBidValue",
+        "lblLocation": "lblLocation",
+        "lblLocationValue": "lblLocationValue",
+        "lblLot": "lblLot",
+        "lblLotValue": "lblLotValue",
+        "lblVehicleStatus": "lblVehicleStatus",
+        "lblVehicleStatusValue": "lblVehicleStatusValue",
+        "lblViewInvoice": "lblViewInvoice"
+    }
+}

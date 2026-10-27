@@ -1,0 +1,19 @@
+{
+    "AS_Form_bdf9ad496fd44e7386d9812a67e1dd61": {
+        "id": "AS_Form_bdf9ad496fd44e7386d9812a67e1dd61",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashBoard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b574f206311e430c95757095535cfaa0"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": []
+    }
+}

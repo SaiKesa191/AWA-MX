@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8a55a7e10f47f59a80dfcf63107035",
+    "_text_": "The rules , provisions and texts included in this agreement , governs and controls the relationship between all parties under this agreement , to note that any ambiguity in one rule or text or any misunderstanding , shall be construed or interpreted only through other agreements , which were signed by Al  Wataneya  Auctions, and any agreement that not signed by the officially authorized authority , whether this authorization was verbally or in writing , then Al  Wataneya  Auctions  shall not bear any responsibilities or Legal Obligations . also not allowed to resort or refer to any regulations or other texts not mentioned by Al  Wataneya  Auctions which are described on explained below :",
+    "_top_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblInfo01",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "eb71b6f1b04f49ac9533059b43a6587f",
+    "name": "kony.ui.Label",
+    "parent": "flxScrollBody",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

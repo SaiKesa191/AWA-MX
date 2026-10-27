@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_ff6039d8fa9d43118c06efd2c728d8af": {
+        "id": "AS_FlexContainer_ff6039d8fa9d43118c06efd2c728d8af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_iee46a6b9e3c43ba9a7c793b4b5e5f7e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxOpacity.setVisibility(true);\nthis.view.flxOpacity.zIndex = \"6\";\nthis.view.flxContactPopup.setVisibility(true);\n"
+        }]
+    }
+}

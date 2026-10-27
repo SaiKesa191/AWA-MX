@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8a55a7e10f47f59a80dfcf63107035",
+    "_text_": "Al Wataneya Auctions, established in 2010 and owned by Emirates Transport, is a leading UAE platform specializing in B2B and B2B2C vehicle auctions. We serve both individual buyers and businesses, offering a diverse range of vehicles-including light vehicles, buses, accident vehicles, and commercial vehicles-to meet varied customer needs.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblInfo01",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f9ef97fee83a459886b99f1321ca19ef",
+    "name": "kony.ui.Label",
+    "parent": "flxinfo01",
+    "pf": "frmAboutUs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "AboutUSInfo1",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

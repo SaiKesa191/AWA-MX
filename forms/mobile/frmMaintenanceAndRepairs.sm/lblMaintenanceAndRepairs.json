@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd0c7beddfe441259c15bf1d41eaa6e4",
+    "_text_": "Maintenance & Repairs",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblMaintenanceAndRepairs",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d5793d8b7db344e1b043f71db797a9ae",
+    "name": "kony.ui.Label",
+    "parent": "flxTittle",
+    "pf": "frmMaintenanceAndRepairs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Maintenance & Repairs",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

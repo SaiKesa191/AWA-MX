@@ -1,0 +1,166 @@
+{
+    "AS_Form_c85cec8e5ce44a178b7b70f36a541211": {
+        "id": "AS_Form_c85cec8e5ce44a178b7b70f36a541211",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScreen3OTP1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i4c9175160cf4904a30e0c34f7c92091"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "INVOKE_SERVICE_be7b2ae1fd084cb4a44c206500ca19f4",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_f2d5d12824074211b18b8bacc3abf17e": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f2d5d12824074211b18b8bacc3abf17e",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblLocation1",
+                        "widgetPath": "this.view.lblLocation1",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmScreen3OTP1",
+                        "widgetKUID": "de3ab8e71f084cf8a4e386cc8306bdcb",
+                        "itemKUID": "i4c9175160cf4904a30e0c34f7c92091",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "country",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "MERNservices",
+                            "serviceid": "b9aebafe-6af2-4140-b786-7fbcf20b7ac7",
+                            "type": "integration",
+                            "operationname": "SendOTP",
+                            "operationid": "5491"
+                        }
+                    }
+                },
+                "ME_Mapping_a2cdb8a7b6b945e5b94bebec679ba306": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_a2cdb8a7b6b945e5b94bebec679ba306",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblCountryCode",
+                        "widgetPath": "this.view.lblCountryCode",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "itemId": "frmScreen3OTP1",
+                        "widgetKUID": "eef287574f8b45caa34d856e7c36419e",
+                        "itemKUID": "i4c9175160cf4904a30e0c34f7c92091",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "country_code",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "MERNservices",
+                            "serviceid": "b9aebafe-6af2-4140-b786-7fbcf20b7ac7",
+                            "type": "integration",
+                            "operationname": "SendOTP",
+                            "operationid": "5491"
+                        }
+                    }
+                },
+                "ME_Mapping_fa1f84b4ae424e6495f92fb5fead2cbc": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_fa1f84b4ae424e6495f92fb5fead2cbc",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtPhoneNumber",
+                        "widgetPath": "this.view.txtPhoneNumber",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmScreen3OTP1",
+                        "widgetKUID": "b93bad1c527549e59c03346b180ce144",
+                        "itemKUID": "i4c9175160cf4904a30e0c34f7c92091",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "mobile",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "MERNservices",
+                            "serviceid": "b9aebafe-6af2-4140-b786-7fbcf20b7ac7",
+                            "type": "integration",
+                            "operationname": "SendOTP",
+                            "operationid": "5491"
+                        }
+                    }
+                },
+                "ME_Mapping_ad148b1970e740b2bcc0933e9345ce05": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ad148b1970e740b2bcc0933e9345ce05",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtEmail",
+                        "widgetPath": "this.view.txtEmail",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmScreen3OTP1",
+                        "widgetKUID": "ab13fd9cfb3f463ba4f8ba47933fa004",
+                        "itemKUID": "i4c9175160cf4904a30e0c34f7c92091",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "email",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "MERNservices",
+                            "serviceid": "b9aebafe-6af2-4140-b786-7fbcf20b7ac7",
+                            "type": "integration",
+                            "operationname": "SendOTP",
+                            "operationid": "5491"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_f2d5d12824074211b18b8bacc3abf17e", "ME_Mapping_a2cdb8a7b6b945e5b94bebec679ba306", "ME_Mapping_fa1f84b4ae424e6495f92fb5fead2cbc", "ME_Mapping_ad148b1970e740b2bcc0933e9345ce05"],
+            "serviceconfig": {
+                "servicename": "MERNservices",
+                "serviceid": "b9aebafe-6af2-4140-b786-7fbcf20b7ac7",
+                "type": "integration",
+                "operationname": "SendOTP",
+                "operationid": "5491"
+            },
+            "enableMappingEditor": true,
+            "disabled": true
+        }]
+    }
+}

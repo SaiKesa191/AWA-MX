@@ -1,0 +1,13 @@
+private com.facebook.react.modules.core.PermissionListener permissionListener;
+
+public void requestPermissions(String[] permissions, int requestCode, com.facebook.react.modules.core.PermissionListener listener) {
+	permissionListener = listener;
+	requestPermissions(permissions, requestCode);
+}
+
+public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+	super.onRequestPermissionsResult(requestCode,permissions,grantResults);
+	if (permissionListener != null && permissionListener.onRequestPermissionsResult(requestCode, permissions, grantResults)) {
+		permissionListener = null;
+	}
+}

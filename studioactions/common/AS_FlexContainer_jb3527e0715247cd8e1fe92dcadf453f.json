@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_jb3527e0715247cd8e1fe92dcadf453f": {
+        "id": "AS_FlexContainer_jb3527e0715247cd8e1fe92dcadf453f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uc25b4f1553e4e58b072c5ff2b9827b0"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_g106b02b2ff440f9be72ef99220a1a5d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm = voltmx.application.getCurrentForm();\n\nif (currentForm) {\n  \n    currentForm.flxHeader.zIndex = 3;  // Update zIndex of flex in form\n   currentForm.Header2WithLatestMenu.flxMenuBarMain.setVisibility(false);\n}\n\nif (currentForm.id === \"frmDashBoard\"){\n  this.view.flxHL1.setVisibility(true);\n  this.view.flxHL2.setVisibility(false);\n  this.view.flxHL3.setVisibility(false);\n  this.view.flxHL4.setVisibility(false);\n  this.view.flxHL5.setVisibility(false);\n  this.view.imgMegaPhone.src = \"auctionsfooter.png\";\n  this.view.imgHome.src = \"homefooteractive.png\";\n  this.view.lblHome.skin = \"sknlblCPBoldDisp333333Font200\";\n  this.view.lblAuctions.skin = \"sknlblCPBoldCapt181818Font100\";\n}\n\nvar x = new voltmx.mvc.Navigation(\"frmDashBoard\");\nx.navigate();\n\n\n",
+            "parentId": null
+        }]
+    }
+}

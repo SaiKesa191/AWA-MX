@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s552b57637a6489d8a63d96603d8219f",
+    "_text_": "What is the deadline for removing vehicles from Al Wataneya Auctions premises?",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lbl010",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f0c8fde8b59b4323a5df395b3e727b70",
+    "name": "kony.ui.Label",
+    "parent": "flxlbl05",
+    "pf": "frmFAQs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "What is the deadline for removing vehicles from Al Wataneya Auctions premises?",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

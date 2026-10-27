@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sc65dbd4403044439942bab855ba8186",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "tbxPurchased"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "sc65dbd4403044439942bab855ba8186",
+    "id": "CopyflxNumberPlateTextBox0bb3d6ca3f52f43",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d01b319e6f5c4b049a1e5b3b97c46e7c",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxPurchased",
+    "pf": "frmSellSparePart",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

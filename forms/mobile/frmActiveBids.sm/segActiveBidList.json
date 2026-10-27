@@ -1,0 +1,370 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_data_": [
+        {
+            "btnBidnow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BID NOW"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgfavicon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imgdislikenew.png"
+            },
+            "imgrebid": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imgautobidnew.png"
+            },
+            "imgshare": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "share.png"
+            },
+            "lblAucStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lblAucStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The auction is still ongoing"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblCurrentBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Bid"
+            },
+            "lblCurrentbidamount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "121314"
+            },
+            "lblTimerCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 68"
+            },
+            "lblTotalbids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids"
+            },
+            "lblYourBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your Bid"
+            },
+            "lblYourBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            }
+        },
+        {
+            "btnBidnow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BID NOW"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgfavicon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imgdislikenew.png"
+            },
+            "imgrebid": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imgautobidnew.png"
+            },
+            "imgshare": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "share.png"
+            },
+            "lblAucStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lblAucStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The auction is still ongoing"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblCurrentBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Bid"
+            },
+            "lblCurrentbidamount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "121314"
+            },
+            "lblTimerCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 68"
+            },
+            "lblTotalbids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids"
+            },
+            "lblYourBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your Bid"
+            },
+            "lblYourBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            }
+        },
+        {
+            "btnBidnow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BID NOW"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgfavicon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imgdislikenew.png"
+            },
+            "imgrebid": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imgautobidnew.png"
+            },
+            "imgshare": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "share.png"
+            },
+            "lblAucStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status"
+            },
+            "lblAucStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "The auction is still ongoing"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblCurrentBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Bid"
+            },
+            "lblCurrentbidamount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "121314"
+            },
+            "lblTimerCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 68"
+            },
+            "lblTotalbids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids"
+            },
+            "lblYourBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your Bid"
+            },
+            "lblYourBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segActiveBidList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e734eaf94ca644489f40198c50ed87bc",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "frmActiveBids",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j157241532cf4f87b3011be4df4354f0",
+    "rowcounter": 2,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxBidlist",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnBidnow": "btnBidnow",
+        "flxAucStatus": "flxAucStatus",
+        "flxBidlist": "flxBidlist",
+        "flxBottam": "flxBottam",
+        "flxCardata": "flxCardata",
+        "flxCurrentBid": "flxCurrentBid",
+        "flxDetails": "flxDetails",
+        "flxImage": "flxImage",
+        "flxLocation": "flxLocation",
+        "flxLot": "flxLot",
+        "flxRebid": "flxRebid",
+        "flxShare": "flxShare",
+        "flxTotalBids": "flxTotalBids",
+        "flxYourBid": "flxYourBid",
+        "flxfav": "flxfav",
+        "imgCardata": "imgCardata",
+        "imgfavicon": "imgfavicon",
+        "imgrebid": "imgrebid",
+        "imgshare": "imgshare",
+        "lblAucStatus": "lblAucStatus",
+        "lblAucStatusValue": "lblAucStatusValue",
+        "lblCarmodelname": "lblCarmodelname",
+        "lblCurrentBid": "lblCurrentBid",
+        "lblCurrentbidamount": "lblCurrentbidamount",
+        "lblLocation": "lblLocation",
+        "lblLocationVal": "lblLocationVal",
+        "lblLot": "lblLot",
+        "lblLotNum": "lblLotNum",
+        "lblTimerCount": "lblTimerCount",
+        "lblTotalBidsCount": "lblTotalBidsCount",
+        "lblTotalbids": "lblTotalbids",
+        "lblYourBid": "lblYourBid",
+        "lblYourBidValue": "lblYourBidValue"
+    }
+}

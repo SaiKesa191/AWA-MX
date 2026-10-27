@@ -1,0 +1,49 @@
+{
+    "AS_Button_j417b2f3357041bbb335f8adbbd5e780": {
+        "id": "AS_Button_j417b2f3357041bbb335f8adbbd5e780",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "bb8812127c20490d87235c6a03e927e0"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__a01a8cc4ac8b45bbbbfb64711ab71d76",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmGovtIds",
+            "formKUID": "c0f4b7039cf94b53848d329011e71e9c",
+            "projectName": "AlwataneyaAuction",
+            "mappings": {
+                "ME_Mapping_fe827f1f5e2c497b87c129d684f01c3f": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_fe827f1f5e2c497b87c129d684f01c3f",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "base64",
+                        "propertyKey": "variable_base64",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_fe827f1f5e2c497b87c129d684f01c3f"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"variable_base64\": base64,\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

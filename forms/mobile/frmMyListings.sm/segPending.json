@@ -1,0 +1,312 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnAccept": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACCEPT"
+            },
+            "btnBargain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BARGAIN"
+            },
+            "btnReject": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REJECT"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgContct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "contactsupport512h.png"
+            },
+            "lblBuyerOffer": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid"
+            },
+            "lblBuyerOfferValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblContactSupport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Support"
+            },
+            "lblHighestBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid"
+            },
+            "lblHighestBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#"
+            },
+            "lblLotValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69952"
+            }
+        },
+        {
+            "btnAccept": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACCEPT"
+            },
+            "btnBargain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BARGAIN"
+            },
+            "btnReject": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REJECT"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgContct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "contactsupport512h.png"
+            },
+            "lblBuyerOffer": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid"
+            },
+            "lblBuyerOfferValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblContactSupport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Support"
+            },
+            "lblHighestBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid"
+            },
+            "lblHighestBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#"
+            },
+            "lblLotValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69952"
+            }
+        },
+        {
+            "btnAccept": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACCEPT"
+            },
+            "btnBargain": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "BARGAIN"
+            },
+            "btnReject": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REJECT"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgContct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "contactsupport512h.png"
+            },
+            "lblBuyerOffer": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid"
+            },
+            "lblBuyerOfferValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblContactSupport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Contact Support"
+            },
+            "lblHighestBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Highest Bid"
+            },
+            "lblHighestBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10,000"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#"
+            },
+            "lblLotValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "69952"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segPending",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ad1a93365577471e92f7480fb3ed1ec2",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegPendingList",
+    "pf": "frmMyListings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "i0c898881b2f4cc48099ef80723c9a07",
+    "rowcounter": 2,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "segRowPendingSaleConfirmation",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 6,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnAccept": "btnAccept",
+        "btnBargain": "btnBargain",
+        "btnReject": "btnReject",
+        "flxBargainButton": "flxBargainButton",
+        "flxBottomLineContactSupport": "flxBottomLineContactSupport",
+        "flxBuyerOffer": "flxBuyerOffer",
+        "flxCarName": "flxCarName",
+        "flxCardata": "flxCardata",
+        "flxContactSupport": "flxContactSupport",
+        "flxContactSupportInner": "flxContactSupportInner",
+        "flxDetails": "flxDetails",
+        "flxHighestBid": "flxHighestBid",
+        "flxImage": "flxImage",
+        "flxLocation": "flxLocation",
+        "flxLotNo": "flxLotNo",
+        "flxRejectAcceptButtons": "flxRejectAcceptButtons",
+        "imgCardata": "imgCardata",
+        "imgContct": "imgContct",
+        "lblBuyerOffer": "lblBuyerOffer",
+        "lblBuyerOfferValue": "lblBuyerOfferValue",
+        "lblCarName": "lblCarName",
+        "lblContactSupport": "lblContactSupport",
+        "lblHighestBid": "lblHighestBid",
+        "lblHighestBidValue": "lblHighestBidValue",
+        "lblLocation": "lblLocation",
+        "lblLocationValue": "lblLocationValue",
+        "lblLot": "lblLot",
+        "lblLotValue": "lblLotValue",
+        "segRowPendingSaleConfirmation": "segRowPendingSaleConfirmation"
+    }
+}

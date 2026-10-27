@@ -1,0 +1,705 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bid Now"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "mask_group.png"
+            },
+            "imgDropDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__9_.png"
+            },
+            "imgFireBolt": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__8_.png"
+            },
+            "imgTime": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "imgWishList": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vector__7_.png"
+            },
+            "lblAmount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "40,000"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ChevRolt ukmsmdn "
+            },
+            "lblCurrent": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "CURRENT"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#lot: 69952"
+            },
+            "lblSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Bid"
+            },
+            "lblTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "04:59S"
+            },
+            "lblTotalBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids : "
+            },
+            "lblTotalBidsCount": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "67"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0b716038cf03046",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a336da5dfe4f4b42829250625b553da4",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollBody",
+    "pf": "frmOnlineAuction",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a3ef36ab96c0420eb2efffb20290a867",
+    "rowcounter": 9,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxSegRow1",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnBidNow": "btnBidNow",
+        "flxBid": "flxBid",
+        "flxBidDropDown": "flxBidDropDown",
+        "flxBidNow": "flxBidNow",
+        "flxBoltContainer": "flxBoltContainer",
+        "flxCurrent": "flxCurrent",
+        "flxIcons": "flxIcons",
+        "flxImg": "flxImg",
+        "flxLot": "flxLot",
+        "flxRow1": "flxRow1",
+        "flxSegRow1": "flxSegRow1",
+        "flxTime": "flxTime",
+        "flxTotalBids": "flxTotalBids",
+        "flxVehicleData": "flxVehicleData",
+        "flxWishListContainer": "flxWishListContainer",
+        "imgCar": "imgCar",
+        "imgDropDown": "imgDropDown",
+        "imgFireBolt": "imgFireBolt",
+        "imgTime": "imgTime",
+        "imgWishList": "imgWishList",
+        "lblAmount": "lblAmount",
+        "lblCarName": "lblCarName",
+        "lblCurrent": "lblCurrent",
+        "lblLot": "lblLot",
+        "lblSelectBid": "lblSelectBid",
+        "lblTime": "lblTime",
+        "lblTotalBids": "lblTotalBids",
+        "lblTotalBidsCount": "lblTotalBidsCount"
+    }
+}

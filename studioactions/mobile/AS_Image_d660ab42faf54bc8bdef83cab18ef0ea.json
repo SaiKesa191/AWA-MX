@@ -1,0 +1,41 @@
+{
+    "AS_Image_d660ab42faf54bc8bdef83cab18ef0ea": {
+        "id": "AS_Image_d660ab42faf54bc8bdef83cab18ef0ea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "KUID": "fd4cd255883c43dca34eb66ba2ca0470",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onTouchEnd",
+        "actions": [{
+            "id": "INVOKE_SERVICE_i0ca347bf3ad448f853a4bf8ed4862f8",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationid": "1174",
+                "operationname": "SentEmailOtp",
+                "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                "servicename": "Al_Wataneya_Custom_Services",
+                "type": "integration"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

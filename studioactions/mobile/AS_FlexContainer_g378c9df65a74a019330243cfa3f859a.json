@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_g378c9df65a74a019330243cfa3f859a": {
+        "id": "AS_FlexContainer_g378c9df65a74a019330243cfa3f859a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tplSegSaleContract",
+            "type": "templates",
+            "platform": "",
+            "KUID": "hd91b515a31144dab8d499bab76bbb7b"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": []
+    }
+}

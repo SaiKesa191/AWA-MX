@@ -1,0 +1,503 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnUploadFile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "lblAddRequestValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Request Sent"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Documents"
+            },
+            "lblDocumentsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Altima_doc.pdf"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnUploadFile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "lblAddRequestValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Request Sent"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Documents"
+            },
+            "lblDocumentsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Altima_doc.pdf"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnUploadFile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "lblAddRequestValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Request Sent"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Documents"
+            },
+            "lblDocumentsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Altima_doc.pdf"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "btnUploadFile": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DONE"
+            },
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "lblAddRequestValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Request Sent"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Documents"
+            },
+            "lblDocumentsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Altima_doc.pdf"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": false
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segUnderReview",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": true
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dfb1760f28dc4e2687bfdd40c09bfcd0",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegUnderReview",
+    "pf": "frmMyListings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j88de09c2f564fc58d1b0bbd09e332cc",
+    "rowcounter": 3,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "segRowUnderReview",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 6,
+    "showprogressindicator": true,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexGroup0bebbb63446124f": "FlexGroup0bebbb63446124f",
+        "btnAddRequest": "btnAddRequest",
+        "btnDone": "btnDone",
+        "btnUploadFile": "btnUploadFile",
+        "flxAddRequest": "flxAddRequest",
+        "flxAdded": "flxAdded",
+        "flxAuctionId": "flxAuctionId",
+        "flxCarImageContainer": "flxCarImageContainer",
+        "flxCarInfo": "flxCarInfo",
+        "flxChassisNumber": "flxChassisNumber",
+        "flxDocuments": "flxDocuments",
+        "flxInfo": "flxInfo",
+        "flxLocation": "flxLocation",
+        "flxModel": "flxModel",
+        "flxSegmentCars": "flxSegmentCars",
+        "flxTargetSellingPrice": "flxTargetSellingPrice",
+        "flxTargetSellingPriceValue": "flxTargetSellingPriceValue",
+        "imgCar": "imgCar",
+        "lblAddRequest": "lblAddRequest",
+        "lblAddRequestValue": "lblAddRequestValue",
+        "lblAdded": "lblAdded",
+        "lblAddedValue": "lblAddedValue",
+        "lblAuctionId": "lblAuctionId",
+        "lblAuctionIdValue": "lblAuctionIdValue",
+        "lblCarName": "lblCarName",
+        "lblChassisNo": "lblChassisNo",
+        "lblChassisNoValue": "lblChassisNoValue",
+        "lblDocuments": "lblDocuments",
+        "lblDocumentsValue": "lblDocumentsValue",
+        "lblLocation": "lblLocation",
+        "lblLocationValue": "lblLocationValue",
+        "lblModel": "lblModel",
+        "lblModelValue": "lblModelValue",
+        "lblTargetSelling": "lblTargetSelling",
+        "lblTargetSellingPrice": "lblTargetSellingPrice",
+        "lblTargetSellingPriceAED": "lblTargetSellingPriceAED",
+        "segRowUnderReview": "segRowUnderReview"
+    }
+}

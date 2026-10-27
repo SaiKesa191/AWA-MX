@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd75eddac756498881c9d2a71ca25d08",
+    "_top_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxBodyStyleFuelType",
+        "flxLocationYear",
+        "flxMileageTransmission",
+        "flxExteriorInteriorColour",
+        "flxDriveTypeEngine",
+        "flxChassisNUmTaxAdded",
+        "CopyflxDriveTypeEngine0c51dae4e7b304d",
+        "CopyflxDriveTypeEngine0f39fd7bc441a4f",
+        "CopyflxDriveTypeEngine0ccd230d9c96f41",
+        "CopyflxDriveTypeEngine0g78b6cdc214a4f"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxBasicInfoBody",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f3967e1df04f4fadbd60dbaf9acc6652",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBasicInfoInner",
+    "pf": "frmDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

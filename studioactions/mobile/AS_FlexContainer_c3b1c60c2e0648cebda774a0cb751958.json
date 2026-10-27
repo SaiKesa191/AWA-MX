@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_c3b1c60c2e0648cebda774a0cb751958": {
+        "id": "AS_FlexContainer_c3b1c60c2e0648cebda774a0cb751958",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "feb48523fdb140e89baeb80b4d42e59c"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_b326a7275d124c26a2e889a7749a99e7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxCatageryListDropdown.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

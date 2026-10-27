@@ -1,0 +1,170 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgDown": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "iconamoon_arrow_down_2.png"
+            },
+            "imgVehicleDrop": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "iconamoon_arrow_down_2.png"
+            },
+            "lblCombo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Detailing Only"
+            },
+            "lblDetailingOnly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Polishing Only"
+            },
+            "lblPolishingOnly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Basic Inspection"
+            },
+            "lblSUV": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Basic Inspection"
+            },
+            "lblSedan": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Basic Inspection"
+            },
+            "lblService": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Service"
+            },
+            "lblVehicleType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Select Service"
+            },
+            "tbxVehicleLottID": {
+                "@class": "com.viz.ide.model.segment.ComplexTextSegmentData",
+                "placeholder": "Placeholder",
+                "text": ""
+            },
+            "txtAreaOptionalNotes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segService",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bf66617e429341379ec40ea0f8af9c7c",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "frmBookYourPolishing",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d43d8cffc76a464eae1d1deea43d0a84",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "Flex0aecdbf3ee8d846",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBookYourPolish": "flxBookYourPolish",
+        "flxCombo": "flxCombo",
+        "flxDetailingOnly": "flxDetailingOnly",
+        "flxDropDownService": "flxDropDownService",
+        "flxDropDownVehicleType": "flxDropDownVehicleType",
+        "flxOptionalNotes": "flxOptionalNotes",
+        "flxPolish": "flxPolish",
+        "flxPolishingOnly": "flxPolishingOnly",
+        "flxSUV": "flxSUV",
+        "flxSedan": "flxSedan",
+        "flxService": "flxService",
+        "flxVehicleLotID": "flxVehicleLotID",
+        "flxVehicleType": "flxVehicleType",
+        "imgDown": "imgDown",
+        "imgVehicleDrop": "imgVehicleDrop",
+        "lblCombo": "lblCombo",
+        "lblDetailingOnly": "lblDetailingOnly",
+        "lblPolishingOnly": "lblPolishingOnly",
+        "lblSUV": "lblSUV",
+        "lblSedan": "lblSedan",
+        "lblService": "lblService",
+        "lblVehicleType": "lblVehicleType",
+        "tbxVehicleLottID": "tbxVehicleLottID",
+        "txtAreaOptionalNotes": "txtAreaOptionalNotes"
+    },
+    "zindex": 1
+}

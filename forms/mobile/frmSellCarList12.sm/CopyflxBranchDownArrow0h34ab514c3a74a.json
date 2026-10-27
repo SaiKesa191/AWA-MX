@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s36821c212ad42889b559e38883bb6c4",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopyimgBranchDownarrow0bb515e83e80342"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyflxBranchDownArrow0h34ab514c3a74a",
+    "ide_onClick": "AS_FlexContainer_e36a03be2cf548e2a6e4bd8208fba2e4",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "hce4ccbbe6d84bbfa8bb6661bec55d13",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxmileagetxtbox",
+    "pf": "frmSellCarList12",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

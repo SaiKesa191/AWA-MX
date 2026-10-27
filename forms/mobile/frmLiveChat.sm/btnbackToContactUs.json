@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3002e1100a1450b8b2ca9a7b18512c5",
+    "_text_": "Back To Contact Us",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "s3002e1100a1450b8b2ca9a7b18512c5"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s3002e1100a1450b8b2ca9a7b18512c5",
+    "id": "btnbackToContactUs",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d13a8f6595ca4ac0bc250dffad058525",
+    "name": "kony.ui.Button",
+    "parent": "flxBody",
+    "pf": "frmLiveChat",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

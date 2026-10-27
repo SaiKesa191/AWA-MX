@@ -1,0 +1,396 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnPayNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PAY NOW"
+            },
+            "btnRequestDelivery": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REQUEST DELIVERY"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgDocument": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ep_document.png"
+            },
+            "imgRequestAccess": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblApprovalStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids",
+                "type": "Label"
+            },
+            "lblApprovalStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 68",
+                "type": "Label"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DOCUMENTS",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#",
+                "type": "Label"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "121314",
+                "type": "Label"
+            },
+            "lblPaymentStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000",
+                "type": "Label"
+            },
+            "lblPendingStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Bid",
+                "type": "Label"
+            },
+            "lblRequestServices": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REQUEST SERVICES",
+                "type": "Label"
+            },
+            "lblWinningBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PAYMENT STATUS",
+                "type": "Label"
+            },
+            "lblWinningBidVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "APPROVED",
+                "type": "Label"
+            }
+        },
+        {
+            "btnPayNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PAY NOW"
+            },
+            "btnRequestDelivery": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REQUEST DELIVERY"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgDocument": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ep_document.png"
+            },
+            "imgRequestAccess": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblApprovalStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids",
+                "type": "Label"
+            },
+            "lblApprovalStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 68",
+                "type": "Label"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DOCUMENTS",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#",
+                "type": "Label"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "121314",
+                "type": "Label"
+            },
+            "lblPaymentStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000",
+                "type": "Label"
+            },
+            "lblPendingStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Bid",
+                "type": "Label"
+            },
+            "lblRequestServices": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REQUEST SERVICES",
+                "type": "Label"
+            },
+            "lblWinningBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PAYMENT STATUS",
+                "type": "Label"
+            },
+            "lblWinningBidVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "APPROVED",
+                "type": "Label"
+            }
+        },
+        {
+            "btnPayNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PAY NOW"
+            },
+            "btnRequestDelivery": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REQUEST DELIVERY"
+            },
+            "imgCardata": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "imgDocument": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "ep_document.png"
+            },
+            "imgRequestAccess": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblApprovalStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Total Bids",
+                "type": "Label"
+            },
+            "lblApprovalStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": " 68",
+                "type": "Label"
+            },
+            "lblCarmodelname": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblDocuments": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DOCUMENTS",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot#",
+                "type": "Label"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "121314",
+                "type": "Label"
+            },
+            "lblPaymentStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED 10,000",
+                "type": "Label"
+            },
+            "lblPendingStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Bid",
+                "type": "Label"
+            },
+            "lblRequestServices": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "REQUEST SERVICES",
+                "type": "Label"
+            },
+            "lblWinningBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "PAYMENT STATUS",
+                "type": "Label"
+            },
+            "lblWinningBidVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "APPROVED",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segPendingDelivery",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e84c947a82ca4ad5b90234e19679b712",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "frmPendingDelivery",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d604dbd70c574f9893e90c2ba48272a8",
+    "rowcounter": 2,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "Flex0c44f1b0bba7a42",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxLine0a128c9f1790f45": "CopyflxLine0a128c9f1790f45",
+        "btnPayNow": "btnPayNow",
+        "btnRequestDelivery": "btnRequestDelivery",
+        "flxBottam": "flxBottam",
+        "flxCardata": "flxCardata",
+        "flxDetails": "flxDetails",
+        "flxDocuments": "flxDocuments",
+        "flxImage": "flxImage",
+        "flxImgRequestServices": "flxImgRequestServices",
+        "flxLine2": "flxLine2",
+        "flxNameAndAddress": "flxNameAndAddress",
+        "flxPendingData": "flxPendingData",
+        "flxRequestServices": "flxRequestServices",
+        "flximgDocument": "flximgDocument",
+        "imgCardata": "imgCardata",
+        "imgDocument": "imgDocument",
+        "imgRequestAccess": "imgRequestAccess",
+        "lblApprovalStatus": "lblApprovalStatus",
+        "lblApprovalStatusVal": "lblApprovalStatusVal",
+        "lblCarmodelname": "lblCarmodelname",
+        "lblDocuments": "lblDocuments",
+        "lblLocation": "lblLocation",
+        "lblLocationVal": "lblLocationVal",
+        "lblLot": "lblLot",
+        "lblLotNum": "lblLotNum",
+        "lblPaymentStatusVal": "lblPaymentStatusVal",
+        "lblPendingStatus": "lblPendingStatus",
+        "lblRequestServices": "lblRequestServices",
+        "lblWinningBid": "lblWinningBid",
+        "lblWinningBidVal": "lblWinningBidVal"
+    }
+}

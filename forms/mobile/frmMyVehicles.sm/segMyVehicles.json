@@ -1,0 +1,656 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnAddRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Add Request"
+            },
+            "btnDone": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Done"
+            },
+            "btnUpload": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Upload File"
+            },
+            "lblAdded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Added"
+            },
+            "lblAddedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-03-03"
+            },
+            "lblChassis": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis Number"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblLot": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lot ID"
+            },
+            "lblLotNum": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "89756"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2013"
+            },
+            "lblObjId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMyVehicles",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e5910a5d95184c3b996809a8ba2c1ac1",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegmentMyVehicles",
+    "pf": "frmMyVehicles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d403d696b8b04fe4806ba0a68baedc11",
+    "rowcounter": 9,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxMyVehicles",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnAddRequest": "btnAddRequest",
+        "btnDone": "btnDone",
+        "btnUpload": "btnUpload",
+        "flxCarDetails": "flxCarDetails",
+        "flxLikeBid": "flxLikeBid",
+        "flxLocation": "flxLocation",
+        "flxLot": "flxLot",
+        "flxMyVehicles": "flxMyVehicles",
+        "flxTotalBids": "flxTotalBids",
+        "lblAdded": "lblAdded",
+        "lblAddedValue": "lblAddedValue",
+        "lblChassis": "lblChassis",
+        "lblChassisValue": "lblChassisValue",
+        "lblLot": "lblLot",
+        "lblLotNum": "lblLotNum",
+        "lblModel": "lblModel",
+        "lblModelValue": "lblModelValue",
+        "lblObjId": "lblObjId",
+        "lblTargetSellingPrice": "lblTargetSellingPrice"
+    }
+}

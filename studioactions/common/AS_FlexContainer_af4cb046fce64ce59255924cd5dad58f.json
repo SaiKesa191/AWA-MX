@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_af4cb046fce64ce59255924cd5dad58f": {
+        "id": "AS_FlexContainer_af4cb046fce64ce59255924cd5dad58f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u789060bcedb43cea62c8a7aed3c1499"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "ADD_SNIPPET_cfe516eb18034d3a9d1c8108232a0f81",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "  var isLogin =voltmx.store.getItem(\"isLogin\");\n    alert(\"isLogin :\"+isLogin);\n    var isUserCreated = voltmx.store.getItem(\"isUserCreated\");\n    alert(\"isLogin :\"+isUserCreated);\n    if(isLogin === true || isUserCreated === true){\n    this.view.imgSellCar.setVisibility(false);\n      this.view.flxProfile.setVisibility(true);\n    }\n    else{\n      this.view.imgSellCar.setVisibility(true);\n      this.view.flxProfile.setVisibility(false);\n    }\n",
+            "parentId": null
+        }]
+    }
+}

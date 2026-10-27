@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_h7b2d58e778f404c81988b92b31f4ce7": {
+        "id": "AS_FlexContainer_h7b2d58e778f404c81988b92b31f4ce7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ff52d1c26c44475bb86ab094278aeab2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxMenuBarMain.setVisibility(false);\n\nvar currentForm = kony.application.getCurrentForm();\n\nif (currentForm) {\n    currentForm.flxHeader.zIndex = 3;  // Update zIndex of flex in form\n}"
+        }]
+    }
+}

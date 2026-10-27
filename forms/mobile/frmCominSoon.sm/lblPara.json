@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb3cde78509e4d938019747b1df30e70",
+    "_text_": " ",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "55%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblPara",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i8e49cb72e0b4fd3a559b6338d4fe13a",
+    "name": "kony.ui.Label",
+    "parent": "flxPara",
+    "pf": "frmCominSoon",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Stay tuned for our upcoming auctions—exclusive items, rare treasures, and amazing deals are just around the corner. You won’t want to miss out! Keep an eye on this space for more details, and get ready to place your bids!",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

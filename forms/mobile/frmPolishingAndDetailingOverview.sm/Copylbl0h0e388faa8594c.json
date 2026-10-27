@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s552b57637a6489d8a63d96603d8219f",
+    "_text_": "Saves you time – car is ready when paperwork is done",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "Copylbl0h0e388faa8594c",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ib2df87e3d7b4eef8f3efaf0573ee21c",
+    "name": "kony.ui.Label",
+    "parent": "Copyflx0h1b8884061cf44",
+    "pf": "frmPolishingAndDetailingOverview",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Saves you time – car is ready when paperwork is done",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

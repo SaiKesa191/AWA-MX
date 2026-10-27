@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calendar512h.png",
+    "_data_": null,
+    "_date_": "27/5/2025",
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1fb8c9a9c7a43179a0693f195ce6daa",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "advview": "default",
+    "calendaricon": "calendar512h.png",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "datecomponents": [
+        27,
+        5,
+        2025,
+        0,
+        0,
+        0
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "day": 27,
+    "daytextalignmentincell": 5,
+    "disabledSkins": {},
+    "focusskin": "s1fb8c9a9c7a43179a0693f195ce6daa",
+    "format": "dd/MM/yyyy",
+    "formatteddate": "27/05/2025",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calender",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b951d06e4bdd423c99a7c47bb87ca86e",
+    "minutes": 0,
+    "month": 5,
+    "name": "kony.ui.Calendar",
+    "noofmonths": 1,
+    "paddinginpixel": false,
+    "pagedate": "/2025",
+    "parent": "flxcalender",
+    "pf": "frmBankTransferorDeposit",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2025",
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "year": 2025
+}

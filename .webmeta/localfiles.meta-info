@@ -1,0 +1,90 @@
+{
+    "HEAD": "w65b1107518349ada520941e8d5281d7",
+    "w13684821d7e480da9450aa55175c9f3": {
+        "extension": "html",
+        "kuid": "w13684821d7e480da9450aa55175c9f3",
+        "name": "CopyDragAnddrop.html",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "w2062eff717e4311990ef9baff421832": {
+        "extension": "css",
+        "kuid": "w2062eff717e4311990ef9baff421832",
+        "name": "Copydraganddrop.css",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "w22e7de2750341cfafebd3e99b2c8f85": {
+        "extension": "css",
+        "kuid": "w22e7de2750341cfafebd3e99b2c8f85",
+        "name": "draganddrop.css",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "w47a9eee8adc476484f1077a1630c12e": {
+        "extension": "html",
+        "kuid": "w47a9eee8adc476484f1077a1630c12e",
+        "name": "DragAnddrop.html",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "w4f099703603434280d5da927beb3104": {
+        "extension": "js",
+        "kuid": "w4f099703603434280d5da927beb3104",
+        "name": "draganddrop.js",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "w65b1107518349ada520941e8d5281d7": {
+        "children": [
+            "w22e7de2750341cfafebd3e99b2c8f85",
+            "w47a9eee8adc476484f1077a1630c12e",
+            "w4f099703603434280d5da927beb3104",
+            "w2062eff717e4311990ef9baff421832",
+            "w13684821d7e480da9450aa55175c9f3",
+            "wbe25c327ca4414ca1def629b0bfcfde",
+            "wde58a1d295d4db2a890cb1edf014280",
+            "wdc9e4cd1cab4fe3b5ec5e1b26f71188",
+            "w8b656659d4e426fb14b603b2fedfb4a",
+            "w99bc2917a8744108034834931ddefb6"
+        ],
+        "kuid": "w65b1107518349ada520941e8d5281d7",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "w8b656659d4e426fb14b603b2fedfb4a": {
+        "extension": "js",
+        "kuid": "w8b656659d4e426fb14b603b2fedfb4a",
+        "name": "Copydraganddrop1.js",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "w99bc2917a8744108034834931ddefb6": {
+        "extension": "html",
+        "kuid": "w99bc2917a8744108034834931ddefb6",
+        "name": "sales_document.html",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "wbe25c327ca4414ca1def629b0bfcfde": {
+        "extension": "js",
+        "kuid": "wbe25c327ca4414ca1def629b0bfcfde",
+        "name": "Copydraganddrop.js",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "wdc9e4cd1cab4fe3b5ec5e1b26f71188": {
+        "extension": "html",
+        "kuid": "wdc9e4cd1cab4fe3b5ec5e1b26f71188",
+        "name": "CopyDragAnddrop1.html",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    },
+    "wde58a1d295d4db2a890cb1edf014280": {
+        "extension": "css",
+        "kuid": "wde58a1d295d4db2a890cb1edf014280",
+        "name": "Copydraganddrop1.css",
+        "parent": "w65b1107518349ada520941e8d5281d7",
+        "type": "F"
+    }
+}

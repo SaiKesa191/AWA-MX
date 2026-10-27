@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_c6e9d049aa1f49d7972cce3dee9831d9": {
+        "id": "AS_FlexContainer_c6e9d049aa1f49d7972cce3dee9831d9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_dfeda0c6297e4be7827984e4dd194cb4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxOpacity.setVisibility(true);\nthis.view.flxOpacity.zIndex = \"6\";\nthis.view.flxContactPopup.setVisibility(true);\n",
+            "parentId": null
+        }]
+    }
+}

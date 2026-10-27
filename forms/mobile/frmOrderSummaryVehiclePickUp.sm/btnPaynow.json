@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s57f14e4683c4a4f9ae36b08170871d9",
+    "_text_": "PAY NOW",
+    "_top_": {
+        "type": "string",
+        "value": "18%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s57f14e4683c4a4f9ae36b08170871d9",
+    "id": "btnPaynow",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a766def45c9c4935af09884b0434ce62",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "frmOrderSummaryVehiclePickUp",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793034431189",
+    "project_id": "awa-notifications",
+    "storage_bucket": "awa-notifications.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793034431189:android:315e5deceaa27ab7a6205c",
+        "android_client_info": {
+          "package_name": "com.orgname.Alwataneya2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU3TdavoAJw-ZokTjFC_V59LDEl6NK8BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

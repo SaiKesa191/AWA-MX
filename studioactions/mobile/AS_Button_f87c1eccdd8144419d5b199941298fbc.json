@@ -1,0 +1,29 @@
+{
+    "AS_Button_f87c1eccdd8144419d5b199941298fbc": {
+        "id": "AS_Button_f87c1eccdd8144419d5b199941298fbc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "e762fd9773e74fee9aed10143bc0f11b",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__gfd25bd4ee614c8598a081664fcb08f3",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLoginScreen",
+            "formKUID": "h29b5f98c26c49f59b6a45f9e2755bb5",
+            "projectName": "AlwataneyaAuction",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

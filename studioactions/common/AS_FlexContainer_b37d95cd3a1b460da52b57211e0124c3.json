@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_b37d95cd3a1b460da52b57211e0124c3": {
+        "id": "AS_FlexContainer_b37d95cd3a1b460da52b57211e0124c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u03fd46cb02a4d828585217246ea7f24",
+            "name": "userwidgetmodel",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_e762f7562cc743279e59b312044c17c4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.flxOpenBidStatus.isVisible){\nthis.view.flxOpenBidStatus.setVisibility(false);\n}\nelse{\n  this.view.flxOpenBidStatus.setVisibility(true);\n}",
+            "parentId": null
+        }]
+    }
+}

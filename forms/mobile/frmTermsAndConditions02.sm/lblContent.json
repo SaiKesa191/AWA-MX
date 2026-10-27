@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8a55a7e10f47f59a80dfcf63107035",
+    "_text_": "Please be advised that the completion of the sale is subject to management approval. You will receive a response from management either approving or rejecting the sale within 2 to 21 working days, which may be extended depending on the vehicle&#39;s condition. An additional fee of 250 dirhams will be charged per vehicle in the event of a technical condition inspection. All vehicles are sold as-is, according to the terms and conditions listed on the website. A fine of 20 dirhams for light vehicles and 50 dirhams for heavy vehicles and buses will be imposed if the vehicle is not collected within seven days after the sale approval notification. An administrative fee of 300 dirhams will be applied for motorcycles, 380 dirhams for light vehicles, and 480 dirhams for heavy vehicles.",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "lblContent",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ca7fd12529db45dbbd08fb0b408263ee",
+    "name": "kony.ui.Label",
+    "parent": "flxContent",
+    "pf": "frmTermsAndConditions02",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

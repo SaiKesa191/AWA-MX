@@ -1,0 +1,29 @@
+{
+    "AS_Button_b596903929e4428090b57f897718078a": {
+        "id": "AS_Button_b596903929e4428090b57f897718078a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDashBoard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b574f206311e430c95757095535cfaa0"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b67ad512d6f842fe8c55923ca936e34c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "registerMyDevice",
+            "display": "registerMyDevice",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

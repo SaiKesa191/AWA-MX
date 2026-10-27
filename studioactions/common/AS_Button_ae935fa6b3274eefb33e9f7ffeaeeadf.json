@@ -1,0 +1,18 @@
+{
+    "AS_Button_ae935fa6b3274eefb33e9f7ffeaeeadf": {
+        "id": "AS_Button_ae935fa6b3274eefb33e9f7ffeaeeadf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_c92eddc1a9a847b1ba80892fa2389a3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxOpacity.setVisibility(false);\nthis.view.flxOpacity.zIndex = \"1\";\nthis.view.flxContactPopup.setVisibility(false);",
+            "parentId": null
+        }]
+    }
+}

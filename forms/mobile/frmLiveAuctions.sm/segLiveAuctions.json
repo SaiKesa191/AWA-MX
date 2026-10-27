@@ -1,0 +1,629 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png",
+                "type": "Image"
+            },
+            "lblAuctionEnded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Ended",
+                "type": "Label"
+            },
+            "lblAuctionEndedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-08 10:00 AM",
+                "type": "Label"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID",
+                "type": "Label"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952",
+                "type": "Label"
+            },
+            "lblAuctionStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Started",
+                "type": "Label"
+            },
+            "lblAuctionStartedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01 10:00 AM",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No",
+                "type": "Label"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Max Bid",
+                "type": "Label"
+            },
+            "lblMaxBidAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            },
+            "lblMaxBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model",
+                "type": "Label"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020",
+                "type": "Label"
+            },
+            "lblNBidsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12",
+                "type": "Label"
+            },
+            "lblNoBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "N.Bids",
+                "type": "Label"
+            },
+            "lblNoOfVisits": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Number of Visits",
+                "type": "Label"
+            },
+            "lblNoOfVisitsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "30",
+                "type": "Label"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price",
+                "type": "Label"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png",
+                "type": "Image"
+            },
+            "lblAuctionEnded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Ended",
+                "type": "Label"
+            },
+            "lblAuctionEndedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-08 10:00 AM",
+                "type": "Label"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID",
+                "type": "Label"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952",
+                "type": "Label"
+            },
+            "lblAuctionStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Started",
+                "type": "Label"
+            },
+            "lblAuctionStartedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01 10:00 AM",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No",
+                "type": "Label"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Max Bid",
+                "type": "Label"
+            },
+            "lblMaxBidAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            },
+            "lblMaxBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model",
+                "type": "Label"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020",
+                "type": "Label"
+            },
+            "lblNBidsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12",
+                "type": "Label"
+            },
+            "lblNoBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "N.Bids",
+                "type": "Label"
+            },
+            "lblNoOfVisits": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Number of Visits",
+                "type": "Label"
+            },
+            "lblNoOfVisitsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "30",
+                "type": "Label"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price",
+                "type": "Label"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png",
+                "type": "Image"
+            },
+            "lblAuctionEnded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Ended",
+                "type": "Label"
+            },
+            "lblAuctionEndedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-08 10:00 AM",
+                "type": "Label"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID",
+                "type": "Label"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952",
+                "type": "Label"
+            },
+            "lblAuctionStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Started",
+                "type": "Label"
+            },
+            "lblAuctionStartedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01 10:00 AM",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No",
+                "type": "Label"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Max Bid",
+                "type": "Label"
+            },
+            "lblMaxBidAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            },
+            "lblMaxBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model",
+                "type": "Label"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020",
+                "type": "Label"
+            },
+            "lblNBidsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12",
+                "type": "Label"
+            },
+            "lblNoBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "N.Bids",
+                "type": "Label"
+            },
+            "lblNoOfVisits": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Number of Visits",
+                "type": "Label"
+            },
+            "lblNoOfVisitsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "30",
+                "type": "Label"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price",
+                "type": "Label"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png",
+                "type": "Image"
+            },
+            "lblAuctionEnded": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Ended",
+                "type": "Label"
+            },
+            "lblAuctionEndedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-08 10:00 AM",
+                "type": "Label"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction ID",
+                "type": "Label"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "#69952",
+                "type": "Label"
+            },
+            "lblAuctionStarted": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Started",
+                "type": "Label"
+            },
+            "lblAuctionStartedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-01 10:00 AM",
+                "type": "Label"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019",
+                "type": "Label"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "chassis No",
+                "type": "Label"
+            },
+            "lblChassisNoValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098",
+                "type": "Label"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location",
+                "type": "Label"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu Dhabi",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Max Bid",
+                "type": "Label"
+            },
+            "lblMaxBidAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            },
+            "lblMaxBidValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblModel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model",
+                "type": "Label"
+            },
+            "lblModelValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020",
+                "type": "Label"
+            },
+            "lblNBidsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12",
+                "type": "Label"
+            },
+            "lblNoBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "N.Bids",
+                "type": "Label"
+            },
+            "lblNoOfVisits": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Number of Visits",
+                "type": "Label"
+            },
+            "lblNoOfVisitsValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "30",
+                "type": "Label"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "25,000",
+                "type": "Label"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price",
+                "type": "Label"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segLiveAuctions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "he3842098efb4ef1809cfdd99e68d684",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegmentLiveAuctions",
+    "pf": "frmLiveAuctions",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a09459c08f1040e2af8cc4e9fd13ae9e",
+    "rowcounter": 3,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxSegRowLiveAuctions",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAuctionEnded": "flxAuctionEnded",
+        "flxAuctionId": "flxAuctionId",
+        "flxAuctionStarted": "flxAuctionStarted",
+        "flxCarImageContainer": "flxCarImageContainer",
+        "flxCarInfo": "flxCarInfo",
+        "flxCarName": "flxCarName",
+        "flxChassisNumber": "flxChassisNumber",
+        "flxInfo": "flxInfo",
+        "flxLocation": "flxLocation",
+        "flxMaxBid": "flxMaxBid",
+        "flxMaxBidValue": "flxMaxBidValue",
+        "flxModel": "flxModel",
+        "flxNBids": "flxNBids",
+        "flxNoOfVisits": "flxNoOfVisits",
+        "flxSegRowLiveAuctions": "flxSegRowLiveAuctions",
+        "flxSegmentCars": "flxSegmentCars",
+        "flxTargetSellingPrice": "flxTargetSellingPrice",
+        "flxTargetSellingPriceValue": "flxTargetSellingPriceValue",
+        "imgCar": "imgCar",
+        "lblAuctionEnded": "lblAuctionEnded",
+        "lblAuctionEndedValue": "lblAuctionEndedValue",
+        "lblAuctionId": "lblAuctionId",
+        "lblAuctionIdValue": "lblAuctionIdValue",
+        "lblAuctionStarted": "lblAuctionStarted",
+        "lblAuctionStartedValue": "lblAuctionStartedValue",
+        "lblCarName": "lblCarName",
+        "lblChassisNo": "lblChassisNo",
+        "lblChassisNoValue": "lblChassisNoValue",
+        "lblLocation": "lblLocation",
+        "lblLocationValue": "lblLocationValue",
+        "lblMaxBid": "lblMaxBid",
+        "lblMaxBidAED": "lblMaxBidAED",
+        "lblMaxBidValue": "lblMaxBidValue",
+        "lblModel": "lblModel",
+        "lblModelValue": "lblModelValue",
+        "lblNBidsValue": "lblNBidsValue",
+        "lblNoBids": "lblNoBids",
+        "lblNoOfVisits": "lblNoOfVisits",
+        "lblNoOfVisitsValue": "lblNoOfVisitsValue",
+        "lblTargetSelling": "lblTargetSelling",
+        "lblTargetSellingPrice": "lblTargetSellingPrice",
+        "lblTargetSellingPriceAED": "lblTargetSellingPriceAED"
+    },
+    "zindex": 2
+}

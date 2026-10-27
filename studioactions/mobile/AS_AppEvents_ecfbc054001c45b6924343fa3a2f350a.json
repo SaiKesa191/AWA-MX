@@ -1,0 +1,23 @@
+{
+    "AS_AppEvents_ecfbc054001c45b6924343fa3a2f350a": {
+        "id": "AS_AppEvents_ecfbc054001c45b6924343fa3a2f350a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "Post Appinit",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g7024653160b4ab99aa9087fba2462f6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "splasscreen",
+            "display": "splasscreen",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

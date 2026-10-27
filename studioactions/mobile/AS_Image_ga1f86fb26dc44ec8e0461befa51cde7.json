@@ -1,0 +1,28 @@
+{
+    "AS_Image_ga1f86fb26dc44ec8e0461befa51cde7": {
+        "id": "AS_Image_ga1f86fb26dc44ec8e0461befa51cde7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "tplSegBiddingProcess",
+            "type": "templates",
+            "platform": "",
+            "KUID": "af7bfe3cd0824365b18562846385fc0b"
+        },
+        "language": "js",
+        "eventType": "onTouchStart",
+        "actions": []
+    }
+}

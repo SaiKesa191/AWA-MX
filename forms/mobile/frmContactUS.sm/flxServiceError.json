@@ -1,0 +1,138 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s52efebb1e6941fdaf52560354be1a4e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CopyflxError0ae25f023de1d42": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f56d01cefb0841a8a9a134dc8f5d247c",
+                "srcKUID": "h2421e3923244d43a0af033532682a5f",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnTryAgain": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b5bc4b8d2b7946b38f82c1f5f5d28a2a",
+                "srcKUID": "b57f7ebf65d240fda112efd81e25d7a1",
+                "wType": "Button"
+            }
+        },
+        "flxBody": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a8ed2ab852c143d4874b08b4006f3e97",
+                "srcKUID": "ee839511906348b8bad1181777e3378f",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxImg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a81e25a44a4447799fcd88281426fe28",
+                "srcKUID": "cd1fa5bc1cf6484291b30efac2481ebb",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j169e61fb61940a5a24869197dd1ad05",
+                "srcKUID": "c9232a80f08b40809397bf0e31652cc9",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxServiceError": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a2a5e4b741244bb085df4e2e4b4dd751",
+                "srcKUID": "g915cd194b774f9da68a46a01bd1fcca",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "imgError": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d5a982d4616c4821a59cfd02a235742b",
+                "srcKUID": "fd68501bfe7f44b4a5ea5607e2aae575",
+                "wType": "Image"
+            },
+            "src": "serviceerror.png"
+        },
+        "lblNetworkConnectionerror": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h755c054dab64ee09c3a755b3778dcdd",
+                "srcKUID": "ae089bef29ae47658540d39b61264047",
+                "wType": "Label"
+            }
+        },
+        "lblerror": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f60a81a6283c43d9aab9824153a8c4f0",
+                "srcKUID": "gf617223b05541be94ca7d98d09b7b68",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxServiceError",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": false,
+    "kuid": "a2a5e4b741244bb085df4e2e4b4dd751",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmContactUS",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g915cd194b774f9da68a46a01bd1fcca",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

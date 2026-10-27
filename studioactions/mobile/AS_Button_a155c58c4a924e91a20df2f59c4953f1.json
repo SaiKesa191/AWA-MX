@@ -1,0 +1,116 @@
+{
+    "AS_Button_a155c58c4a924e91a20df2f59c4953f1": {
+        "id": "AS_Button_a155c58c4a924e91a20df2f59c4953f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScreen2Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b591a49ba43b4605be3f62eea9715917"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "LOADING_INDICATOR_ed066d2fade14514b6a3a8e5c73abf86",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "LOADING_INDICATOR_e7b54aa95c32482384cc01dba55dd2e3",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Failure",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "LOADING_INDICATOR_dfffd4ee2e734af0b5680e761d991bb3",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Success",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "ADD_SNIPPET_cc827aa8ab1942dbada389ae0e67ed96",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"login failed!!!\");",
+            "parentId": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "callbackType": "Failure"
+        }, {
+            "id": "SHOW_ALERT_bd139b56c24b4f66b97f851ff3b82328",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "Login Failed Please try Again!!!!",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "callbackType": "Failure",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "INVOKE_FUNCTION__ge442e682fcb4b2a96e6ece266343429",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getUserObj",
+            "display": "getUserObj",
+            "inputparams": [],
+            "parentId": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "callbackType": "Success",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "SHOW_ALERT_f3c6919f6adf4ba8bb010479ddbdfe05",
+            "type": "SHOW_ALERT",
+            "alertType": "constants.ALERT_TYPE_CONFIRMATION",
+            "alertTitle": null,
+            "yesLabel": null,
+            "noLabel": null,
+            "alertIcon": null,
+            "alertMessage": "You have SuccessFully Logged in !!1",
+            "messageType": "constant",
+            "alertHandler": null,
+            "parentId": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "callbackType": "Success",
+            "alertTitlei18n": null,
+            "yesLabeli18n": null,
+            "noLabeli18n": null,
+            "alertMessagei18n": null,
+            "iconPosition": "constants.ALERT_ICON_POSITION_LEFT",
+            "disabled": null
+        }, {
+            "id": "INVOKE_SERVICE_b58c7c833c9f425dbb30ee1cd6dad1d2",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationname": "login",
+                "servicename": "DevAzureB2C",
+                "type": "identity",
+                "isDeepLinkRequired": false,
+                "login_type": "oauth2"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": true,
+            "isDeepLinkRequired": false
+        }]
+    }
+}

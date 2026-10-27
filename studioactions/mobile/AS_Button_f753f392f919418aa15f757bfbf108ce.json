@@ -1,0 +1,37 @@
+{
+    "AS_Button_f753f392f919418aa15f757bfbf108ce": {
+        "id": "AS_Button_f753f392f919418aa15f757bfbf108ce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "ba7b1a32e79b4966977b4ce809f9ed63",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_i6c335a1f0df47e8b2da89a98fc34e1b",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "operationid": "575",
+                "operationname": "GetUserObj",
+                "serviceid": "f29d1a0a-d568-4224-838d-8ac2da1823fc",
+                "servicename": "Workflows",
+                "type": "integration"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "CVV",
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "sd512fc825c246f5aad356b63769fd31",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s60b8053cda145829f710653abcc8512",
+    "id": "CopytbxCVV0da07c147631548",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "i6154abb4bd74b99924fddfc83a182cd",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "CopyflxMonthYear0d8521103a3d641",
+    "pf": "frmPaymentMethod2",
+    "placeholderskin": "s9a7960f609f48fe9559561764dfea7a",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField"
+}

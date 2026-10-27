@@ -1,0 +1,124 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s370a955cd2d4e88a19f781127549a46",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "checkBxGroup",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 3
+        },
+        "render": true
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "itemorientation": "vertical",
+    "kuid": "becb93c36fc94e09a2d69bacb3133b52",
+    "masterdata": [
+        [
+            "cbg1",
+            "  Maintain peak vehicle performance"
+        ],
+        [
+            "cbg2",
+            "  Prevent costly repairs with regular check-ups"
+        ],
+        [
+            "cbg3",
+            "  Save time with on-site service during paperwork"
+        ],
+        [
+            "cbg4",
+            "  Performed by certified technicians using quality parts"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "vertical",
+    "parent": "flxChx",
+    "pf": "frmMaintenanceAndRepairs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [
+        "cbg1",
+        "cbg2",
+        "cbg3",
+        "cbg4"
+    ],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        [
+            "cbg1",
+            "  Maintain peak vehicle performance"
+        ],
+        [
+            "cbg2",
+            "  Prevent costly repairs with regular check-ups"
+        ],
+        [
+            "cbg3",
+            "  Save time with on-site service during paperwork"
+        ],
+        [
+            "cbg4",
+            "  Performed by certified technicians using quality parts"
+        ]
+    ],
+    "size": 18,
+    "spaan": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "tickedimage": "",
+    "untickedimage": "uncheckedcheck.png",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "winphone8": {
+        "render": true
+    }
+}

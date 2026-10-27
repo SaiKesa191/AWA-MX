@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_f7bd6952913c49488235c94f911c827d": {
+        "id": "AS_FlexContainer_f7bd6952913c49488235c94f911c827d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_f67cec7b11224112b8c0d25ef3cf6bf2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxMenuBarMain.setVisibility(true);\nvar currentForm = voltmx.application.getCurrentForm();\n\nif (currentForm) {\n    currentForm.flxHeader.zIndex = 6;  // Update zIndex of flex in form\n}",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s821e7b40c87406aacebb51f1f296989",
+    "_top_": {
+        "type": "number",
+        "value": "1"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "60.52%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopyLabel0ba042ae0793049",
+        "flxRemoveHeavyVehiclesBTFromFilter"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxHeavyVehiclesBodyTypeSelected",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "a7f378492f0c4baeb62a6879a12c7a68",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBodyTypeSelectedItems",
+    "pf": "frmAuctionCalendar",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

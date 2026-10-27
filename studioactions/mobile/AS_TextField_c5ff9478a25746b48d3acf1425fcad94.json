@@ -1,0 +1,26 @@
+{
+    "AS_TextField_c5ff9478a25746b48d3acf1425fcad94": {
+        "id": "AS_TextField_c5ff9478a25746b48d3acf1425fcad94",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "j160c1eecf4547849dbd8b54b074ba37"
+        },
+        "language": "js",
+        "eventType": "onTextChange",
+        "actions": [{
+            "id": "ADD_SNIPPET_aad0da72d6674818be8882464e93ab06",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxNext.setVisibility(true);",
+            "parentId": null
+        }]
+    }
+}

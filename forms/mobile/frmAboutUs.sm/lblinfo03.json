@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8a55a7e10f47f59a80dfcf63107035",
+    "_text_": "Our vehicles are sourced from reputable entities such as government bodies, corporates, insurance companies, courts, police, leasing companies, banks, and municipalities, ensuring a steady and high-quality selection.",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblinfo03",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bd577f4928664cfb9ee5d4b22b4ae017",
+    "name": "kony.ui.Label",
+    "parent": "flxInfo03",
+    "pf": "frmAboutUs",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "Our vehicles are sourced from reputable entities such as government bodies, corporates, insurance companies, courts, police, leasing companies, banks, and municipalities, ensuring a steady and high-quality selection.",
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label"
+}

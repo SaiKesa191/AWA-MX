@@ -1,0 +1,90 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa37116f8eb947f2b0e9bd21003a9331",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Heading": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "dd90dfeec2c14211978cf8f48332bcfe",
+                "srcKUID": "id822ef0392f48ccac543ea701abd275",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgAWA": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dbb1481a48394ccf9c3874c7f6f9d130",
+                "srcKUID": "bfc10f2669f645d8a5a4c8034864ea49",
+                "wType": "Image"
+            },
+            "src": "awa512h.png"
+        },
+        "imgUser": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8314405a84e4f0483bbd72e8171defb",
+                "srcKUID": "i1f42bae37fc49b5a696dec77dc27d34",
+                "wType": "Image"
+            },
+            "src": "imguser512h.png"
+        }
+    },
+    "enablescrolling": true,
+    "id": "Heading",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "dd90dfeec2c14211978cf8f48332bcfe",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmSelectPreferences",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "id822ef0392f48ccac543ea701abd275",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

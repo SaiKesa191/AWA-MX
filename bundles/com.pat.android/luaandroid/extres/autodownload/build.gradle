@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+allprojects {
+    repositories {
+        maven {
+            url "https://maven.google.com"
+        }
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        jcenter()
+		google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+android {
+    compileSdkVersion  'android-28'
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        minSdkVersion 17
+        applicationId "com.kony.konyapplication"
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    compile 'com.android.support:recyclerview-v7:28.0.0'
+  compile 'com.android.support:appcompat-v7:28.0.0'
+}

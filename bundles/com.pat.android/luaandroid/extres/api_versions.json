@@ -1,0 +1,79 @@
+{
+  "default_min_sdk":"21",
+  "default_min_sdk_wear":"25",  
+  "playstore_min_target":"34",
+  "playstore_min_target_wear":"33",
+  "max_sdk_wear":"33",
+  "api_versions": [
+    {
+      "api_level": "19",
+      "api_version": "4.4"
+    },
+    {
+      "api_level": "21",
+      "api_version": "5.0"
+    },
+    {
+      "api_level": "22",
+      "api_version": "5.1"
+    },
+    {
+      "api_level": "22",
+      "api_version": "5.1.1"
+    },
+    {
+      "api_level": "23",
+      "api_version": "6.0"
+    },
+    {
+      "api_level": "24",
+      "api_version": "7.0"
+    },
+    {
+      "api_level": "25",
+      "api_version": "7.1"
+    }
+    ,
+    {
+      "api_level": "26",
+      "api_version": "8.0"
+    },
+    {
+      "api_level": "27",
+      "api_version": "8.1"
+    },
+    {
+      "api_level": "28",
+      "api_version": "9.0"
+    },
+	{
+      "api_level": "29",
+      "api_version": "10.0"
+	},
+	{
+      "api_level": "30",
+      "api_version": "11.0"
+	},
+    {
+      "api_level": "31",
+      "api_version": "12.0"
+    },
+    {
+      "api_level": "32",
+      "api_version": "12L"
+    },
+    {
+      "api_level": "33",
+      "api_version": "13.0"
+    },
+    {
+      "api_level": "34",
+      "api_version": "14.0"
+    },
+    {
+      "api_level": "35",
+      "api_version": "15.0"
+    }
+
+  ]
+}

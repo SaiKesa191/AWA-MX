@@ -1,0 +1,54 @@
+{
+    "AS_FlexContainer_b002b88ae0434172a0717246de240b93": {
+        "id": "AS_FlexContainer_b002b88ae0434172a0717246de240b93",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "e5b21c4e66c24396af992266c013a6c4",
+            "name": "frmRegister1",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__b10e59622c70414d81efc0f60ce002c6",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "j48bdd3dc614492b9b41d6ef6b228be7",
+            "mappings": {
+                "ME_Mapping_c2124fdbb8374350984687301f9b1828": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_c2124fdbb8374350984687301f9b1828",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "propertyKey": "txtFirstNlastName_text",
+                        "widgetId": "txtFirstNlastName",
+                        "widgetPath": "this.view.txtFirstNlastName",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmRegister1",
+                        "widgetKUID": "c4834fcd022c4123b9f0a1ea8f4091e4",
+                        "itemKUID": "e5b21c4e66c24396af992266c013a6c4",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_c2124fdbb8374350984687301f9b1828"],
+            "enableMappingEditor": true,
+            "package": "",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"txtFirstNlastName_text\": self.view.txtFirstNlastName.text,\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

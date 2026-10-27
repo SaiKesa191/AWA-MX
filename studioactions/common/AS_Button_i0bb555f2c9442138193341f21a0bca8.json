@@ -1,0 +1,60 @@
+{
+    "AS_Button_i0bb555f2c9442138193341f21a0bca8": {
+        "id": "AS_Button_i0bb555f2c9442138193341f21a0bca8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u8c97cf3541148118aa579ad59d55aaa"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_d8aedccde42d4ef1b0d5d44716b50963",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "voltmx.print('saved');\nalert(status);\nalert(Contact_us);",
+            "parentId": "INVOKE_SERVICE_d8912afa0a7349c3aa05e10b6519b0fa",
+            "callbackType": "Callback"
+        }, {
+            "id": "INVOKE_SERVICE_d8912afa0a7349c3aa05e10b6519b0fa",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": [{
+                "name": "Authorization",
+                "value": "Basic QXVjdGlvbjpBdWN0aW9uMTIz"
+            }, {
+                "name": "",
+                "value": ""
+            }, {
+                "name": "",
+                "value": ""
+            }],
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "salesforce_contact_us",
+                "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                "type": "integration",
+                "operationname": "Contact_us",
+                "operationid": "1075"
+            },
+            "enableMappingEditor": true,
+            "disabled": false
+        }, {
+            "id": "INVOKE_FUNCTION__d4b41e1dd7ac48ce8b1eba461c84e8c7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "btnOnSubmit",
+            "display": "btnOnSubmit",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }]
+    }
+}

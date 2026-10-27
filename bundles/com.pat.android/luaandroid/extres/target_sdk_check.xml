@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="target_sdk_download_required" default="check_download_required">
+
+    <loadproperties srcFile="buildparams.properties" />
+    <target name="check_download_required">
+
+        <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+            <classpath>
+                <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar" />
+            </classpath>
+        </taskdef>
+        <taskdef resource="net/sf/antcontrib/antlib.xml">
+            <classpath>
+                <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar" />
+            </classpath>
+        </taskdef>
+        <property name="android.home" value="" />
+
+        <fail message="android.home argument not passed">
+            <condition>
+                <equals arg1="${android.home}" arg2="" />
+            </condition>
+        </fail>
+        <property name="andtargetsdkkey" value="0" />
+        <echo>selected target sdk version: ${andtargetsdkkey}</echo>
+
+        <if>
+            <bool>
+                <isgreaterthan arg1="${andtargetsdkkey}" arg2="${android_compile_version}" />
+            </bool>
+            <then>
+                <available file="${android.home}/platforms/android-${andtargetsdkkey}"
+                    property="isExist" type="dir" />
+                <if>
+                    <equals arg1="${isExist}" arg2="true" />
+                    <then />
+                    <else>
+                        <fail message="target sdk not found"></fail>
+                    </else>
+                </if>
+
+            </then>
+            <else>
+                <available file="${android.home}/platforms/android-${android_compile_version}"
+                    property="isExist" type="dir" />
+                <if>
+                    <equals arg1="${isExist}" arg2="true" />
+                    <then />
+                    <else>
+                        <fail message="target sdk not found"></fail>
+                    </else>
+                </if>
+
+            </else>
+        </if>
+
+    </target>
+
+
+</project>

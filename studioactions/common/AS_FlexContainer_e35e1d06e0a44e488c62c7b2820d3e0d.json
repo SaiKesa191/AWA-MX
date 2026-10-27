@@ -1,0 +1,22 @@
+{
+    "AS_FlexContainer_e35e1d06e0a44e488c62c7b2820d3e0d": {
+        "id": "AS_FlexContainer_e35e1d06e0a44e488c62c7b2820d3e0d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "uc25b4f1553e4e58b072c5ff2b9827b0"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_j899c04bb14a4c74b8185e6157c7e85c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var currentForm = voltmx.application.getCurrentForm();\n\nif (currentForm.id === \"frmAllAuctionsList\" || currentForm.id === \"frmAuctionCategories\"){\n  this.view.flxHL1.setVisibility(false);\n  this.view.flxHL2.setVisibility(true);\n  this.view.flxHL3.setVisibility(false);\n  this.view.flxHL4.setVisibility(false);\n  this.view.flxHL5.setVisibility(false);\n  \n   this.view.imgMegaPhone.src = \"auctionsfooteractive.png\";\n  this.view.imgHome.src = \"homefooter.png\";\n  \n  this.view.lblHome.skin = \"sknlblCPBoldCapt181818Font100\";\n  this.view.lblAuctions.skin = \"sknlblCPBoldDisp333333Font200\";\n}\n\n\nvar x = new voltmx.mvc.Navigation(\"frmAuctionCategories\");\nx.navigate();",
+            "parentId": null
+        }]
+    }
+}

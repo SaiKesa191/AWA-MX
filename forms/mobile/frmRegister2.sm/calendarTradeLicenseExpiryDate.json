@@ -1,0 +1,121 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "whitebackground.jpg",
+    "__id": "frmRegister2_calendarTradeLicenseExpiryDate",
+    "__input": "calendarTradeLicenseExpiryDate",
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_data_": null,
+    "_date_": [
+        2,
+        5,
+        2025
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s9a8426b4a6241bfb27fd4d8b74b8324",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "advview": "default",
+    "calendaricon": "whitebackground.jpg",
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "datecomponents": [
+        2,
+        5,
+        2025
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "datesGroup": [],
+    "datesState": 0,
+    "day": 2,
+    "daytextalignmentincell": 5,
+    "displayedMonths": [
+        5,
+        2025
+    ],
+    "entereddate": [
+        2,
+        5,
+        2025
+    ],
+    "format": "dd/MM/yyyy",
+    "formatteddate": "02/05/2025",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calendarTradeLicenseExpiryDate",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ga74b9b4ffeb4c93bf550264e286cd39",
+    "luadate": [
+        2,
+        5,
+        2025
+    ],
+    "minutes": 0,
+    "month": 5,
+    "monthsinrow": 3,
+    "name": "kony.ui.Calendar",
+    "navigatorAlert": "Invalid Selection",
+    "noofmonths": 1,
+    "paddinginpixel": false,
+    "pagedate": "/2025",
+    "parent": "flxTradeLicenseExpiryDateTextBox",
+    "pf": "frmRegister2",
+    "popupHeight": "auto",
+    "popupWidth": "auto",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2025",
+    "startDay": 0,
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "widths": [
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;",
+        "14.2857%;"
+    ],
+    "year": 2025
+}

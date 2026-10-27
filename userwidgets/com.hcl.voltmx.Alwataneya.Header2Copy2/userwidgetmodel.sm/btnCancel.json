@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s77cde52991849cc81923080db45a0af",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s8c8cea99d14499f930aefe7d2338b8e"
+    },
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnCancel",
+    "ide_onClick": "AS_Button_ad088e61aca24fca97b51761abbdcef0",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u7d40caa788c4b0f85c239c191291fc5",
+    "name": "kony.ui.Button",
+    "parent": "flxCancelandSubmitButtons",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

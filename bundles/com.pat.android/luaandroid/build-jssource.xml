@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build-jssource" basedir="."  default="copy-appsrc">
+	<taskdef name="escapejssource" classname="com.konylabs.android.anttask.EscapeJavaScriptSourceTask">
+		<classpath>
+			<pathelement location="extres/EscapeJavaScriptSourceTask.jar"/>
+			<pathelement location="extres/commons-lang-2.6.jar"/>
+		</classpath>
+	</taskdef>
+	
+	<taskdef resource="net/sf/antcontrib/antlib.xml">
+		<classpath>
+	        <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar"/>
+	    </classpath>
+	</taskdef>
+	
+	<property name="functional.module.xml.file" value="functionalModules.xml"/>
+	<property name="minification.dir" value="${basedir}/minification"/>
+	<property name="functionalmodules.dir" value="${basedir}/functionalmodules"/>
+	
+	<available file="${jssrc.dir}/workerthreads" type="dir" property="mvc.workerthreads.dir.present"/>
+	<if>
+	<equals arg1="${mvc.workerthreads.dir.present}" arg2="true"/>
+	<then>
+		<fileset dir="${jssrc.dir}/workerthreads" id="workerthreadsFilesCheck"/>
+		<pathconvert refid="workerthreadsFilesCheck" property="mvc.workerthreads.dir.present" setonempty="false"/>	
+	</then>
+	</if>
+
+	<available file="${jssrc.dir}/default" type="dir" property="default.dir.present"/>
+	<if>
+	<equals arg1="${default.dir.present}" arg2="true"/>
+	<then>
+		<fileset dir="${jssrc.dir}/default" id="defaultFilesCheck"/>
+		<pathconvert refid="defaultFilesCheck" property="default.dir.present" setonempty="false"/>
+	</then>
+	</if>	
+
+	<available file="${jssrc.dir}/require" type="dir" property="require.dir.present"/>
+	<if>
+	<equals arg1="${require.dir.present}" arg2="true"/>
+	<then>
+		<fileset dir="${jssrc.dir}/require" id="requireFilesCheck"/>
+		<pathconvert refid="requireFilesCheck" property="require.dir.present" setonempty="false"/>
+	</then>
+	</if>
+	
+	<available file="${jssrc.dir}/generated" type="dir" property="generated.dir.present"/>
+	<if>
+	<equals arg1="${generated.dir.present}" arg2="true"/>
+	<then>
+		<fileset dir="${jssrc.dir}/generated" id="generatedFilesCheck"/>
+		<pathconvert refid="generatedFilesCheck" property="generated.dir.present" setonempty="false"/>	
+	</then>
+	</if>	
+	
+	
+	<available file="${jssrc.dir}/nongenerated" type="dir" property="nongenerated.dir.present"/>
+	<if>
+	<equals arg1="${nongenerated.dir.present}" arg2="true"/>
+	<then>
+		<fileset dir="${jssrc.dir}/nongenerated" id="nongeneratedFilesCheck"/>
+		<pathconvert refid="nongeneratedFilesCheck" property="nongenerated.dir.present" setonempty="false"/>
+	</then>
+	</if>
+
+	<target name="JasmineInstrumentation">
+		<property name="JasmineCodeCoverage.dir" value="${minification.dir}/../CodeCoverage"/>
+		<delete dir="${JasmineCodeCoverage.dir}"/>
+
+		<mkdir dir="${JasmineCodeCoverage.dir}"/>
+		<mkdir dir="${JasmineCodeCoverage.dir}/android"/>
+		<mkdir dir="${JasmineCodeCoverage.dir}/output"/>
+
+		<copy todir="${JasmineCodeCoverage.dir}" overwrite="true">
+			<fileset dir="${extres}/JasmineCodeCoverage" includes="*"/>
+		</copy>
+		<copy todir="${JasmineCodeCoverage.dir}/android" overwrite="true" includeEmptyDirs="true">
+			<fileset dir="${jssrc.dir}" />
+		</copy>
+
+		<property name="Uninstrumented" value="${baseapp.loc}/testresources/Jasmine/UninstrumentedFiles/android"/>
+		<delete dir="${Uninstrumented}" failonerror="false"/>
+		<mkdir dir="${Uninstrumented}"/>
+		<copy todir="${Uninstrumented}" overwrite="true" includeEmptyDirs="true">
+			<fileset dir="${jssrc.dir}" />
+		</copy>
+
+		<exec executable="node" failonerror="true" dir="${JasmineCodeCoverage.dir}">
+            <arg value="./instrumentfiles.js"/>
+            <arg value="./android" />
+            <arg value="./output" />
+            <arg value="${baseapp.loc}" />
+        </exec>
+        
+		<copy todir="${jssrc.dir}/" overwrite="true">
+			<fileset dir="${JasmineCodeCoverage.dir}/output" />
+		</copy>
+		<concat fixlastline="yes" destfile="${assets.dir}/application.properties" append="true">			
+			JasmineAutomationCodeCoverage : true
+		</concat>
+	</target>		
+	
+	<target name="compress">
+        <echo>Compressing the android ${appid} application</echo>
+		<delete dir="${minification.dir}"/>
+		<mkdir dir="${minification.dir}"/>
+		
+		<available file="${jssrc.dir}" type="dir" property="jssrc.present"/>
+		<if>
+			<equals arg1="${jssrc.present}" arg2="true"/>
+			<then>
+			
+				<mkdir dir="${minification.dir}/startup"/>
+				<copy todir="${minification.dir}/startup" overwrite="true">
+					<fileset dir="${jssrc.dir}/startup" includes="**/*.*"/>		
+				</copy>
+
+				<if>
+				<equals arg1="${require.dir.present}" arg2="true"/>
+				<then>
+					<mkdir dir="${minification.dir}/require"/>
+					<copy todir="${minification.dir}/require" overwrite="true">
+						<fileset dir="${jssrc.dir}/require" includes="**/*.*"/>
+					</copy>					
+				</then>
+				</if>				
+
+				<if>
+				<equals arg1="${default.dir.present}" arg2="true"/>
+				<then>
+					<mkdir dir="${minification.dir}/default"/>
+					<copy todir="${minification.dir}/default" overwrite="true">
+						<fileset dir="${jssrc.dir}/default" includes="**/*.*"/>
+					</copy>						
+				</then>
+				</if>				
+
+				<if>
+				<equals arg1="${mvc.workerthreads.dir.present}" arg2="true"/>
+				<then>
+					<mkdir dir="${minification.dir}/workerthreads"/>				
+					<copy todir="${minification.dir}/workerthreads" overwrite="true">
+						<fileset dir="${jssrc.dir}/workerthreads" includes="**/*.*"/>
+					</copy>					
+				</then>
+				</if>
+
+				<if>
+				<equals arg1="${nongenerated.dir.present}" arg2="true"/>
+				<then>
+					<mkdir dir="${minification.dir}/nongenerated"/>
+					<copy todir="${minification.dir}/nongenerated" overwrite="true">
+						<fileset dir="${jssrc.dir}/nongenerated" includes="**/*.*"/>
+					</copy>						
+				</then>
+				</if>
+
+				<if>
+				<equals arg1="${generated.dir.present}" arg2="true"/>
+				<then>
+					<mkdir dir="${minification.dir}/generated"/>
+					<copy todir="${minification.dir}/generated" overwrite="true">
+						<fileset dir="${jssrc.dir}/generated" includes="*.*"/>
+					</copy>					
+				</then>
+				</if>	
+					
+				<echo message="enableawssdk = ${enableawssdk} ${line.separator} awssdkfileloc = ${awssdkfileloc}  ${line.separator}"/>				
+				<if>
+					<equals arg1="${enableawssdk}" arg2="true"/>
+					<then>
+						<mkdir dir="${minification.dir}/awssdk"/>
+						<available file="${awssdkfileloc}" property="awsfile.present"/>
+						<available file="${awssdkfileloc}" type="dir" property="awsfolder.present"/>
+						<if>
+							<equals arg1="${awsfile.present}" arg2="true"/>
+							<then>
+								<copy file="${awssdkfileloc}" todir="${minification.dir}/awssdk/" overwrite="true"/>
+							 </then>						
+						<elseif>
+							<equals arg1="${awsfolder.present}" arg2="true"/>
+							<then>
+								<copy todir="${minification.dir}/awssdk" overwrite="true">
+									<fileset dir="${awssdkfileloc}" includes="*.js"/>
+								</copy>
+							</then>
+						</elseif>
+						<else>
+							<echo message="awssdkfileloc = ${awssdkfileloc} defined but no file or folder present"/>
+						</else>
+						</if>						
+					</then>
+				</if>
+
+				<mkdir dir="${minification.dir}/extres"/>
+				<copy todir="${minification.dir}/extres" overwrite="true">
+						<fileset dir="${extres}" includes="paas/license.js,require.js,voltmxmvc_sdk.js,voltmxVideoWidget.js,AndroidJsUtil.js"/>
+				</copy>	
+				<if>
+				<equals arg1="${automationEnabled}" arg2="true" />				
+				<then>
+					<copy todir="${minification.dir}/extres" overwrite="true">
+						<fileset dir="${extres}" includes="boot.js,jasmine.js,customreporter.js,automationInvoker.js, automationUtils.js,jasmineCucumber.js, jasmine-feature-runner.js, testDefinitions.js"/>
+					</copy>				
+				</then>
+				</if>
+
+				<if>
+				<and>
+					<not>
+					<equals arg1="${uglifyes.location}" arg2="$${uglifyes.location}"/>
+					</not>
+					<not>
+						<equals arg1="${build.option.local}" arg2="debug"/>
+						<!-- Handles both release and protected cases-->
+					</not>
+					<equals arg1="${enableuglify}" arg2="true"/>					
+				</and>
+				<then>
+					<if>
+						<equals arg1="${os.family}" arg2="windows"/> 
+						<then> 
+							<property name="node" value="${nodewin}"/>
+						</then> 
+						<else> 
+							<property name="node" value="${nodemac}"/>	
+							<exec-shell executable="cmd" failonerror="true" failifexecutionfails="true" >
+								<arg line='/c "chmod 774 ${uglifyes.location}/uglifyjs"'/>
+							</exec-shell>							
+						</else>
+					</if>
+					<property name="node.path" location="${node}"/>	
+					<echo message="normalized node path = ${node.path}"/>
+					<property name="uglifyes.location.path" location="${uglifyes.location}"/>	
+					<echo message="normalized uglifyes path = ${uglifyes.location.path}"/>
+					<property name="do_uglify" value="true"/>	
+				</then>
+				</if>
+
+				<if>
+				<equals arg1="${do_uglify}" arg2="true"/>
+					<then>
+						<foreach target="uglify_individual_files" param="theFile" parallel="true" inheritAll="true">
+							<path>
+								<fileset dir="${minification.dir}" casesensitive="yes" excludes="require/**/*.js">
+								</fileset>
+							</path>
+						</foreach>						
+						
+						<foreach target="uglify_zip_individual_files" param="theFile" parallel="true" inheritAll="true">
+							<path>
+								<fileset dir="${minification.dir}/require" casesensitive="yes">
+								</fileset>
+							</path>
+						</foreach>						
+					</then>
+				<elseif>
+						<not>
+							<equals arg1="${build.option.local}" arg2="debug"/>					
+						</not>
+						<then>
+							<foreach target="zip_individual_files" param="theFile" parallel="true" inheritAll="true">
+								<path>
+									<fileset dir="${minification.dir}/require" casesensitive="yes">
+									</fileset>
+								</path>
+							</foreach>					
+						</then>
+				</elseif>
+				</if>
+			</then>
+		</if>	
+    </target>
+	
+	<target name="uglify_individual_files">		
+		<if>
+			<equals arg1="${os.family}" arg2="windows"/> 
+			<then>
+				<exec executable="cmd" failonerror="false">
+					<arg value="/c"/>
+					<arg value="${node.path} ${uglifyes.location.path}/uglifyjs ${theFile} -c -o ${theFile}"/>  
+				</exec>
+			</then>
+			<else>	
+				<exec-shell executable="cmd" failonerror="false" failifexecutionfails="false" >
+					<env key="NODE_HOME" path="${node.path}"/>
+					<arg line='/c "${uglifyes.location}/uglifyjs ${theFile} -c -o ${theFile}"'/>
+				</exec-shell>
+			</else>
+		</if>		
+	</target>
+
+	<target name="zip_individual_files">		
+		<dirname property="dirname" file="${theFile}"/>
+		<basename property="filename" file="${theFile}"/>
+		<zip destfile="${theFile}.zip">
+			<zipfileset dir="${dirname}" includes="${filename}" />
+		</zip>
+		<move file="${theFile}.zip" tofile="${theFile}" />		
+	</target>
+	
+	<target name="uglify_zip_individual_files">	
+
+		<antcall target="uglify_individual_files">
+			<param name="theFile" value="${theFile}"/>
+		</antcall>
+		
+		<antcall target="zip_individual_files">
+			<param name="theFile" value="${theFile}"/>
+		</antcall>		
+  	
+	</target>	
+	
+	
+	<target name="copy-appsrc">
+		<if>
+			<and>
+				<equals arg1="${automationEnabled}" arg2="true" />
+				<equals arg1="${enableCodeCoverage}" arg2="true" />
+			</and>
+			<then>
+				<antcall target="JasmineInstrumentation" />
+			</then>
+		</if>
+		<antcall target="compress"/>
+		<delete dir="${assets.dir}/js"/>
+		<mkdir dir="${assets.dir}/js"/>
+		<antcall target="copy-webassets"/> 
+		 <!-- Note incase of UniversalApp build, both mobile and tablet builds are triggered in sequence .
+           Hence we combine resources ,assets & js files of both mobile and tablet and build single binary when tablet build is executed. 
+             Hence skipping compilation, publish, precompile, postcompile and cordova build tasks in mobile build to avoid duplicate execution. -->
+		<if>
+			<and>
+			 <not>
+			    <equals arg1="${isUniversalApp}" arg2="true"/>
+			 </not>	
+			<equals arg1="${enablecordova}" arg2="true"/>
+		    </and>
+			<then>
+				<if>
+					<equals arg1="${cordovaglobal}" arg2="false"/>
+					<then>
+					   <ant dir="." antfile="build-cordova.xml" inheritAll="true">
+							<property name="cordova-exec" value="${cordovapath}/cordova"/>
+					   </ant>
+					</then>
+					<else>
+						<ant dir="." antfile="build-cordova.xml" inheritAll="true">
+							<property name="cordova-exec" value="cordova"/>
+					   </ant>
+					</else>
+				</if>
+			</then>			
+		</if>
+		<antcall target="gen-ffi-loading"/>
+		<antcall target="zip-common-jslibs"/>
+		<if>
+			<not>
+			<equals arg1="${build.option}" arg2="debug"/>
+			</not>
+			<then>
+				<if> 
+					<equals arg1="${usesvideo}" arg2="true"/> 
+					<then>
+						<zip destfile="${assets.dir}/js/common-jslibs.kfm"
+							basedir="${minification.dir}/extres" includes="voltmxVideoWidget.js" update="true"/>			
+					</then>
+				</if>			
+				<antcall target="zip-paas-jslib"/>				
+			</then>
+		</if>		
+		<antcall target="zip-workerthreads"/>
+		<antcall target="gen-zip-files"/>
+		<if>
+			<equals arg1="${secureappsource}" arg2="true"/>
+			<then>
+				<if>
+					<not>
+						<equals arg1="${build.option.local}" arg2="debug"/>
+						<!-- Handles both release and protected cases-->
+					</not>
+						<then>
+							<if>
+								<equals arg1="${build.option.local}" arg2="release"/>
+								<then>
+									<antcall target="encrypt-zip-files"/>
+								</then>
+								<else>
+									<antcall target="java-encrypt-zip-files"/>
+								</else>
+							</if>				
+							<replace file="${app.dir}/src/${packagepath}/${appid}.java" token="$APP_SOURCE_LOC" value="2" />
+						</then>
+						<else>
+							<replace file="${app.dir}/src/${packagepath}/${appid}.java" token="$APP_SOURCE_LOC" value="1" />
+						</else>
+				</if>
+			</then>
+			<else>
+				<replace file="${app.dir}/src/${packagepath}/${appid}.java" token="$APP_SOURCE_LOC" value="1" />
+			</else>
+		</if>		
+		
+	</target>
+	
+
+	<target name="copy-webassets">
+		<echo>Copying the web assets from ${project.loc}</echo>
+		<mkdir dir="${assets.dir}/web"/>
+		<available file="${project.loc}/web/localfiles" type="dir" property="webapp.present"/>
+		<if>
+			<equals arg1="${webapp.present}" arg2="true"/>
+			<then>
+				<copy todir="${assets.dir}/web/localfiles" overwrite="true">
+					<fileset dir="${project.loc}/web/localfiles" includes="**/*.*"/>
+				</copy>
+			</then>
+		</if>
+	</target>
+
+	<target name="gen-ffi-loading">
+		<if>
+			<equals arg1="${platform.lib.metrics.thirdparty}" arg2="crittercism"/>
+			<then>
+				<if>
+					<equals arg1="${default.dir.present}" arg2="true"/>
+					<then>
+						<concat fixlastline="yes" overwrite="true" destfile="${minification.dir}/default/konyinternalffiloader.js">
+							kony.os.loadLibrary({"javaclassname": "com.kony.apm.crittercism.KonyCrittercismLib"});
+						</concat>					
+					</then>
+					<else>
+						<concat fixlastline="yes" overwrite="true" destfile="${minification.dir}/nongenerated/konyinternalffiloader.js">
+							kony.os.loadLibrary({"javaclassname": "com.kony.apm.crittercism.KonyCrittercismLib"});
+						</concat>					
+					</else>
+				</if>	
+			</then>
+		</if>
+	</target>
+	
+	<target name="gen-zip-files">
+		<available file="${appfolder}/${outputdir}/functionalmodules/${functional.module.xml.file}" property="hasFuncModules"/>
+		<if>
+			<equals arg1="${hasFuncModules}" arg2="true"/>
+			<then>
+				<antcall target="gen-module-zip-files"/>
+			</then>
+			<else>
+				<antcall target="gen-js-zip-files"/>
+			</else>
+		</if>
+	</target>
+	<target name="zip-workerthreads">
+
+		<if>
+			<equals arg1="${mvc.workerthreads.dir.present}" arg2="true"/>
+			<then>
+				<zip destfile="${assets.dir}/js/workerthreads.kfm">
+					<zipfileset dir="${minification.dir}/workerthreads" includes="*.js"/>
+				</zip>
+			</then>
+		</if>	
+		
+		<available file="${minification.dir}/nongenerated/workerthreads" type="dir" property="workerthreads.dir.present"/>
+		<if>
+			<equals arg1="${workerthreads.dir.present}" arg2="true"/>
+			<then>
+				<zip destfile="${assets.dir}/js/workerthreads.kfm">
+					<zipfileset dir="${minification.dir}/nongenerated/workerthreads" includes="*.js"/>
+				</zip>
+			</then>
+		</if>	
+	</target>
+	
+	<target name="zip-common-jslibs">
+
+		<zip destfile="${assets.dir}/js/common-jslibs.kfm">
+		<zipfileset dir="${minification.dir}/extres" includes="require.js,voltmxmvc_sdk.js,AndroidJsUtil.js"/>		
+		</zip>
+		<if>
+			<equals arg1="${default.dir.present}" arg2="true" />
+			<then>				
+				<zip destfile="${assets.dir}/js/common-jslibs.kfm"
+					basedir="${minification.dir}/default" includes="voltmxlibrary.js" update="true"/>				
+			</then>	
+			<else>				
+				<zip destfile="${assets.dir}/js/common-jslibs.kfm"
+					basedir="${minification.dir}/nongenerated" includes="voltmxlibrary.js" update="true"/>
+			</else>
+		</if>
+		<if>
+			<equals arg1="${enableawssdk}" arg2="true" />
+			<then>
+				<echo message="adding awssdk to zip"/>
+				<zip destfile="${assets.dir}/js/common-jslibs.kfm"
+					basedir="${minification.dir}/awssdk" includes="*.js" update="true"
+				/>
+			</then>						
+		</if>
+		<if>
+			<equals arg1="${automationEnabled}" arg2="true" />
+			<then>
+				<echo message="copying jasmine files for automation into automation-jslibs"/>
+				<zip destfile="${assets.dir}/js/automation-jslibs.kfm"
+					basedir="${minification.dir}/extres" includes="boot.js,jasmine.js,customreporter.js,jasmineCucumber.js, jasmine-feature-runner.js, testDefinitions.js" update="true"
+				/>				
+				<!-- these files should be loaded in VM context, so copying them into common-jslibs -->
+				<zip destfile="${assets.dir}/js/common-jslibs.kfm"
+					basedir="${minification.dir}/extres" includes="automationInvoker.js, automationUtils.js" update="true"
+				/>				
+			</then>
+		</if>
+	</target>
+	
+	<target name="zip-paas-jslib">
+	<zip destfile="${assets.dir}/js/paas.kfm">
+		<zipfileset dir="${minification.dir}/extres/paas" includes="license.js"/>		
+		</zip>
+	</target>
+	
+	<target name="gen-module-zip-files">
+		<taskdef name="FunctionalModulesXmlParser" classname="com.konylabs.android.anttask.FunctionalModuleXMLParser">
+			<classpath>
+				<pathelement location="extres/FunctionalModuleXmlParser.jar"/>
+			</classpath>
+		</taskdef>
+
+		<taskdef name="OrderedZip" classname="OrderedZip">
+			<classpath>
+				<pathelement location="extres/OrderedZip.jar"/>
+			</classpath>
+		</taskdef>
+
+		<copy todir="${assets.dir}" file="${appfolder}/${outputdir}/functionalmodules/${functional.module.xml.file}"/>
+		<delete dir="${functionalmodules.dir}"/>
+		<mkdir dir="${functionalmodules.dir}"/>
+		<FunctionalModulesXmlParser xmlFile="${assets.dir}/${functional.module.xml.file}" 
+			schemaFile="${basedir}/extres/functionalModules.xsd"
+			destFile="${functionalmodules.dir}/functionalModules.properties"/>
+			
+		<property file="${functionalmodules.dir}/functionalModules.properties"/>
+		
+		<echo message="Modules: ${fm.moduleslist}"/>
+		<copy todir="${functionalmodules.dir}">
+			<fileset dir="${minification.dir}" includes="**/*.js"/>
+		</copy>
+		<for list="${fm.moduleslist}" param="module">
+			<sequential>
+				<if>
+					<not>
+						<isset property="fm.@{module}.jsModules"/>
+					</not>
+					<then>
+						<property name="fm.@{module}.jsModules" value=""/>
+					</then>
+				</if>
+				<if>
+					<not>
+						<isset property="fm.@{module}.views"/>
+					</not>
+					<then>
+						<property name="fm.@{module}.views" value=""/>
+					</then>
+				</if>
+				<echo message="zipping ${fm.@{module}.jsModules},${fm.@{module}.views}"/>
+				<OrderedZip destfile="${assets.dir}/js/@{module}.kfm"
+							basedir="${functionalmodules.dir}"
+							includes="${fm.@{module}.jsModules},${fm.@{module}.views}"
+							flatten="true"
+							ignoreIfNotFound="true"/>
+				
+			</sequential>	
+		</for>
+	</target>
+	
+	<target name="gen-js-zip-files">
+		<zip destfile="${assets.dir}/js/startup.js">
+			<zipfileset dir="${minification.dir}/startup" includes="*.js"/>			
+		</zip>
+		<if>
+			<equals arg1="${default.dir.present}" arg2="true" />
+			<then>				
+				<zip destfile="${assets.dir}/js/startup.js"
+					basedir="${minification.dir}/default" includes="**/*.js" excludes="voltmxlibrary.js" update="true"/>	
+			</then>
+		</if>			
+		<if>
+			<equals arg1="${nongenerated.dir.present}" arg2="true" />
+			<then>				
+				<zip destfile="${assets.dir}/js/startup.js"
+					basedir="${minification.dir}/nongenerated" includes="*.js" excludes="voltmxlibrary.js,require.js" update="true"/>	
+			</then>
+		</if>
+		<if>
+			<equals arg1="${generated.dir.present}" arg2="true" />
+			<then>				
+				<zip destfile="${assets.dir}/js/startup.js"
+					basedir="${minification.dir}/generated" includes="*.js" update="true"/>					
+			</then>
+		</if>	
+		<if>
+			<equals arg1="${require.dir.present}" arg2="true" />
+			<then>
+				<copy todir="${assets.dir}/js/require" overwrite="true">
+					<fileset dir="${minification.dir}/require" includes="**/*.*"/>
+				</copy>				
+			</then>
+		</if>				
+		<condition property="isBiggerCode">
+			<length file="${assets.dir}/js/startup.js" when="gt" length="1036288" />
+		</condition>
+		<if>
+			<equals arg1="${isBiggerCode}" arg2="true" />
+			<then>
+				<move file="${assets.dir}/js/startup.js" tofile="${assets.dir}/js/startup.js.mp3" overwrite="true"/>
+			</then>
+		</if>
+	</target>
+	
+	<property name="keys.dir" value="${resfolder}/keys/"/>
+	
+	<target name="java-encrypt-zip-files">
+       <if>
+			<not>
+				<available file="${keys.dir}/private_key.pem" />
+			</not>
+        	<then>
+				 <fail message="private_key.pem missing in ${keys.dir}"/>
+        	</then>
+        </if>
+		<if>
+			<equals arg1="${plugin_mode}" arg2="2"/>
+			<then>
+			<property name="public_key_extension" value="bin"/>
+			</then>
+			<else>
+			<property name="public_key_extension" value="dat"/>
+			</else>
+		</if>
+		<if>
+			<not>
+				<available file="${keys.dir}/public_key.${public_key_extension}" />
+			</not>
+        	<then>
+        		<fail message="public_key.${public_key_extension} missing in ${keys.dir}"/>
+        	</then>
+        </if>
+		<if>
+		   <not>
+			  <equals arg1="${encrypt_assets_hash_file}" arg2="true" />
+		   </not>
+		     <then>
+				<java jar="${app.dir}/../../extres/kony_loadfile.jar" fork="true" jvm="${installer.javahome}/bin/java" failonerror="true">
+					<arg line="${DoubleQuotes}${keys.dir}${DoubleQuotes}"/>
+					<arg line="${DoubleQuotes}${assets.dir}${DoubleQuotes}"/>
+					<arg line="${appid}"/>
+					<arg line="${plugin_mode}"/>
+				</java>
+			 </then>
+		   <else>
+				<java jar="${app.dir}/../../extres/kony_loadfile.jar" fork="true" jvm="${installer.javahome}/bin/java" failonerror="true">
+					<arg line="${DoubleQuotes}${keys.dir}${DoubleQuotes}"/>
+					<arg line="${DoubleQuotes}${assets.dir}${DoubleQuotes}"/>
+					<arg line="${appid}"/>
+					<arg line="${plugin_mode}"/>
+					<arg line="filehash"/>
+					<arg line="true"/>
+				</java>
+		   </else>
+		</if>
+	</target>	
+	<target name="encrypt-zip-files">
+		<delete file="${assets.dir}/js/requirefileslist.txt" failonerror="false"/>
+		<touch file="${assets.dir}/js/requirefileslist.txt"/>
+		 <if>
+		   <not>
+			  <equals arg1="${encrypt_assets_hash_file}" arg2="true" />
+		   </not>
+		   <then>
+				<for param="module" >
+					<path>
+						<fileset dir="${assets.dir}/js" includes="*.kfm,*.mp3,**/*.js"/>
+					</path>
+					<sequential>
+					<concat fixlastline="yes" destfile="${assets.dir}/js/requirefileslist.txt" append="true">@{module}${line.separator}</concat>		
+				   </sequential>
+				</for>
+		   </then>
+		   <else>
+			  <concat fixlastline="yes" destfile="${assets.dir}/js/requirefileslist.txt" append="true">${assets.dir}/${securehashfilename}${line.separator}</concat>
+			  <concat fixlastline="yes" destfile="${assets.dir}/js/requirefileslist.txt" append="true">${assets.dir}/additional.properties</concat>
+		   </else>
+		</if>
+				
+		<if>
+			<equals arg1="${os.family}" arg2="windows"/> 
+			<then>
+			<!-- kony_loadfile.exe is being terminated probably by antivirus (windows defender ) or by some system process while renaming .dat file back to .js files in some specific client windows environments .
+			Hence we moved renaming from kony_loadfile.exe to ant only in windows to escape kony_loadfile.exe process being killed by antivirus.
+			By default jsrenameoption value will be 1. we can also set jsrenameoption as '0' sothat renaming will be executed by kony_loadfile.exe. -->			
+				<if>
+				<equals arg1="${jsrenameoption}" arg2="$${jsrenameoption}"/>
+				<then>
+					<property name="jsrenameoption" value="1"/>
+				</then>
+				</if>
+			<!--The command is to be passed in double quotes because the incomplete path to gradlebuild.bin and app-build.dir was getting passed to the command
+			as it contained white spaces. By passing the command in double quotes the complete path was being taken by command. The double quotes are only
+			required in Windows build.-->
+
+				<exec executable="cmd"  failonerror="true" failifexecutionfails="true" resultproperty="exitcode">
+					<arg line ="${DoubleQuotes}/c ${DoubleQuotes}${app.dir}/../../extres/kony_loadfile.exe${DoubleQuotes} ${DoubleQuotes}${assets.dir}/js/requirefileslist.txt${DoubleQuotes} ${DoubleQuotes}${appid}${DoubleQuotes} ${DoubleQuotes}${packagename}${DoubleQuotes} ${DoubleQuotes}${currenttime}${DoubleQuotes} ${DoubleQuotes}${jsrenameoption}${DoubleQuotes}${DoubleQuotes}"/>
+				</exec>
+
+				<echo message="${line.separator} exit Code:=${exitcode}" />
+				<replace file="${assets.dir}/js/requirefileslist.txt" token="\" value="\\" />
+				
+			</then> 
+			<else> 
+				<!--
+					${os.family} will return unix for mac and centos machine. So differentiate between both the machine we are using ${os.name} which will return Linux for centos and Mac OS X for mac machines.
+				-->
+				<if>
+					<equals arg1="${os.name}" arg2="Linux"/>
+					<then>
+						<property name="konyloadfilename" value="kony_loadfile_linux"/>
+					</then>
+					<else>
+						<property name="konyloadfilename" value="kony_loadfile"/>
+					</else>
+				</if>
+				<exec executable="sh" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="chmod 774 ${DoubleQuotes}${app.dir}/../../extres/${konyloadfilename}${DoubleQuotes}"/>
+				</exec>
+				<exec executable="sh" failonerror="true" failifexecutionfails="true" >
+					<arg value="-c"/>
+					<arg value="${DoubleQuotes}${app.dir}/../../extres/${konyloadfilename}${DoubleQuotes} ${DoubleQuotes}${assets.dir}/js/requirefileslist.txt${DoubleQuotes} ${appid} ${packagename} ${currenttime}"/>
+				</exec>
+			</else>
+		</if>
+		<if>
+			<equals arg1="${jsrenameoption}" arg2="1"/>
+			<then>
+				<loadfile property="requirelist" srcfile="${assets.dir}/js/requirefileslist.txt"/>
+				<for param="line" list="${requirelist}" delimiter="${line.separator}">
+					<sequential>
+					<move file="@{line}.dat" tofile="@{line}"/>
+					</sequential>
+				</for>
+			</then>
+		</if>		
+		<delete file="${assets.dir}/js/requirefileslist.txt" failonerror="false"/>			
+	</target>
+	
+	<target name="encrypt-assets-hash-file">
+	    <if>
+		  <equals arg1="${secureappsource}" arg2="true" />
+		  <then>
+			 <if>
+				<not>
+				   <equals arg1="${build.option.local}" arg2="debug" />
+				   <!-- Handles both release and protected cases-->
+				</not>
+				<then>
+				   <property name="encrypt_assets_hash_file" value="true" />
+				   <property name="AssetsHashJar" value="${extres}/AssetsHash.jar" />
+				   <property name="ApkSigningHash" value="${extres}/ApkSigningHash.jar" />
+				   <java fork="true" failonerror="yes" jvm="${installer.javahome}/bin/java" jar="${AssetsHashJar}">
+					  <arg value="${assets.dir}" />
+					  <arg value="${packagename}" />
+					  <arg value="${appid}" />
+					  <arg value="${basedir}" />
+					   <arg value="${build.option.local}" />
+				   </java>
+				   
+				    <if>
+					  <equals arg1="${addAPKTamperProtection}" arg2="true" />
+					  <then>
+						<if>
+							<and>
+								<not>
+									<available file="${keyStoreFilePathTemp}" />
+								</not>
+								<equals arg1="${uploadSigningKeyHash}" arg2="$${uploadSigningKeyHash}"/>
+								<equals arg1="${developerSigningKeyHash}" arg2="$${developerSigningKeyHash}"/>							
+							</and>
+							<then>		
+								<fail message="In order to add APK Tamper protection, any one of Keystore Entries, developerSigningKeyHash property, uploadSigningKeyHash property needs to be defined." />							 
+							</then>
+						</if>
+						<if>
+							<equals arg1="${developerSigningKeyHash}" arg2="$${developerSigningKeyHash}"/>
+							<then>
+		                       <!-- When arg value is empty and it is sent to jar, it is missed in windows, whereas it is sent MAC.-->
+								<property name="user.developerSigningKeyHash" value=" "/>				
+							</then>
+							<else>
+								<property name="user.developerSigningKeyHash" value="${developerSigningKeyHash}"/>							
+							</else>
+						</if>
+						<if>
+							<equals arg1="${keyStoreFilePathTemp}" arg2="$${keyStoreFilePathTemp}"/>
+							<then>
+								<property name="user.keyStoreFilePathTemp" value=" "/>
+								<if>
+								<equals arg1="${uploadSigningKeyHash}" arg2="$${uploadSigningKeyHash}"/>
+								<then>
+									<property name="user.uploadSigningKeyHash" value=" "/>							
+								</then>
+								<else>
+									<property name="user.uploadSigningKeyHash" value="${uploadSigningKeyHash}"/>							
+								</else>
+								</if>								
+							</then>
+							<else>
+								<property name="user.keyStoreFilePathTemp" value="${keyStoreFilePathTemp}"/>
+								<property name="user.uploadSigningKeyHash" value=" "/>							
+							</else>
+						</if>
+						<!--This jar does the following things
+						
+						1.If developerSigningKeyHash is provided, it decodes the developerSigningKeyHash valuein base64 to bytes and checks if bytes length is 20 bytes(SHA-1 Algorithm) (or) 32 bytes(SHA-256 Algorithm). For any other length(hash algorithm), jar exits with error - "Invalid developerSigningKeyHash key in androidbuild.properties". 
+						For valid hash value(20/32 bytes), it writes developerSigningKeyHash value to assets/additional.properties file with key as "developerSigningKeyHash".
+
+						2. If keyStoreFilePathTemp is provided, it gets the hash of the keystore and converts it to base64 string and saves the base 64 value in assets/additional.properties file with key as developerSigningKeyStoreHash. 
+						
+						3. If developerSigningKeyHash value is provided along with keyStoreFilePathTemp, then same algorithm used for developerSigningKeyHash is used in generating developerSigningKeyStoreHash.
+						This is done to ensure we use single algorithm to extract developer signing key hash from apk and  compare against encrypted hashes (developerSigningKeyHash & developerSigningKeyStoreHash) at run time on device.
+						
+						4) The algorithm used for developerSigningKeyHash is identified based on bytes length of hash in developerSigningKeyHash length validation check.
+						5) 
+						If developerSigningKeyHash is not provided , by default "SHA-256" algorithm is picked for generating developerSigningKeyStoreHash.
+						6) User can provide uploadSigningKeyHash value in androidbuild.properties file, instead of Keystore Info in IDE, to test the apk in local setup. This enables the user to test the apk generated in CI kind of environments with out uploading actual developer/upload key to Cloud
+						
+						7) If user provides both uploadSigningKeyHash value and Keystore Info in IDE, uploadSigningKeyHash value is ignored.
+						8) When uploadSigningKeyHash is being picked, it's byte length value is compared with developerSigningKeyHash byte length (if this property is given). If algorithms of hashes are not matching, jar reports error.
+						--> 
+
+						<!-- Note1: 2 different types of invocation of external program, with args,from ant 
+						https://ant.apache.org/manual/using.html#arg
+						Case 1: Each argument sent to program as individual arg value, and value can contain spaces
+						<arg value="-l -a"/>
+						is a single command-line argument containing a space character, not separate parameters -l and -a.
+						Case2: All the arguments are sent in single line , where if argument contains space in it, like paths, we need to surround argument in doublequotes.
+						<arg line="-l -a"/>
+						This is a command line with two separate parameters, -l and -a.
+
+						Note2: 
+						Below inconsistencies lead to MADPA-2621. This is when arguments are sent as "value"
+						Inconsistency1: DoubleQuotes are sent to jar,along with arguments in MAC, only value is sent in Windows.
+						Inconsistency2: Empty String is sent to jar in args in MAC, whereas it is missed in Windows. 
+						-->
+						<if>
+							<equals arg1="${os.family}" arg2="windows"/>
+							<then>
+                             <java fork="true" failonerror="yes" jvm="${installer.javahome}/bin/java" jar="${ApkSigningHash}">
+                                <arg value="&quot;--keystorepath&quot;"/>
+                                <arg value="&quot;${user.keyStoreFilePathTemp}&quot;"/>
+                                <arg value="&quot;--keystorepassword&quot;"/>
+                                <arg value="&quot;${keyStorePassword}&quot;"/>
+                                <arg value="&quot;--keyalias&quot;"/>
+                                <arg value="&quot;${keyAlias}&quot;"/>                       
+                                <arg value="&quot;--appname&quot;"/>
+                                <arg value="&quot;${appid}&quot;" />
+                                <arg value="&quot;--assetspath&quot;"/>
+                                <arg value="&quot;${assets.dir}&quot;" />
+                                <arg value="&quot;--basedir&quot;"/>
+                                <arg value="&quot;${basedir}&quot;" />
+                                <arg value="&quot;--keystorehash&quot;"/>
+                                <arg value="&quot;${user.developerSigningKeyHash}&quot;"/>
+                                <arg value="&quot;--uploadkeystorehashforci&quot;"/>
+                                <arg value="&quot;${user.uploadSigningKeyHash}&quot;"/>
+                            </java>							
+							</then>
+							<else>
+							<java fork="true" failonerror="yes" jvm="${installer.javahome}/bin/java" jar="${ApkSigningHash}">
+                                <arg value="--keystorepath"/>
+                                <arg value="${user.keyStoreFilePathTemp}"/>
+                                <arg value="--keystorepassword"/>
+                                <arg value="${keyStorePassword}"/>
+                                <arg value="--keyalias"/>
+                                <arg value="${keyAlias}"/>                       
+                                <arg value="--appname"/>
+                                <arg value="${appid}" />
+                                <arg value="--assetspath"/>
+                                <arg value="${assets.dir}" />
+                                <arg value="--basedir"/>
+                                <arg value="${basedir}" />
+                                <arg value="--keystorehash"/>
+                                <arg value="${user.developerSigningKeyHash}"/>
+                                <arg value="--uploadkeystorehashforci"/>
+                                <arg value="${user.uploadSigningKeyHash}"/>
+							</java>
+							</else>
+						</if>
+							
+					  </then>
+				   </if>
+				   
+				   <if>
+					  <available file="${basedir}/build-checksum.txt" />
+					  <then>
+						 <loadfile property="securehashfilename" srcfile="${basedir}/build-checksum.txt" />
+					  </then>
+					  <else>
+						<fail message="hash file generation failed" />
+					  </else>
+				   </if>
+				   
+				    <if>
+					  <equals arg1="${addAPKTamperProtection}" arg2="true" />
+					  <then>
+						 <loadproperties srcFile="${assets.dir}/additional.properties"/>
+						 <if>
+							<and>
+								<equals arg1="${developerSigningKeyHash}" arg2="$${developerSigningKeyHash}"/>
+								<equals arg1="${developerSigningKeyStoreHash}" arg2="$${developerSigningKeyStoreHash}"/>
+							</and>
+							<then>
+								<fail message="Apk Tamper Protection failed" />
+							</then>
+						</if>					   
+				    </then>
+					</if>
+					
+				   <if>
+					  <equals arg1="${build.option.local}" arg2="release" />
+					  <then>
+						 <antcall target="encrypt-zip-files" />
+					  </then>
+					  <else>
+						  <antcall target="java-encrypt-zip-files" /> 
+					  </else>
+				   </if>
+				</then>
+			 </if>
+		  </then>
+	   </if>
+	</target>
+	
+</project>

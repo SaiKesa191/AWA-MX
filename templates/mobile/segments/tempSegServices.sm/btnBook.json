@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "38%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se4998b0e8714e5590b4c1ec5a54054f",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "53%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "se4998b0e8714e5590b4c1ec5a54054f",
+    "id": "btnBook",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b811dfec1bcf4d57b7dc54af1eed54bc",
+    "name": "kony.ui.Button",
+    "parent": "flxLblBtn",
+    "pf": "tempSegServices",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

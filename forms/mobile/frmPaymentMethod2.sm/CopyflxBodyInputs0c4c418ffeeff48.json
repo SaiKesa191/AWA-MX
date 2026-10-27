@@ -1,0 +1,70 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "600dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5f6044abe194492b5e811af99858a26",
+    "_top_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "CopyflxSelectedPayments0iba99d8ae0684a",
+        "CopyflxCardInfo0ade672f02e9f44",
+        "CopyflxNumberOnTheCard0g5de642fcf7e4b",
+        "CopyflxMonthYear0d8521103a3d641",
+        "CopyflxTermsAndConditions0j511c8375f8540",
+        "CopyflxOrLoginWith0fc664ace393349",
+        "CopyflxPayButtons0f23809c6b71c42",
+        "btnPayNow"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyflxBodyInputs0c4c418ffeeff48",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i4a5f31903ab4c1c99e04d8ccd784c41",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBody",
+    "pf": "frmPaymentMethod2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

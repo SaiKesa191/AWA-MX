@@ -1,0 +1,23 @@
+{
+    "AS_Button_ad088e61aca24fca97b51761abbdcef0": {
+        "id": "AS_Button_ad088e61aca24fca97b51761abbdcef0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u03fd46cb02a4d828585217246ea7f24",
+            "name": "userwidgetmodel",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_c92eddc1a9a847b1ba80892fa2389a3d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxOpacity.setVisibility(false);\nthis.view.flxContactPopup.setVisibility(false);",
+            "parentId": null
+        }]
+    }
+}

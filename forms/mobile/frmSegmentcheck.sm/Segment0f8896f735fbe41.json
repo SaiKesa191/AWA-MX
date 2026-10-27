@@ -1,0 +1,288 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        },
+        {
+            "btnStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Under Review"
+            },
+            "imgEyeOpen": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lsicon_view_outline.png"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "material_symbols_light_upload.png"
+            },
+            "lblIdName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Passport"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "97.44%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "Segment0f8896f735fbe41",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c2e1f93cc9e243a59af6b30c2470974e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmSegmentcheck",
+    "pf": "frmSegmentcheck",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "hd91b515a31144dab8d499bab76bbb7b",
+    "rowcounter": 9,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "segRowSaleContract",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnStatus": "btnStatus",
+        "flxEyeOpen": "flxEyeOpen",
+        "flxIdName": "flxIdName",
+        "flxNameAndStatus": "flxNameAndStatus",
+        "flxStatus": "flxStatus",
+        "flxUpload": "flxUpload",
+        "flxUploadAndSeen": "flxUploadAndSeen",
+        "imgEyeOpen": "imgEyeOpen",
+        "imgUpload": "imgUpload",
+        "lblIdName": "lblIdName",
+        "segRowSaleContract": "segRowSaleContract"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "font1": {
+        "color": {
+            "value": "000000ff"
+        },
+        "name": {
+            "value": "System"
+        },
+        "size": {
+            "value": 150
+        },
+        "style": {
+            "value": "normal"
+        },
+        "type": "font",
+        "weight": {
+            "value": "normal"
+        }
+    }
+}

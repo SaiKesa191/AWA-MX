@@ -1,0 +1,59 @@
+{
+    "AS_Button_f8450dd28f31400a82f30dc516dd9a7c": {
+        "id": "AS_Button_f8450dd28f31400a82f30dc516dd9a7c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "i30eefcc7d5849a0b895c309b1984319"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "LOADING_INDICATOR_f89ab518da53455fa0318ac336b4d541",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_ASYNC_SERVICE_bb4c2e657fbf40f48468f99a294698fd",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "salesforce_contact_us",
+                "type": "integration",
+                "operationname": "Contact_us",
+                "serviceid": "c2f021e2-94f5-4f7e-a277-5c2fd2497e12",
+                "operationid": "1075"
+            },
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_e54a5c4dcc604d8b8e1341b6b20df542",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_ASYNC_SERVICE_bb4c2e657fbf40f48468f99a294698fd",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "ADD_SNIPPET_c76d691c9e6e4335aa0e9c47dafb1307",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(status);\nalert(Contact_us);",
+            "parentId": "INVOKE_ASYNC_SERVICE_bb4c2e657fbf40f48468f99a294698fd",
+            "callbackType": "Callback"
+        }]
+    }
+}

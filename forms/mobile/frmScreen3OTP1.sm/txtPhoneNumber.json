@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter mobile Number",
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "s97dd5fcec6c4c09bf207fa1f3a99ac5",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s60b8053cda145829f710653abcc8512",
+    "id": "txtPhoneNumber",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "b93bad1c527549e59c03346b180ce144",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxPhone",
+    "pf": "frmScreen3OTP1",
+    "placeholderskin": "sba1ba86c59d42769e1acfe8e98f4c0f",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField"
+}

@@ -1,0 +1,249 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "DELETE",
+                "type": "Button"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT",
+                "type": "Button"
+            },
+            "btnMessages": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "EDIT"
+            },
+            "imgUpload": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "upload.png",
+                "type": "Image"
+            },
+            "lblAuction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction",
+                "type": "Label"
+            },
+            "lblAuctionId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ID",
+                "type": "Label"
+            },
+            "lblAuctionIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "102",
+                "type": "Label"
+            },
+            "lblAuctionName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Auction Name",
+                "type": "Label"
+            },
+            "lblAuctionNameValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Al Wataneya Auctions",
+                "type": "Label"
+            },
+            "lblAuctionValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AUC - 235",
+                "type": "Label"
+            },
+            "lblMessages": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Messages",
+                "type": "Label"
+            },
+            "lblNotes": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Notes",
+                "type": "Label"
+            },
+            "lblNotesValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Urgent before delivery ",
+                "type": "Label"
+            },
+            "lblRequestedTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Requested Time",
+                "type": "Label"
+            },
+            "lblServiceName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Name",
+                "type": "Label"
+            },
+            "lblServiceNameValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Full Detailing",
+                "type": "Label"
+            },
+            "lblServiceProviderReport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Service Provider Report",
+                "type": "Label"
+            },
+            "lblServiceProviderReportValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "nissan_report.pdf",
+                "type": "Label"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Status",
+                "type": "Label"
+            },
+            "lblStatusValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "In Progress",
+                "type": "Label"
+            },
+            "lblUploadedFileName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "example.pdf",
+                "type": "Label"
+            },
+            "lblUploadedFiles": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Uploaded Files",
+                "type": "Label"
+            },
+            "lbltargetSellingPriceValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2025-05-14 10:00 AM",
+                "type": "Label"
+            },
+            "txtAreaMessages": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "TextArea"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMyBookingDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fc75e61f87b64c1088c9626c5f86436e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxBookingDetails",
+    "pf": "frmMyBookings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "i717a8891d3844a790289b5bd3f0661b",
+    "rowcounter": 0,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "flxMyBookingsDetails",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDelete": "btnDelete",
+        "btnEdit": "btnEdit",
+        "btnMessages": "btnMessages",
+        "flxBookings": "flxBookings",
+        "flxButtons": "flxButtons",
+        "flxDownload": "flxDownload",
+        "flxImgUpload": "flxImgUpload",
+        "flxMyBookingsDetails": "flxMyBookingsDetails",
+        "flxUploadFiles": "flxUploadFiles",
+        "imgUpload": "imgUpload",
+        "lblAuction": "lblAuction",
+        "lblAuctionId": "lblAuctionId",
+        "lblAuctionIdValue": "lblAuctionIdValue",
+        "lblAuctionName": "lblAuctionName",
+        "lblAuctionNameValue": "lblAuctionNameValue",
+        "lblAuctionValue": "lblAuctionValue",
+        "lblMessages": "lblMessages",
+        "lblNotes": "lblNotes",
+        "lblNotesValue": "lblNotesValue",
+        "lblRequestedTime": "lblRequestedTime",
+        "lblServiceName": "lblServiceName",
+        "lblServiceNameValue": "lblServiceNameValue",
+        "lblServiceProviderReport": "lblServiceProviderReport",
+        "lblServiceProviderReportValue": "lblServiceProviderReportValue",
+        "lblStatus": "lblStatus",
+        "lblStatusValue": "lblStatusValue",
+        "lblUploadedFileName": "lblUploadedFileName",
+        "lblUploadedFiles": "lblUploadedFiles",
+        "lbltargetSellingPriceValue": "lbltargetSellingPriceValue",
+        "txtAreaMessages": "txtAreaMessages"
+    }
+}

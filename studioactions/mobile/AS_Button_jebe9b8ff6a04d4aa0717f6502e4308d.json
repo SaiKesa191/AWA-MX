@@ -1,0 +1,218 @@
+{
+    "AS_Button_jebe9b8ff6a04d4aa0717f6502e4308d": {
+        "id": "AS_Button_jebe9b8ff6a04d4aa0717f6502e4308d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "b297fccdb6044b759e5fd09719f2c09c"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_d3b29d7c5f944ddfaa0856fa190df02f",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {
+                "ME_Mapping_bbe79540f46a47ce9783989c83ab1d77": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bbe79540f46a47ce9783989c83ab1d77",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "categoriesSelectedRowId",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "category_id",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                },
+                "ME_Mapping_a99b969cec1840708613f3ca2897338a": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_a99b969cec1840708613f3ca2897338a",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "BranchesSelected",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "branch",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                },
+                "ME_Mapping_ia66884da2e64a6ea8a9583904328e81": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ia66884da2e64a6ea8a9583904328e81",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "YearOfMakeSelected",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "year_of_making",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                },
+                "ME_Mapping_f5ef90bbe0a549a682aad14e1673c245": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_f5ef90bbe0a549a682aad14e1673c245",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "categoriesSelectedRowName",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "assetName",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                },
+                "ME_Mapping_fb218a6d8bde4abeb5c64fb92f9ff76d": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_fb218a6d8bde4abeb5c64fb92f9ff76d",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "KeysSelected",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "no_of_keys",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                },
+                "ME_Mapping_bc223b3ab397429b88c8d52f98ab7a5c": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_bc223b3ab397429b88c8d52f98ab7a5c",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "UserObj",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "userObj",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                },
+                "ME_Mapping_i124f0e44f9a4611a423e85cf9b238cd": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_i124f0e44f9a4611a423e85cf9b238cd",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Variables",
+                        "propertyName": "SubCategorySelectedRowId",
+                        "dataType": "string",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "sub_category_id",
+                        "dataType": "number",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "Al_Wataneya_Custom_Services",
+                            "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                            "type": "integration",
+                            "operationname": "AddaFleet",
+                            "operationid": "427"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_bbe79540f46a47ce9783989c83ab1d77", "ME_Mapping_a99b969cec1840708613f3ca2897338a", "ME_Mapping_ia66884da2e64a6ea8a9583904328e81", "ME_Mapping_f5ef90bbe0a549a682aad14e1673c245", "ME_Mapping_fb218a6d8bde4abeb5c64fb92f9ff76d", "ME_Mapping_bc223b3ab397429b88c8d52f98ab7a5c", "ME_Mapping_i124f0e44f9a4611a423e85cf9b238cd"],
+            "serviceconfig": {
+                "servicename": "Al_Wataneya_Custom_Services",
+                "serviceid": "30f0389f-831c-4744-ac07-53e548d800c6",
+                "type": "integration",
+                "operationname": "AddaFleet",
+                "operationid": "427"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

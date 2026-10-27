@@ -1,0 +1,116 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCheckBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s370a955cd2d4e88a19f781127549a46",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "android": {},
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "chxbxBasicInspection",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 3
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "vertical",
+    "kuid": "a9611cbab17e4ee2880caf3c3cd3a7ff",
+    "masterdata": [
+        [
+            "cbg1",
+            "  Vehicle Condition Score"
+        ],
+        [
+            "cbg2",
+            "  Engine, Suspension & Transmission Overview"
+        ],
+        [
+            "cbg3",
+            "  Fault & Tire Photos"
+        ],
+        [
+            "cbg4",
+            "  Brake, Electrical, Rims & Tires Check"
+        ],
+        [
+            "cbg5",
+            "  Interior & Paint Condition"
+        ],
+        [
+            "cbg6",
+            "  Service History Summary"
+        ]
+    ],
+    "name": "kony.ui.CheckBoxGroup",
+    "orientation": "vertical",
+    "parent": "flxCheck",
+    "pf": "frmVehicleInspection",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": null,
+    "selectedkeys": [
+        "cbg2",
+        "cbg3",
+        "cbg1"
+    ],
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": [
+        [
+            "cbg1",
+            "  Vehicle Condition Score"
+        ],
+        [
+            "cbg2",
+            "  Engine, Suspension & Transmission Overview"
+        ],
+        [
+            "cbg3",
+            "  Fault & Tire Photos"
+        ]
+    ],
+    "size": 18,
+    "tickedimage": "",
+    "untickedimage": "",
+    "viewtype": 0,
+    "wType": "CheckBoxGroup",
+    "widgetalignment": 5,
+    "winphone8": {}
+}

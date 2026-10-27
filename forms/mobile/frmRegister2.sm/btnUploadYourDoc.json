@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "46dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2d8a5255f2a4400894ee13f6570b849",
+    "_text_": "Save and Continue",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s3d87ba262864995afa373466fd12acb"
+    },
+    "displaytext": true,
+    "id": "btnUploadYourDoc",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f715d2abc7254d3480356278cbedea01",
+    "name": "kony.ui.Button",
+    "parent": "flxFooterPopupHowWouldUpload",
+    "pf": "frmRegister2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

@@ -1,0 +1,187 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnAction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Button"
+            },
+            "imgCarousel": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "",
+                "type": "Image"
+            },
+            "lblCarouselSlideHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            },
+            "lblCarouselSlideSubheading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "94%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "48.95%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": {
+        "btnAction": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "",
+            "type": "Button"
+        },
+        "imgCarousel": {
+            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+            "src": "",
+            "type": "Image"
+        },
+        "lblCarouselSlideHeading": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "",
+            "type": "Label"
+        },
+        "lblCarouselSlideSubheading": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "",
+            "type": "Label"
+        }
+    },
+    "generatedtemplate": "f8498709c85441c3b961b4da323e77bc",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCarouselView",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": true,
+            "enableDictionary": false,
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h62559c8d8da4ade9032748833ae38e4",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": false,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxCarouselview",
+    "pf": "frmDashBoard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": true,
+    "rowTemplateId": "cd60f3ba8c78468a8aa24a5b98b5fb3f",
+    "rowcounter": 0,
+    "rowfocusskin": "s06803b3079844ad92fa0cefc58427a7",
+    "rowskin": "s7df189bfd334dc1870480f0008ccbb7",
+    "rowtemplate": "Flex0i8b4ef42ffbf42",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s2a5a89ea48a427db7762fb1fe73c665",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": [
+        0,
+        0
+    ],
+    "selectedindices": null,
+    "selecteditems": {
+        "btnAction": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "",
+            "type": "Button"
+        },
+        "imgCarousel": {
+            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+            "src": "",
+            "type": "Image"
+        },
+        "lblCarouselSlideHeading": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "",
+            "type": "Label"
+        },
+        "lblCarouselSlideSubheading": {
+            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+            "text": "",
+            "type": "Label"
+        }
+    },
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1094,
+        "widthRatio": 0
+    },
+    "viewtype": "pageview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnAction": "btnAction",
+        "flxDashboardCarouselNew": "flxDashboardCarouselNew",
+        "flxImgCarousel": "flxImgCarousel",
+        "imgCarousel": "imgCarousel",
+        "lblCarouselSlideHeading": "lblCarouselSlideHeading",
+        "lblCarouselSlideSubheading": "lblCarouselSlideSubheading"
+    }
+}

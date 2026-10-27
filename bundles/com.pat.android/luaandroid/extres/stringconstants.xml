@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_root_detetection_message">This device does not meet the minimum security requirements for this application.Please contact the app publisher for more details.The application will exit when you press OK.</string>
+</resources>

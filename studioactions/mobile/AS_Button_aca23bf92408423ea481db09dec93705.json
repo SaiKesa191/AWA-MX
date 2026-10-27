@@ -1,0 +1,30 @@
+{
+    "AS_Button_aca23bf92408423ea481db09dec93705": {
+        "id": "AS_Button_aca23bf92408423ea481db09dec93705",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "c91a66a9b7404dcbac33b63a35eb571c"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c4fe129ab04041e79819bf053e32fd9e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkTokenValidatity",
+            "display": "checkTokenValidatity",
+            "inputparams": [{
+                "name": "onSuccessCallback"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

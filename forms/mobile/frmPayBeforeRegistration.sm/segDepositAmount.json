@@ -1,0 +1,164 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblDepositLimit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "5000",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "100000",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDepositLimit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "7500",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "150000",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDepositLimit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10000",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "200000",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDepositLimit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "50000",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "5000000",
+                "type": "Label"
+            }
+        },
+        {
+            "lblDepositLimit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "500000",
+                "type": "Label"
+            },
+            "lblMaxBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000000000",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDepositAmount",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d16be3cb5def4eeaa6b8c5ce852326c4",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDocTypeDropDownList",
+    "pf": "frmPayBeforeRegistration",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ed127686426c4b1d96e313a3252b312d",
+    "rowcounter": 9,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "segDepositLimit",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "lblDepositLimit": "lblDepositLimit",
+        "lblMaxBid": "lblMaxBid",
+        "segDepositLimit": "segDepositLimit"
+    }
+}

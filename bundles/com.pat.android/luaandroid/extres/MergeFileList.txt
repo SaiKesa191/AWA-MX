@@ -1,0 +1,4 @@
+values/localnotificationconfig.xml
+values/locationconfig.xml
+values/pushconfig.xml
+values/netconfig.xml

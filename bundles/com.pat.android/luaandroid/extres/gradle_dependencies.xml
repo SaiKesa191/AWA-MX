@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="gradle_dependencies" default="CreateLicenseIfNotExist" >
+
+    <property name="sdk.license1" value="8933bad161af4178b1185d1a37fbf41ea5269c55"/>
+    <property name="sdk.license2" value="d56f5187479451eabf01fb78af6dfcb131a6481e"/>
+	<property name="sdk.license3" value="24333f8a63b6825ea9c5514f83c2829b004d1fee"/>
+
+    <target name="init">
+        <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+            <classpath>
+                <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar" />
+            </classpath>
+        </taskdef>
+        <taskdef resource="com/kony/ant/antkonyscript.properties">
+            <classpath>
+                <pathelement location="${plugin.loc}/lib/KonyAntScript.jar" />
+            </classpath>
+        </taskdef>
+        <taskdef resource="net/sf/antcontrib/antlib.xml">
+            <classpath>
+                <pathelement location="${plugin.loc}/lib/ant-contrib-0.6.jar" />
+            </classpath>
+        </taskdef>
+    </target>
+    <target name="download_dependencies">
+        <loadproperties srcFile="buildparams.properties" />
+
+        <echo message="Android SDK location ${android.home}" />
+        <echo message="Java home location ${installer.javahome}" />
+        <echo message="plugin location  ${plugin.loc}" />
+        <dirname file="${ant.file}" property="current.dir" />
+        <delete dir="${current.dir}/autodownload/.gradle" failonerror="false" />
+        <delete failonerror="false" file="${current.dir}/autodownload/build.gradle" />
+        <copy file="${current.dir}/autodownload/buildtemplate.gradle"
+            tofile="${current.dir}/autodownload/build.gradle" />
+        <delete dir="${current.dir}/autodownload/build" failonerror="false" />
+        <delete failonerror="false" file="${current.dir}/autodownload/local.properties" />
+        <touch file="${current.dir}/autodownload/local.properties" />
+
+
+        <delete failonerror="false" file="${current.dir}/autodownload/gradle.properties" />
+        <copy file="${current.dir}/autodownload/gradletemplate.properties"
+            tofile="${current.dir}/autodownload/gradle.properties" />
+
+        <delete failonerror="false" file="${current.dir}/autodownload/gradle/wrapper/gradle-wrapper.properties" />
+        <copy file="${current.dir}/autodownload/gradle-wrappertemplate.properties"
+            tofile="${current.dir}/autodownload/gradle/wrapper/gradle-wrapper.properties" />
+
+        <replace file="${current.dir}/autodownload/gradle/wrapper/gradle-wrapper.properties" token="$GRADLEW_URL" value="${gradlew_url}"/>
+        <!-- PROXY SETTINGS-->
+
+        <var name="httpproxyhost" value=""/>
+        <var name="httpproxyport" value=""/>
+        <var name="httpproxyuname" value=""/>
+        <var name="httpproxypwd" value=""/>
+        <var name="httpsproxyhost" value=""/>
+        <var name="httpsproxyport" value=""/>
+        <var name="httpsproxyuname" value=""/>
+        <var name="httpsproxypwd" value=""/>
+
+
+        <if>
+            <not>
+                <equals arg1="${kony.http.proxyHost}" arg2="$${kony.http.proxyHost}" />
+            </not>
+            <then>
+                <var name="httpproxyhost" value="systemProp.http.proxyHost=${kony.http.proxyHost}"/>
+                <var name="httpsproxyhost" value="systemProp.https.proxyHost=${kony.http.proxyHost}"/>
+                <if>
+                    <not>
+                        <equals arg1="${kony.http.proxyPort}" arg2="$${kony.http.proxyPort}" />
+                    </not>
+                    <then>
+                        <var name="httpproxyport" value="systemProp.http.proxyPort=${kony.http.proxyPort}"/>
+                        <var name="httpsproxyport" value="systemProp.https.proxyPort=${kony.http.proxyPort}"/>
+                    </then>
+                </if>
+                <if>
+                    <not>
+                        <equals arg1="${kony.http.proxyUser}" arg2="$${kony.http.proxyUser}" />
+                    </not>
+                    <then>
+                        <var name="httpproxyuname" value="systemProp.http.proxyUser=${kony.http.proxyUser}"/>
+                        <var name="httpsproxyuname" value="systemProp.https.proxyUser=${kony.http.proxyUser}"/>
+                    </then>
+                </if>
+                <if>
+                    <not>
+                        <equals arg1="${kony.http.proxyPassword}" arg2="$${kony.http.proxyPassword}" />
+                    </not>
+                    <then>
+                        <var name="httpproxypwd" value="systemProp.http.proxyPassword=${kony.http.proxyPassword}"/>
+                        <var name="httpsproxypwd" value="systemProp.https.proxyPassword=${kony.http.proxyPassword}"/>
+                    </then>
+                </if>
+            </then>
+        </if>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTP_PROXY_HOST" value="${httpproxyhost}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTP_PROXY_PORT" value="${httpproxyport}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTP_PROXY_UNAME" value="${httpproxyuname}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTP_PROXY_PWD" value="${httpproxypwd}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTPS_PROXY_HOST" value="${httpsproxyhost}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTPS_PROXY_PORT" value="${httpsproxyport}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTPS_PROXY_UNAME" value="${httpsproxyuname}"/>
+        <replace file="${current.dir}/autodownload/gradle.properties" token="$HTTPS_PROXY_PWD" value="${httpsproxypwd}"/>
+
+
+
+
+        <replace file="${current.dir}/autodownload/build.gradle"
+            token="$ANDROID_GRADLE_TOOLS_VERSION"
+            value="${gradle_plugin_version}" />
+        <if>
+            <isgreaterthan arg1="${andtargetsdkkey}" arg2="${android_compile_version}" />
+            <then>
+                <property name="compilesdkversion"
+                    value="compileSdkVersion 'android-${andtargetsdkkey}'" />
+            </then>
+            <else>
+                <property name="compilesdkversion"
+                    value="compileSdkVersion  'android-${android_compile_version}'" />
+            </else>
+        </if>
+        <replace file="${current.dir}/autodownload/build.gradle" token="$COMPILE_SDK_VERSION"
+            value="${compilesdkversion}" />
+        <replace file="${current.dir}/autodownload/build.gradle"
+            token="$COMPILE_ANDROID_INTIAL_DEPENDENCIES" value="${dependencies}" />
+
+        <replace file="${current.dir}/autodownload/build.gradle"
+            token="$ANDROID_BUILD_TOOLS_VERSION" value="${build_tools_version}" />
+
+
+        <if>
+            <available file="${plugin.loc}/lib/KonyAntScript.jar" />
+            <then>
+                <osfamily property="os.family" />
+                <if>
+                    <equals arg1="${os.family}" arg2="windows" />
+                    <then>
+                        <propertyregex defaultValue="${android.home}" input="${android.home}"
+                            property="andhome" regexp="\\" replace="//" />
+                    </then>
+                    <else>
+                        <property name="andhome" value="${android.home}" />
+                    </else>
+                </if>
+            </then>
+            <else>
+                <propertyregex input="${android.home}" property="andhome" regexp="\\"
+                    replace="//" />
+            </else>
+        </if>
+        <echo append="true" file="${current.dir}/autodownload/local.properties">sdk.dir=${andhome}</echo>
+
+        <if>
+            <not>
+            <os family="windows" />
+            </not>
+        <then>
+        <exec-shell executable="cmd" failifexecutionfails="true" failonerror="false">
+            <env key="JAVA_HOME" path="${installer.javahome}" />
+
+            <arg
+                line='/c " chmod 774 "${current.dir}/autodownload/gradlew" " ' />
+        </exec-shell>
+        </then>
+        </if>
+        <exec-shell executable="cmd" failifexecutionfails="true" failonerror="true">
+            <env key="JAVA_HOME" path="${installer.javahome}" />
+
+            <arg
+                line='/c " "${current.dir}/autodownload/gradlew"   -b "${current.dir}/autodownload/build.gradle" "' />
+        </exec-shell>
+        <delete dir="${current.dir}/autodownload/.gradle" failonerror="false" />
+        <delete dir="${current.dir}/autodownload/build" failonerror="false" />
+    </target>
+
+    <target name="CreateLicenseIfNotExist" depends="init">
+
+        <antcall target="checkForInputs" />
+        <dirname file="${ant.file}" property="current.dir" />
+        <property name="ExecuteShellComandLocation" value="${current.dir}" />
+
+
+        <echo> current directory ${ExecuteShellComandLocation}</echo>
+        <echo message="CreateLicenseIfNotExist called" />
+        <available file="${android.home}/licenses/android-sdk-license" property="isExist" />
+        <echo message="license exists ${isExist}" />
+        <antcall target="update_license_if_already_exist" />
+		<if>
+            <and>
+                <not>
+                    <equals arg1="${isExist}" arg2="true" />
+                </not>
+                <or>
+                    <available file="${android.home}/tools/bin/sdkmanager.bat"  />
+                    <available file="${android.home}/tools/bin/sdkmanager.sh"  />
+                    <available file="${android.home}/tools/bin/sdkmanager"  />
+                </or>
+            </and>
+            <then>
+
+
+                <java fork="true" failonerror="false" jvm="${installer.javahome}/bin/java" jar="${ExecuteShellComandLocation}/ExecuteShellComand.jar">
+                    <arg value="${android.home}"/>
+                    <arg value="${installer.javahome}"/>
+                </java>
+            </then>
+        </if>
+        <available file="${android.home}/licenses/android-sdk-license" property="isExist" />
+        <if> 
+            <and>
+                <not>
+                    <equals arg1="${isExist}" arg2="true" />
+                </not>
+                <or>
+                    <available file="${android.home}/tools/bin/sdkmanager.bat"  />
+                    <available file="${android.home}/tools/bin/sdkmanager.sh"  />
+                    <available file="${android.home}/tools/bin/sdkmanager"  />
+                </or>
+            </and>
+            <then>
+                <antcall target="acceptLicenseForsdktoolsAbove26" />
+            </then>
+        </if>
+        <available file="${android.home}/licenses/android-sdk-license" property="isExist" />
+        <if>
+            <not>
+                <equals arg1="${isExist}" arg2="true" />
+            </not>
+            <then>
+                <trycatch>
+                    <try>
+                        <antcall target="copyLicense" />
+                    </try>
+                    <catch>
+                        <available file="${android.home}/licenses/android-sdk-license" property="isExist" />
+                        <if>
+                            <not>
+                                <equals arg1="${isExist}" arg2="true" />
+                            </not>
+                        </if>
+                        <then>
+                            <fail  message="Unable to create license file Please change your SDK location to accessible folder"></fail>
+                        </then>
+                    </catch>
+                </trycatch>
+            </then>
+        </if>
+        <available file="${android.home}/licenses/android-sdk-license" property="isExist" />
+        <if>
+            <equals arg1="${isExist}" arg2="true" />
+            <then>
+                <antcall target="gradleTask" />
+            </then>
+            <else>
+                <echo message="no license file exist,error in license creation" />
+                <fail message="Error in license file creation" status="51" />
+            </else>
+        </if>
+    </target>
+   
+    <target name="acceptLicenseForsdktoolsAbove26">
+        <property name="LF" value="&#x0A;" />
+
+        <exec-shell executable="cmd" failonerror="false"
+            inputstring="y${LF}y${LF}y${LF}y${LF}y${LF}y${LF}y${LF}y${LF}y${LF}y" output="licenseerror.log">
+            <env key="JAVA_HOME" path="${installer.javahome}" />
+            <arg value="/c" />
+            <arg value="${android.home}/tools/bin/sdkmanager --licenses" />
+        </exec-shell>
+    </target>
+    <target name="copyLicense">
+        <available file="${android.home}/licenses" property="isExist" type="dir" />
+        <if>
+            <not>
+                <equals arg1="${isExist}" arg2="true" />
+            </not>
+            <then>
+                <mkdir dir="${android.home}/licenses" />
+            </then>
+        </if>
+
+        <touch file="${android.home}/licenses/android-sdk-license" />
+        <echo append="true" file="${android.home}/licenses/android-sdk-license">${line.separator}${sdk.license1}
+        </echo>
+        <echo append="true" file="${android.home}/licenses/android-sdk-license">${line.separator}${sdk.license2}
+        </echo>
+		<echo append="true" file="${android.home}/licenses/android-sdk-license">${line.separator}${sdk.license3}
+        </echo>
+        <echo message="License file copied" />
+    </target>
+    <target name="gradleTask">
+        <if>
+            <not>
+                <equals arg1="${download_not_required}" arg2="true"/>
+            </not>
+            <then>
+                <echo>downloading dependencies</echo>
+                <antcall target="download_dependencies" />
+            </then>
+        </if>
+
+    </target>
+    <target name="checkForInputs">
+
+
+        <property name="plugin.loc" value="" />
+        <property name="installer.javahome" value="" />
+        <property name="android.home" value="" />
+
+        <fail message="plugin.loc argument not passed">
+            <condition>
+                <equals arg1="${plugin.loc}" arg2="" />
+            </condition>
+        </fail>
+        <fail message="installer.javahome argument not passed">
+            <condition>
+                <equals arg1="${installer.javahome}" arg2="" />
+            </condition>
+        </fail>
+        <fail message="android.home argument not passed">
+            <condition>
+                <equals arg1="${android.home}" arg2="" />
+            </condition>
+        </fail>
+
+
+    </target>
+    <target name="update_license_if_already_exist">
+        <available
+            file="${android.home}/licenses/android-sdk-license"
+            property="License.isExist" />
+
+        <if>
+            <equals arg1="${License.isExist}" arg2="true" />
+            <then>
+                <if>
+                    <not>
+                        <resourcecontains resource="${android.home}/licenses/android-sdk-license"
+                            substring="${sdk.license1}" />
+                    </not>
+                    <then>
+                        <touch file="${android.home}/licenses/android-sdk-license" />
+                        <echo append="true" file="${android.home}/licenses/android-sdk-license">${line.separator}${sdk.license1}</echo>
+                    </then>
+                </if>
+                <if>
+                    <not>
+                        <resourcecontains resource="${android.home}/licenses/android-sdk-license"
+                            substring="${sdk.license2}" />
+                    </not>
+                    <then>
+                        <echo>not exist</echo>
+                        <touch file="${android.home}/licenses/android-sdk-license" />
+                        <echo append="true" file="${android.home}/licenses/android-sdk-license">${line.separator}${sdk.license2}</echo>
+                    </then>
+                </if>
+				<if>
+                    <not>
+                        <resourcecontains resource="${android.home}/licenses/android-sdk-license"
+                            substring="${sdk.license3}" />
+                    </not>
+                    <then>
+                        <echo>not exist</echo>
+                        <touch file="${android.home}/licenses/android-sdk-license" />
+                        <echo append="true" file="${android.home}/licenses/android-sdk-license">${line.separator}${sdk.license3}</echo>
+                    </then>
+                </if>
+            </then>
+        </if>
+    </target>
+
+</project>

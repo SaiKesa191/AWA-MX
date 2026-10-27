@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s57f14e4683c4a4f9ae36b08170871d9",
+    "_text_": "CONFIRM BOOKING",
+    "_top_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s57f14e4683c4a4f9ae36b08170871d9",
+    "id": "btnConfirmBooking",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "f39b234879d0405b9b5ba8bda757f310",
+    "name": "kony.ui.Button",
+    "parent": "flxForm",
+    "pf": "frmBookYourMaintenance",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "CONFIRM BOOKING",
+    "wType": "Button"
+}

@@ -1,0 +1,38 @@
+{
+    "AS_Button_efd90ba885d0424d84820e2aed898ca1": {
+        "id": "AS_Button_efd90ba885d0424d84820e2aed898ca1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScreen2Login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b591a49ba43b4605be3f62eea9715917"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "INVOKE_SERVICE_i6c335a1f0df47e8b2da89a98fc34e1b",
+            "type": "INVOKE_ASYNC_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "Workflows",
+                "serviceid": "f29d1a0a-d568-4224-838d-8ac2da1823fc",
+                "type": "integration",
+                "operationname": "GetUserObj",
+                "operationid": "575"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

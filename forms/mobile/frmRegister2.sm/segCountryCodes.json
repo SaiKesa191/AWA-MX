@@ -1,0 +1,273 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "uae.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+971",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "United Arab Emirates",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "saudiarabia.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+966",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Saudi Arabia",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "kuwait.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+965",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kuwait",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "qatar.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+974",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "qatar",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bahrain.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+973",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Bahrain",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "america.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+1",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "United States",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+91",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "India",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+968",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "oman",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+20",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Egypt ",
+                "type": "Label"
+            }
+        },
+        {
+            "imgCountryFlag": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png",
+                "type": "Image"
+            },
+            "lblCountryCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+44",
+                "type": "Label"
+            },
+            "lblCountryName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "United Kingdom",
+                "type": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCountryCodes",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ge04cd5d9be7427aac16c40007ceda98",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxCountryCodeSegment",
+    "pf": "frmRegister2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "j57d6e1729d440a2844a223b04c7f0a6",
+    "rowcounter": 9,
+    "rowfocusskin": "s7b404380db64fbab10bcea4a47dc0c2",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "segRowCountryCode",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCountryCode": "flxCountryCode",
+        "flxSegInnerRow": "flxSegInnerRow",
+        "imgCountryFlag": "imgCountryFlag",
+        "lblCountryCode": "lblCountryCode",
+        "lblCountryName": "lblCountryName",
+        "segRowCountryCode": "segRowCountryCode"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "AS_Form_ffc88e3574974ae698c3659f52bf74a2": {
+        "id": "AS_Form_ffc88e3574974ae698c3659f52bf74a2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "fd4cd255883c43dca34eb66ba2ca0470",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "preShow",
+        "actions": [{
+            "id": "ADD_MAPPING_fdf6104b34534901a96fcfbaf1571185",
+            "type": "ADD_MAPPING",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "_d9b2474814fc4d3488a3d0edec090125",
+            "enableMappingEditor": true
+        }, {
+            "id": "_d9b2474814fc4d3488a3d0edec090125",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "eventName": "onClick",
+                "leftItemKUID": "h80b24e401b74fd795557f5df1b2c9da",
+                "leftValue": "",
+                "leftValueType": "navigationsource",
+                "leftWidgetKUID": "ha9e0d93ced4412c83d151d410571d67",
+                "operator": "===",
+                "rightValue": "",
+                "sequenceId": "AS_FlexContainer_j2dc66232e0149db81b7dcec70d920a2",
+                "widgetId": "flxNext"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3dp"
+    },
+    "_skin_": "sff2adfa6cc44ecc971b161d810d8838",
+    "_text_": "Sell Spare Parts",
+    "_width_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "android": {
+        "psp": {
+            "pressedSkin": "sd06d8d434cf49b3a14132196f37774a"
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sa87b3f55ce0476ea4dbfd006e2cf0b6"
+    },
+    "displaytext": true,
+    "id": "btnSellSparePartToggle",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h130ec9925984450ae644a789e92bf87",
+    "name": "kony.ui.Button",
+    "parent": "flxSellCarNumberPlateSparepartToggle",
+    "pf": "frmSellCarNumberPlateSpareParts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

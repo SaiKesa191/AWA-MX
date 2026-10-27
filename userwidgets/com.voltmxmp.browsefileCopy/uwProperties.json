@@ -1,0 +1,82 @@
+{
+    "classname": "browsefileCopy",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "acb6c681f0a7408d8c6173bfc61ec7da",
+                    "paramList": [
+                        {
+                            "name": "files"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onFileDragAndDrop",
+                    "pw": {
+                        "displayName": "onFileDragAndDrop",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ue0e7e62a2654d4a9635f6cf8c1532eb",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Browse multiple files with the file dialog or by dragging and dropping files onto the dashed region",
+                    "group": "General",
+                    "kuid": "ba77adcb09f74c35b9fed15b2c419c50",
+                    "originalPropertyKey": "browseText",
+                    "propertyIndex": 1,
+                    "propertyKey": "browseText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "browseText",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ue0e7e62a2654d4a9635f6cf8c1532eb",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Select some files",
+                    "group": "General",
+                    "kuid": "e2eba7ef32f14eb2b2931a6ac5fefd85",
+                    "originalPropertyKey": "buttonText",
+                    "propertyIndex": 2,
+                    "propertyKey": "buttonText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "buttonText",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ue0e7e62a2654d4a9635f6cf8c1532eb",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.voltmxmp",
+    "version": "1.0.1"
+}

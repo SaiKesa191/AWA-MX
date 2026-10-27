@@ -1,0 +1,444 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis No"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ID"
+            },
+            "lblIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "102"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblModelYear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model Year"
+            },
+            "lblModelYearValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblReceived": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Received"
+            },
+            "lblReceivedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "145,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            },
+            "lblTitleValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nissan Patrol"
+            }
+        },
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis No"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ID"
+            },
+            "lblIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "102"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblModelYear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model Year"
+            },
+            "lblModelYearValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblReceived": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Received"
+            },
+            "lblReceivedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "145,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            },
+            "lblTitleValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nissan Patrol"
+            }
+        },
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis No"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ID"
+            },
+            "lblIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "102"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblModelYear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model Year"
+            },
+            "lblModelYearValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblReceived": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Received"
+            },
+            "lblReceivedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "145,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            },
+            "lblTitleValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nissan Patrol"
+            }
+        },
+        {
+            "imgCar": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "carimg512h.png"
+            },
+            "lblCarName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Kia Carnival 2019"
+            },
+            "lblChassisNo": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Chassis No"
+            },
+            "lblChassisValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NA4BG67TXE1098"
+            },
+            "lblId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ID"
+            },
+            "lblIdValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "102"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblLocationValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblModelYear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Model Year"
+            },
+            "lblModelYearValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2020"
+            },
+            "lblReceived": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Received"
+            },
+            "lblReceivedValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Yes"
+            },
+            "lblStatus": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Location"
+            },
+            "lblStatusVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Abu dhabi"
+            },
+            "lblTargetSelling": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "145,000"
+            },
+            "lblTargetSellingPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Target Selling Price"
+            },
+            "lblTargetSellingPriceAED": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AED"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Title"
+            },
+            "lblTitleValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Nissan Patrol"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segApprovedVehicles",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a8b592a0a8ad412389f771f561b4aefe",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegApprovedVehicles",
+    "pf": "frmApprovedVehicles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ja6e1e52870e4aa0833592fc2671114e",
+    "rowcounter": 3,
+    "rowfocusskin": "s961e586fe794e498e31c111fe40ef67",
+    "rowskin": "s2d1a440627e4c3eb337995bf3931fdd",
+    "rowtemplate": "segRowApprovedVehicles",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s394e25221a84c198a12829462d278f1",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "ffffff00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCarImageContainer": "flxCarImageContainer",
+        "flxCarInfo": "flxCarInfo",
+        "flxChassisNo": "flxChassisNo",
+        "flxId": "flxId",
+        "flxInfo": "flxInfo",
+        "flxLocation": "flxLocation",
+        "flxModelYear": "flxModelYear",
+        "flxReceived": "flxReceived",
+        "flxSegmentCars": "flxSegmentCars",
+        "flxStatus": "flxStatus",
+        "flxTargetSellingPrice": "flxTargetSellingPrice",
+        "flxTargetSellingPriceValue": "flxTargetSellingPriceValue",
+        "flxTitle": "flxTitle",
+        "imgCar": "imgCar",
+        "lblCarName": "lblCarName",
+        "lblChassisNo": "lblChassisNo",
+        "lblChassisValue": "lblChassisValue",
+        "lblId": "lblId",
+        "lblIdValue": "lblIdValue",
+        "lblLocation": "lblLocation",
+        "lblLocationValue": "lblLocationValue",
+        "lblModelYear": "lblModelYear",
+        "lblModelYearValue": "lblModelYearValue",
+        "lblReceived": "lblReceived",
+        "lblReceivedValue": "lblReceivedValue",
+        "lblStatus": "lblStatus",
+        "lblStatusVal": "lblStatusVal",
+        "lblTargetSelling": "lblTargetSelling",
+        "lblTargetSellingPrice": "lblTargetSellingPrice",
+        "lblTargetSellingPriceAED": "lblTargetSellingPriceAED",
+        "lblTitle": "lblTitle",
+        "lblTitleValue": "lblTitleValue",
+        "segRowApprovedVehicles": "segRowApprovedVehicles"
+    },
+    "zindex": 2
+}

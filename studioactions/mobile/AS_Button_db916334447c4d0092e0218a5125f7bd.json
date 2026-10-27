@@ -1,0 +1,119 @@
+{
+    "AS_Button_db916334447c4d0092e0218a5125f7bd": {
+        "id": "AS_Button_db916334447c4d0092e0218a5125f7bd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "h29b5f98c26c49f59b6a45f9e2755bb5",
+            "name": "frmLoginScreen",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_h2a013ce7cf64a0c913101f33e0e9e32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.txtEmail.text===\"\"&&this.view.txtPassword.text===\"\"){\n  alert(\"Fields should be mandatory!!\");\n}"
+        }, {
+            "id": "ADD_SNIPPET_c9ea65a3d8774911bde9f193da247d1b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"Login Failed!!!!\");",
+            "parentId": "INVOKE_SERVICE_i225f794539242449573464db2c847d6",
+            "callbackType": "Failure"
+        }, {
+            "id": "INVOKE_FUNCTION__if68667866624d4e9dc5eccbc4cbea01",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getUserObj",
+            "display": "getUserObj",
+            "inputparams": [],
+            "parentId": "INVOKE_SERVICE_i225f794539242449573464db2c847d6",
+            "callbackType": "Success",
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_SERVICE_i225f794539242449573464db2c847d6",
+            "type": "INVOKE_IDENTITY_SERVICE",
+            "mappings": {
+                "ME_Mapping_ed012eceb2cc4feba0233ded27a12557": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_ed012eceb2cc4feba0233ded27a12557",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtEmail",
+                        "widgetPath": "this.view.txtEmail",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmLoginScreen",
+                        "widgetKUID": "f7781dbab50a412da9d0763d0abcc718",
+                        "itemKUID": "h29b5f98c26c49f59b6a45f9e2755bb5",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "userid",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "isDeepLinkRequired": false,
+                            "login_type": "basic",
+                            "operationname": "login",
+                            "servicename": "UserLoginRepo",
+                            "type": "identity"
+                        }
+                    }
+                },
+                "ME_Mapping_j704f6a5c7774e329215f24057f6b5c1": {
+                    "channel": "mobile",
+                    "id": "ME_Mapping_j704f6a5c7774e329215f24057f6b5c1",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "txtPassword",
+                        "widgetPath": "this.view.txtPassword",
+                        "widgetType": "TextField",
+                        "dataType": "string",
+                        "itemId": "frmLoginScreen",
+                        "widgetKUID": "i4e615c23e2c49709178db25df746459",
+                        "itemKUID": "h29b5f98c26c49f59b6a45f9e2755bb5",
+                        "forkedPlatform": "all"
+                    },
+                    "target": {
+                        "type": "Services",
+                        "propertyName": "password",
+                        "dataType": "string",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "isDeepLinkRequired": false,
+                            "login_type": "basic",
+                            "operationname": "login",
+                            "servicename": "UserLoginRepo",
+                            "type": "identity"
+                        }
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_ed012eceb2cc4feba0233ded27a12557", "ME_Mapping_j704f6a5c7774e329215f24057f6b5c1"],
+            "serviceconfig": {
+                "isDeepLinkRequired": false,
+                "login_type": "basic",
+                "operationname": "login",
+                "servicename": "UserLoginRepo",
+                "type": "identity"
+            },
+            "enableMappingEditor": true,
+            "useDeviceBrowser": false,
+            "isDeepLinkRequired": false
+        }]
+    }
+}
