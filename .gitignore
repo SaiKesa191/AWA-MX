@@ -108,3 +108,6 @@ testresources/Jasmine/\*.js
 reports/
 
 certificates/
+id/fcm/google-services.json
+/projectProperties.json
+/Sample/projectProperties.json
